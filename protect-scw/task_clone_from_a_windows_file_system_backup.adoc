@@ -1,0 +1,87 @@
+---
+permalink: protect-scw/task_clone_from_a_windows_file_system_backup.html 
+sidebar: sidebar 
+keywords: clone 
+summary: Você pode usar o SnapCenter para clonar um backup do sistema de arquivos do Windows. Se você quiser uma cópia de um único arquivo que foi excluído ou alterado por engano, então você pode clonar um backup e acessar esse arquivo no clone. 
+---
+= Clone de um backup do sistema de arquivos do Windows
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+Você pode usar o SnapCenter para clonar um backup do sistema de arquivos do Windows. Se você quiser uma cópia de um único arquivo que foi excluído ou alterado por engano, então você pode clonar um backup e acessar esse arquivo no clone.
+
+.Antes de começar
+* Você deve se preparar para a proteção de dados concluindo tarefas como adicionar hosts, identificar recursos e criar conexões de máquina virtual de storage (SVM).
+* Você deve ter um backup do sistema de arquivos.
+* Você deve garantir que os agregados que hospedam os volumes estejam na lista de agregados atribuídos da máquina virtual de storage (SVM).
+* Não é possível clonar um grupo de recursos. Você só pode clonar backups individuais do sistema de arquivos.
+* Se um backup residir em uma máquina virtual com um disco VMDK, o SnapCenter não poderá clonar o backup em um servidor físico.
+* Se clonar um cluster do Windows (por exemplo, um LUN compartilhado ou um LUN de volume compartilhado de cluster (CSV)), o clone será armazenado como um LUN dedicado no host que você especificar.
+* Para uma operação de clonagem, o diretório raiz do ponto de montagem do volume não pode ser um diretório compartilhado.
+* Não é possível criar um clone em um nó que não seja o nó inicial para o agregado.
+* Não é possível agendar operações de clone recorrente (ciclo de vida do clone) para sistemas de arquivos do Windows; só é possível clonar um backup sob demanda.
+* Se você mover um LUN que contém um clone para um novo volume, o SnapCenter não poderá mais dar suporte ao clone. Por exemplo, você não pode usar o SnapCenter para excluir esse clone.
+* Não é possível clonar entre ambientes. Por exemplo, clonagem de um disco físico para um disco virtual ou vice-versa.
+
+
+.Sobre esta tarefa
+* O SCRIPT_PATH é definido usando a chave PredefinedWindowsScriptsDirectory localizada no arquivo SMCoreServiceHost.exe.Config do host do plug-in.
++
+Se necessário, você pode alterar esse caminho e reiniciar o serviço SMcore. É recomendável usar o caminho padrão para segurança.
+
++
+O valor da chave pode ser exibido do swagger através da API: API /4,7/configsettings
+
++
+Você pode usar a API GET para exibir o valor da chave. A API SET não é suportada.
+
+* Para a versão ONTAP 9.12,1 e inferior, os clones criados a partir dos instantâneos do Vault do SnapLock como parte da restauração herdarão o tempo de expiração do SnapLock Vault. O administrador do storage deve limpar manualmente os clones após o tempo de expiração do SnapLock.
+
+
+.Passos
+. No painel de navegação esquerdo, clique em *Resources* e selecione o plug-in apropriado na lista.
+. Na página recursos, selecione *sistemas de arquivos* na lista.
+. Selecione o host.
++
+A visualização de topologia é automaticamente exibida se o recurso estiver protegido.
+
+. Na lista recursos, selecione o backup que deseja clonar e clique no ícone clone.
+. Na página Opções, faça o seguinte:
++
+|===
+| Para este campo... | Faça isso... 
+
+
+ a| 
+Servidor clone
+ a| 
+Escolha o host no qual o clone deve ser criado.
+
+
+
+ a| 
+"'Auto Assign mount point'" ou "'Auto Assign volume mount point under path'"
+ a| 
+Escolha se deseja atribuir automaticamente um ponto de montagem ou um ponto de montagem de volume sob um caminho.
+
+Atribuir automaticamente ponto de montagem de volume sob caminho: O ponto de montagem sob um caminho permite fornecer um diretório específico no qual os pontos de montagem serão criados. Antes de escolher essa opção, você deve verificar se o diretório está vazio. Se houver uma cópia de segurança no diretório, a cópia de segurança estará num estado inválido após a operação de montagem.
+
+
+
+ a| 
+Localização do arquivo
+ a| 
+Escolha um local de arquivamento se você estiver clonando um backup secundário.
+
+|===
+. Na página Script, especifique quaisquer prescripts ou postscripts que você deseja executar.
++
+
+NOTE: O caminho de prescripts ou postscripts não deve incluir unidades ou compartilhamentos. O caminho deve ser relativo ao SCRIPT_path.
+
+. Revise o resumo e clique em *Finish*.
+. Monitorize o progresso da operação clicando em *Monitor* > *trabalhos*.
+

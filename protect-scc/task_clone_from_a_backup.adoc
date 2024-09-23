@@ -1,0 +1,109 @@
+---
+permalink: protect-scc/task_clone_from_a_backup.html 
+sidebar: sidebar 
+keywords: clone 
+summary: Você pode usar o SnapCenter para clonar um backup. Você pode clonar do backup primário ou secundário. As funcionalidades das operações de clone dependem do plug-in que você usa. 
+---
+= Clone de um backup
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+Você pode usar o SnapCenter para clonar um backup. Você pode clonar do backup primário ou secundário. As funcionalidades das operações de clone dependem do plug-in que você usa.
+
+.Antes de começar
+* Você deve ter feito backup dos recursos ou do grupo de recursos.
+* A operação de clone padrão somente clona objetos de storage. As operações de clone no nível da aplicação só podem ser executadas se o plug-in personalizado fornecer essa funcionalidade.
+* Você deve garantir que os agregados que hospedam os volumes estejam na lista de agregados atribuídos da máquina virtual de storage (SVM).
+
+
+.Sobre esta tarefa
+Para a versão ONTAP 9.12,1 e inferior, os clones criados a partir dos instantâneos do Vault do SnapLock como parte da restauração herdarão o tempo de expiração do SnapLock Vault. O administrador do storage deve limpar manualmente os clones após o tempo de expiração do SnapLock.
+
+.Passos
+. No painel de navegação esquerdo, clique em *Resources* e selecione o plug-in apropriado na lista.
+. Na página *recursos*, filtre recursos da lista suspensa *Exibir* com base no tipo de recurso.
++
+Os recursos são exibidos juntamente com informações como tipo, nome do host ou cluster, grupos e políticas de recursos associados e status.
+
+. Selecione o grupo de recursos ou recursos.
++
+Você deve selecionar um recurso se selecionar um grupo de recursos.
+
++
+A página de topologia do grupo de recursos ou recursos é exibida.
+
+. Na exibição Gerenciar cópias, selecione *backups* nos sistemas de armazenamento primário ou secundário (espelhado ou abobadado).
+. Selecione o backup de dados na tabela e clique image:../media/clone_icon.gif["ícone de clone"]em .
+. Na página locais, execute o seguinte:
++
+|===
+| Para este campo... | Faça isso... 
+
+
+ a| 
+Servidor clone
+ a| 
+Por padrão, o host de origem é preenchido.
+
+Se você quiser especificar um host diferente, selecione o host no qual o clone deve ser montado e o plug-in está instalado.
+
+
+
+ a| 
+Sufixo clone
+ a| 
+Isso é obrigatório quando o destino do clone é o mesmo que a origem.
+
+Digite um sufixo que será anexado ao nome do recurso recém-clonado. O sufixo garante que o recurso clonado seja exclusivo no host.
+
+Por exemplo, RS1_clone. Se você estiver clonando para o mesmo host que o recurso original, forneça um sufixo para diferenciar o recurso clonado do recurso original; caso contrário, a operação falha.
+
+|===
++
+Se o recurso selecionado for um LUN e se você estiver clonando de um backup secundário, os volumes de destino serão listados. Uma única fonte pode ter vários volumes de destino.
+
+. Na página *Configurações*, execute o seguinte:
++
+|===
+| Para este campo... | Faça isso... 
+
+
+ a| 
+Nome do iniciador
+ a| 
+Insira o nome do iniciador do host, que é IQDN ou WWPN.
+
+
+
+ a| 
+Protocolo Igroup
+ a| 
+Selecione Igroup Protocol (Protocolo de grupo).
+
+|===
++
+
+NOTE: A página de definições é apresentada apenas se o tipo de armazenamento for LUN.
+
+. Na página Scripts, insira os comandos para pré-clone ou pós-clone que devem ser executados antes ou depois da operação clone, respetivamente. Digite o comando mount para montar um sistema de arquivos em um host.
++
+Por exemplo:
+
++
+** Comando pre clone: Exclua bancos de dados existentes com o mesmo nome
+** Comando Post clone: Verifique um banco de dados ou inicie um banco de dados.
++
+Montar comando para um volume ou qtree em uma máquina Linux: Mount<VSERVER_NAME>:%<VOLUME_NAME_Clone /mnt>
+
+
+
+. Na página *notificação*, na lista suspensa *preferência de e-mail*, selecione os cenários nos quais você deseja enviar os e-mails.
++
+Você também deve especificar os endereços de e-mail do remetente e do destinatário e o assunto do e-mail.
+
+. Revise o resumo e clique em *Finish*.
+. Monitorize o progresso da operação clicando em *Monitor* > *trabalhos*.
+

@@ -1,0 +1,201 @@
+---
+permalink: install/concept_snapcenter_standard_capacity_based_licenses.html 
+sidebar: sidebar 
+keywords: capacity-based licenses, add, capacity requirements, serial number of capacity-based license, license file, capacity usage 
+summary: Você usa uma licença de capacidade padrão da SnapCenter para proteger dados nas plataformas ONTAP Select e Cloud Volumes ONTAP. 
+---
+= Adicione licenças padrão baseadas em capacidade do SnapCenter
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+Você usa uma licença de capacidade padrão da SnapCenter para proteger dados nas plataformas ONTAP Select e Cloud Volumes ONTAP.
+
+Uma licença de capacidade tem as seguintes caraterísticas:
+
+* Composto por um número de série de nove dígitos com o formato 51xxxxxxx
++
+Você usa o número de série da licença e as credenciais de login válidas do site de suporte da NetApp para habilitar a licença usando a GUI do SnapCenter.
+
+* Disponível como uma licença perpétua separada, com o custo baseado na capacidade de storage usada ou no tamanho dos dados que você deseja proteger, o que for menor, e os dados são gerenciados pela SnapCenter
+* Disponível por terabyte
++
+Por exemplo, você pode obter uma licença baseada em capacidade para 1 TB, 2 TBs, 4 TBs e assim por diante.
+
+* Disponível como uma licença de teste de 90 dias com direito a capacidade de 100 TB
++
+Para obter informações sobre as licenças necessárias, link:../install/concept_snapcenter_licenses.html["Licenças SnapCenter"^]consulte .
+
+
+
+O SnapCenter calcula automaticamente o uso da capacidade uma vez por dia à meia-noite no storage ONTAP Select e Cloud Volumes ONTAP gerenciado. Quando você usa uma licença de capacidade padrão, o SnapCenter calcula a capacidade não utilizada deduzindo a capacidade usada em todos os volumes da capacidade total licenciada. Se a capacidade utilizada exceder a capacidade licenciada, é apresentado um aviso de utilização excessiva no painel do SnapCenter. Se você configurou limites de capacidade e notificações no SnapCenter, um e-mail será enviado quando a capacidade usada atingir o limite especificado.
+
+
+
+=== Etapa 1: Calcule os requisitos de capacidade
+
+Antes de obter uma licença baseada em capacidade do SnapCenter, calcule a quantidade de capacidade em um host que deve ser gerenciado pelo SnapCenter.
+
+Você deve ser um administrador de cluster no sistema Cloud Volumes ONTAP ou ONTAP Select.
+
+.Sobre esta tarefa
+O SnapCenter calcula a capacidade real utilizada. Se o tamanho do sistema de arquivos ou banco de dados for de 1 TB, mas apenas 500 GB de espaço for usado, o SnapCenter calcula 500 GB de capacidade usada. A capacidade de volume é calculada após a deduplicação e a compactação, e é baseada na capacidade usada de todo o volume.
+
+.Passos
+. Faça login no controlador NetApp usando a linha de comando ONTAP.
+. Para ver a capacidade de volume utilizada, introduza o comando.
++
+[listing]
+----
+select::> vol show -fields used -volume Engineering,Marketing
+vserver volume       used
+------- ------       ------
+VS1     Engineering  2.13TB
+VS1     Marketing    2.62TB
+
+2	entries were displayed.
+----
++
+A capacidade combinada usada para os dois volumes é inferior a 5 TB; portanto, se você quiser proteger todos os 5 TB de dados, o requisito mínimo de licença baseada em capacidade da SnapCenter é de 5 TB.
+
++
+No entanto, se você quiser proteger apenas 2 TB dos 5 TB da capacidade total utilizada, você pode adquirir uma licença baseada em capacidade de 2 TB.
+
+
+
+
+
+=== Passo 2: Recupere o número de série da licença baseada em capacidade
+
+O número de série da licença baseada em capacidade do SnapCenter está disponível na confirmação do pedido ou no pacote de documentação; no entanto, se você não tiver esse número de série, poderá recuperá-lo no site de suporte da NetApp.
+
+Você deve ter credenciais de login válidas no site de suporte da NetApp.
+
+.Passos
+. Inicie sessão no http://mysupport.netapp.com/["Site de suporte da NetApp"^].
+. Navegue até *sistemas* > *licenças de software*.
+. Na área critérios de seleção, escolha *SC_STANDARD* no menu suspenso Mostrar tudo: Números de série e licenças.
++
+image::../media/nss_license_selection.gif[Uma captura de tela da IU de seleção de licença com o número de série e o menu suspenso licenças realçados.]
+
+. Digite o nome da sua empresa e selecione *Go!*.
++
+É apresentado o número de série da licença SnapCenter de nove dígitos, com o formato 51xxxxxxx.
+
+. Registe o número de série.
+
+
+
+
+=== Passo 3: Gerar um arquivo de licença do NetApp
+
+Se você não quiser inserir as credenciais do site de suporte da NetApp e o número de série da licença SnapCenter na interface gráfica do usuário do SnapCenter ou se não tiver acesso à Internet ao site de suporte da NetApp da SnapCenter, você poderá gerar um arquivo de licença do NetApp (NLF). Em seguida, você pode baixar e armazenar o arquivo em um local acessível a partir do host do SnapCenter.
+
+.Antes de começar
+* Você deve usar o SnapCenter com ONTAP Select ou Cloud Volumes ONTAP.
+* Você deve ter credenciais de login válidas no site de suporte da NetApp.
+* Você deve ter seu número de série de nove dígitos da licença no formato 51xxxxxxx.
+
+
+.Passos
+. Navegue até https://register.netapp.com/register/eclg.xwic["Gerador de arquivos de licença NetApp"^] .
+. Introduza as informações necessárias.
+. No campo linha de produtos, selecione *padrão SnapCenter (baseado em capacidade)* no menu suspenso.
+. No campo número de série do produto, insira o número de série da licença SnapCenter
+. Leia e aceite a Política de Privacidade de dados da NetApp e selecione *Enviar*.
+. Guarde o ficheiro de licença e, em seguida, registe a localização do ficheiro.
+
+
+
+
+=== Passo 4: Adicione licença baseada em capacidade
+
+Se você estiver usando o SnapCenter com plataformas ONTAP Select ou Cloud Volumes ONTAP, instale uma ou mais licenças baseadas em capacidade do SnapCenter.
+
+.Antes de começar
+* Você deve fazer login como usuário Administrador do SnapCenter.
+* Você deve ter credenciais de login válidas no site de suporte da NetApp.
+* Você deve ter seu número de série de nove dígitos da licença no formato 51xxxxxxx.
++
+Se você estiver usando um arquivo de licença NetApp (NLF) para adicionar sua licença, você deve saber a localização do arquivo de licença.
+
+
+
+.Sobre esta tarefa
+Você pode executar as seguintes tarefas na página Configurações:
+
+* Adicione uma licença.
+* Veja os detalhes da licença para localizar rapidamente informações sobre cada licença.
+* Modifique uma licença quando quiser substituir a licença existente, por exemplo, para atualizar a capacidade da licença ou para alterar as configurações de notificação de limite.
+* Exclua uma licença quando você quiser substituir uma licença existente ou quando a licença não for mais necessária.
++
+
+NOTE: A licença de teste (número de série que termina com 50) não pode ser excluída usando a GUI do SnapCenter. A licença de teste é automaticamente substituída quando você adiciona uma licença baseada em capacidade padrão da SnapCenter adquirida.
+
+
+
+.Passos
+. No painel de navegação esquerdo, selecione *Configurações*.
+. Na página Configurações, selecione *Software*.
+. Na seção Licença da página Software, selecione *Add* (image:../media/add_policy_from_resourcegroup.gif["Um ícone de mais"]).
+. No assistente Adicionar licença SnapCenter, selecione um dos seguintes métodos para obter a licença que deseja adicionar:
++
+|===
+| Para este campo... | Faça isso... 
+
+
+ a| 
+Insira suas credenciais de login do site de suporte da NetApp (NSS) para importar licenças
+ a| 
+.. Introduza o seu nome de utilizador NSS.
+.. Introduza a sua palavra-passe NSS.
+.. Introduza o número de série da licença baseada no controlador.
+
+
+
+
+ a| 
+Ficheiro de licença do NetApp
+ a| 
+.. Navegue até o local do arquivo de licença e selecione-o.
+.. Selecione *Open*.
+
+
+|===
+. Na página notificações, insira o limite de capacidade no qual o SnapCenter envia notificações por e-mail, EMS e AutoSupport.
++
+O limite padrão é de 90%.
+
+. Para configurar o servidor SMTP para notificações por e-mail, selecione *Configurações* > *Configurações globais* > *Configurações do servidor de notificação* e insira os seguintes detalhes:
++
+|===
+| Para este campo... | Faça isso... 
+
+
+ a| 
+Preferência por e-mail
+ a| 
+Escolha *sempre* ou *nunca*.
+
+
+
+ a| 
+Forneça configurações de e-mail
+ a| 
+Se selecionar *Always*, especifique o seguinte:
+
+** Endereço de e-mail do remetente
+** Endereço de e-mail do destinatário
+** Opcional: Edite a linha de assunto padrão
++
+O assunto padrão diz o seguinte: "Notificação de capacidade de licença da SnapCenter".
+
+
+
+|===
+. Se pretender que as mensagens do sistema de Gestão de Eventos (EMS) sejam enviadas para o syslog do sistema de armazenamento ou que as mensagens AutoSupport sejam enviadas para o sistema de armazenamento para operações com falha, selecione as caixas de verificação adequadas. A ativação do AutoSupport é recomendada para ajudar a solucionar problemas que possam ocorrer.
+. Selecione *seguinte*.
+. Revise o resumo e selecione *Finish*.
+

@@ -1,0 +1,78 @@
+---
+permalink: install/reference_space_and_sizing_requirements.html 
+sidebar: sidebar 
+keywords: SnapCenter 
+summary: Antes de instalar o servidor SnapCenter, você deve estar familiarizado com os requisitos de espaço e dimensionamento. Você também deve aplicar as atualizações de sistema e segurança disponíveis. 
+---
+= Requisitos de espaço e dimensionamento
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+Antes de instalar o servidor SnapCenter, você deve estar familiarizado com os requisitos de espaço e dimensionamento. Você também deve aplicar as atualizações de sistema e segurança disponíveis.
+
+|===
+| Item | Requisitos 
+
+
+ a| 
+Sistemas operacionais
+ a| 
+Microsoft Windows
+
+Apenas as versões em inglês, alemão, japonês e chinês simplificado dos sistemas operacionais são suportadas.
+
+Para obter as informações mais recentes sobre versões suportadas, https://imt.netapp.com/matrix/imt.jsp?components=116859;&solution=1257&isHWU&src=IMT["Ferramenta de Matriz de interoperabilidade do NetApp"^]consulte .
+
+
+
+ a| 
+Contagem mínima de CPU
+ a| 
+4 núcleos
+
+
+
+ a| 
+RAM mínima
+ a| 
+8 GB
+
+
+NOTE: O pool de buffers do MySQL Server usa 20% do total de RAM.
+
+
+
+ a| 
+Espaço mínimo no disco rígido para o software e logs do servidor SnapCenter
+ a| 
+4 GB
+
+
+NOTE: Se você tiver o repositório SnapCenter na mesma unidade em que o servidor SnapCenter está instalado, então é recomendável ter 10 GB.
+
+
+
+ a| 
+Espaço mínimo no disco rígido para o repositório SnapCenter
+ a| 
+6 GB
+
+
+NOTE: OBSERVAÇÃO: Se você tiver o servidor SnapCenter na mesma unidade em que o repositório SnapCenter está instalado, então é recomendável ter 10 GB.
+
+
+
+ a| 
+Pacotes de software necessários
+ a| 
+* Microsoft .NET Framework 4.7.2 ou posterior
+* Windows Management Framework (WMF) 4,0 ou posterior
+* PowerShell 4,0 ou posterior
+
+
+Para obter informações específicas de solução de problemas .NET, https://kb.netapp.com/Advice_and_Troubleshooting/Data_Protection_and_Security/SnapCenter/SnapCenter_upgrade_or_install_fails_with_%22This_KB_is_not_related_to_the_OS%22["A atualização ou instalação do SnapCenter falha para sistemas legados que não têm conetividade com a Internet"^] consulte .
+
+|===

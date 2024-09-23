@@ -1,0 +1,87 @@
+---
+permalink: protect-scw/task_restore_windows_file_system_backups.html 
+sidebar: sidebar 
+keywords: restore 
+summary: Você pode usar o SnapCenter para restaurar backups do sistema de arquivos. A restauração do sistema de arquivos é um processo multifásico que copia todos os dados de um backup especificado para o local original do sistema de arquivos. 
+---
+= Restaure backups do sistema de arquivos do Windows
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+Você pode usar o SnapCenter para restaurar backups do sistema de arquivos. A restauração do sistema de arquivos é um processo multifásico que copia todos os dados de um backup especificado para o local original do sistema de arquivos.
+
+.Antes de começar
+* Tem de ter feito uma cópia de segurança do sistema de ficheiros.
+* Se uma operação agendada, como uma operação de backup, estiver em andamento para um sistema de arquivos, essa operação deve ser cancelada antes que você possa iniciar uma operação de restauração.
+* Você só pode restaurar um backup do sistema de arquivos para o local original, não para um caminho alternativo.
++
+Você não pode restaurar um único arquivo de um backup porque o sistema de arquivos restaurado substitui todos os dados no local original do sistema de arquivos. Para restaurar um único arquivo a partir de um backup do sistema de arquivos, você precisa clonar o backup e acessar o arquivo no clone.
+
+* Não é possível restaurar um sistema ou um volume de inicialização.
+* O SnapCenter pode restaurar sistemas de arquivos em um cluster do Windows sem deixar o grupo de cluster off-line.
+
+
+.Sobre esta tarefa
+* O SCRIPT_PATH é definido usando a chave PredefinedWindowsScriptsDirectory localizada no arquivo SMCoreServiceHost.exe.Config do host do plug-in.
++
+Se necessário, você pode alterar esse caminho e reiniciar o serviço SMcore. É recomendável usar o caminho padrão para segurança.
+
++
+O valor da chave pode ser exibido do swagger através da API: API /4,7/configsettings
+
++
+Você pode usar a API GET para exibir o valor da chave. A API SET não é suportada.
+
+* Para a operação de restauração do SnapMirror Business Continuity (SM-BC), você deve selecionar o backup no local principal.
+* Para a versão ONTAP 9.12,1 e inferior, os clones criados a partir dos instantâneos do Vault do SnapLock como parte da restauração herdarão o tempo de expiração do SnapLock Vault. O administrador do storage deve limpar manualmente os clones após o tempo de expiração do SnapLock.
+
+
+.Passos
+. No painel de navegação esquerdo, clique em *Resources* e selecione o plug-in apropriado na lista.
+. Para filtrar a lista de recursos, selecione as opções sistema de arquivos e Grupo de recursos.
+. Selecione um grupo de recursos na lista e clique em *Restaurar*.
+. Na página backups, selecione se deseja restaurar a partir de sistemas de storage primário ou secundário e, em seguida, selecione um backup para restaurar.
+. Selecione as opções no assistente Restaurar.
+. Você pode inserir o caminho e os argumentos do prescritor ou postscript que deseja que o SnapCenter execute antes ou depois da operação de restauração, respetivamente.
++
+Por exemplo, você pode executar um script para atualizar traps SNMP, automatizar alertas, enviar logs e assim por diante.
+
++
+
+NOTE: O caminho de prescripts ou postscripts não deve incluir unidades ou compartilhamentos. O caminho deve ser relativo ao SCRIPT_path.
+
+. Na página notificação, selecione uma das seguintes opções:
++
+|===
+| Para este campo... | Faça isso... 
+
+
+ a| 
+Registre eventos do servidor SnapCenter no syslog do sistema de storage
+ a| 
+Selecione esta opção para registar eventos do servidor SnapCenter no syslog do sistema de armazenamento.
+
+
+
+ a| 
+Enviar notificação AutoSupport para operações com falha ao sistema de storage
+ a| 
+Selecione esta opção para enviar informações sobre quaisquer operações com falha ao NetApp usando o AutoSupport.
+
+
+
+ a| 
+Preferência por e-mail
+ a| 
+Selecione *Always*, *on failure* ou *on failure or warning* para enviar mensagens de e-mail aos destinatários após restaurar os backups. Introduza o servidor SMTP, a linha de assunto de e-mail predefinida e os endereços de e-mail de e para.
+
+|===
+. Revise o resumo e clique em *Finish*.
+. Monitorize o progresso da operação clicando em *Monitor* > *trabalhos*.
+
+
+
+IMPORTANT: Se o sistema de arquivos restaurado contiver um banco de dados, você também deverá restaurar o banco de dados. Se você não restaurar o banco de dados, o banco de dados pode estar em um estado inválido. Para obter informações sobre como restaurar bancos de dados, consulte o Guia de proteção de dados desse banco de dados.

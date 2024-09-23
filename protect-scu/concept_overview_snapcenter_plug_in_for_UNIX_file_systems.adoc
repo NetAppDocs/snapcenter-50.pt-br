@@ -1,0 +1,95 @@
+---
+permalink: protect-scu/concept_overview_snapcenter_plug_in_for_UNIX_file_systems.html 
+sidebar: sidebar 
+keywords: overview, unix file system, plug-in for unix file system, backup, restore, clone 
+summary: O plug-in para sistemas de arquivos Unix suporta backup, restauração e clone sistemas de arquivos tof Unix. 
+---
+= O que você pode fazer com o plug-in SnapCenter para sistemas de arquivos Unix
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+Quando o plug-in para sistemas de arquivos Unix é instalado em seu ambiente, você pode usar o SnapCenter para fazer backup, restaurar e clonar sistemas de arquivos Unix. Você também pode executar tarefas de suporte a essas operações.
+
+* Descubra recursos
+* Faça backup de sistemas de arquivos Unix
+* Agendar operações de backup
+* Restaure backups do sistema de arquivos
+* Clonar backups do sistema de arquivos
+* Monitore operações de backup, restauração e clone
+
+
+
+
+== Configurações compatíveis
+
+|===
+| Item | Configuração suportada 
+
+
+ a| 
+Ambientes
+ a| 
+* Servidor físico
+* Servidor virtual
+
+
+
+
+ a| 
+Sistemas operacionais
+ a| 
+* Red Hat Enterprise Linux
+* Oracle Linux
+* SUSE Linux Enterprise Server (SLES)
+
+
+
+
+ a| 
+Sistemas de arquivos
+ a| 
+* SAN:
++
+** Sistemas de arquivos baseados em LVM e não em LVM
+** LVM sobre VMDK ext3, ext4 e xfs
+
+
+* NFS: NFS v3, NFS v4.x
+
+
+
+
+ a| 
+Protocolos
+ a| 
+* FC
+* FCoE
+* ISCSI
+* NFS
+
+
+
+
+ a| 
+Multipath
+ a| 
+sim
+
+|===
+
+
+== Limitações
+
+* A combinação de RDMs e discos virtuais em um grupo de volumes não é suportada.
+* A restauração no nível do arquivo não é suportada.
++
+No entanto, você pode executar manualmente a restauração no nível do arquivo clonando o backup e copiando os arquivos manualmente.
+
+* A combinação de sistemas de arquivos espalhados por VMDKs provenientes do armazenamento de dados NFS e VMFS não é compatível.
+* NVMe não é compatível.
+* A continuidade dos negócios do SnapMirror (SM-BC) não é suportada.
+* O provisionamento não é compatível.
+

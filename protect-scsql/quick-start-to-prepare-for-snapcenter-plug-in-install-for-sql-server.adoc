@@ -1,0 +1,204 @@
+---
+permalink: protect-scsql/quick-start-to-prepare-for-snapcenter-plug-in-install-for-sql-server.html 
+sidebar: sidebar 
+keywords: credentials 
+summary: Fornece instruções para se preparar para instalar o servidor SnapCenter e o plug-in SnapCenter para Microsoft SQL Server. 
+---
+= Prepare-se para a instalação do servidor SnapCenter e do plug-in
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+Fornece um conjunto condensado de instruções de preparação para instalar o servidor SnapCenter e o plug-in SnapCenter para Microsoft SQL Server.
+
+
+
+== Requisitos de domínio e grupo de trabalho
+
+O servidor SnapCenter pode ser instalado em sistemas que estejam em um domínio ou em um grupo de trabalho.
+
+Se você estiver usando um domínio do ative Directory, use um usuário de domínio com direitos de administrador local. O usuário do domínio deve ser membro do grupo Administrador local no host do Windows.
+
+Se estiver a utilizar grupos de trabalho, deve utilizar uma conta local com direitos de administrador local.
+
+
+
+== Requisitos de licença
+
+O tipo de licenças que você instala depende do seu ambiente.
+
+[cols="1,3"]
+|===
+| Licença | Quando necessário 
+
+
+ a| 
+Baseado em controladora padrão da SnapCenter
+ a| 
+Necessário para controladores de storage FAS ou AFF
+
+A licença padrão da SnapCenter é uma licença baseada em controlador e está incluída como parte do pacote premium. Se você tiver a licença do SnapManager Suite, você também obtém o direito de licença padrão do SnapCenter. Se você quiser instalar o SnapCenter em uma base de avaliação com o storage FAS ou AFF, poderá obter uma licença de avaliação do pacote Premium entrando em Contato com o representante de vendas.
+
+
+
+ a| 
+Baseado em capacidade padrão da SnapCenter
+ a| 
+Necessário com ONTAP Select e Cloud Volumes ONTAP
+
+Se você é um cliente do Cloud Volumes ONTAP ou do ONTAP Select, precisa adquirir uma licença baseada em capacidade por TB com base nos dados gerenciados pelo SnapCenter. Por padrão, o SnapCenter envia uma licença de teste baseada em capacidade padrão SnapCenter de 90 dias e 100 TB incorporada. Para outros detalhes, entre em Contato com o representante de vendas.
+
+
+
+ a| 
+SnapMirror ou SnapVault
+ a| 
+ONTAP
+
+A licença SnapMirror ou SnapVault é necessária se a replicação estiver ativada no SnapCenter.
+
+
+
+ a| 
+Licenças adicionais (opcional)
+ a| 
+link:../install/concept_snapcenter_licenses.html["Licenças SnapCenter"^]Consulte .
+
+
+
+ a| 
+Licenças padrão da SnapCenter (opcional)
+ a| 
+Destinos secundários
+
+
+NOTE: É recomendado, mas não obrigatório, que você adicione licenças padrão do SnapCenter a destinos secundários. Se as licenças padrão do SnapCenter não estiverem habilitadas em destinos secundários, você não poderá usar o SnapCenter para fazer backup de recursos no destino secundário após executar uma operação de failover. No entanto, é necessária uma licença FlexClone em destinos secundários para executar operações de clonagem e verificação.
+
+|===
+
+
+== Requisitos de host e porta
+
+Para obter os requisitos mínimos do ONTAP e do plug-in de aplicativos, https://imt.netapp.com/matrix/imt.jsp?components=117008;&solution=1259&isHWU&src=IMT["Ferramenta de Matriz de interoperabilidade"^]consulte .
+
+[cols="1,3"]
+|===
+| Hosts | Requisitos mínimos 
+
+
+ a| 
+Sistema operativo (64 bits)
+ a| 
+Consulte https://imt.netapp.com/matrix/imt.jsp?components=117008;&solution=1259&isHWU&src=IMT["Ferramenta de Matriz de interoperabilidade"^]
+
+
+
+ a| 
+CPU
+ a| 
+* Servidor host: 4 núcleos
+* Host de plug-in: 1 núcleo
+
+
+
+
+ a| 
+RAM
+ a| 
+* Servidor anfitrião: 8 GB
+* Host plug-in: 1 GB
+
+
+
+
+ a| 
+Espaço no disco rígido
+ a| 
+Servidor anfitrião:
+
+* 4 GB para software e logs do servidor SnapCenter
+* 6 GB para repositório SnapCenter
+* Cada host de plug-in: 2 GB para instalação de plug-in e logs, isso só é necessário se o plug-in estiver instalado em um host dedicado.
+
+
+
+
+ a| 
+Bibliotecas de terceiros
+ a| 
+Necessário no host do servidor SnapCenter e no host de plug-in:
+
+* Microsoft .NET Framework 4.7.2 ou posterior
+* Windows Management Framework (WMF) 4,0 ou posterior
+* PowerShell 4,0 ou posterior
+
+
+
+
+ a| 
+Navegadores
+ a| 
+Chrome, Internet Explorer e Microsoft Edge
+
+|===
+[cols="1,3"]
+|===
+| Tipo de porta | Porta predefinida 
+
+
+ a| 
+Porta SnapCenter
+ a| 
+8146 (HTTPS), bidirecional, personalizável, como no URL _\https://server:8146_
+
+
+
+ a| 
+Porta de comunicação SnapCenter SMCore
+ a| 
+8145 (HTTPS), bidirecional, personalizável
+
+
+
+ a| 
+Banco de dados do repositório
+ a| 
+3306 (HTTPS), bidirecional
+
+
+
+ a| 
+Hosts de plug-in do Windows
+ a| 
+135, 445 (TCP)
+
+Além das portas 135 e 445, o intervalo de portas dinâmico especificado pela Microsoft também deve estar aberto. As operações de instalação remota usam o serviço Windows Management Instrumentation (WMI), que procura dinamicamente esse intervalo de portas.
+
+Para obter informações sobre o intervalo de portas dinâmico suportado, https://docs.microsoft.com/en-US/troubleshoot/windows-server/networking/service-overview-and-network-port-requirements["Visão geral do serviço e requisitos de porta de rede para Windows"^]consulte .
+
+
+
+ a| 
+Plug-in do SnapCenter para Windows
+ a| 
+8145 (HTTPS), bidirecional, personalizável
+
+
+
+ a| 
+Porta de comunicação do cluster ONTAP ou SVM
+ a| 
+443 (HTTPS), bidirecional; 80 (HTTP), bidirecional
+
+A porta é usada para comunicação entre o host do servidor SnapCenter, o host de plug-in e o SVM ou cluster ONTAP.
+
+|===
+
+
+== Plug-in do SnapCenter para requisitos do Microsoft SQL Server
+
+Você deve ter um usuário com Privileges de administrador local com permissões de login local no host remoto. Se você gerenciar nós de cluster, precisará de um usuário com Privileges administrativo para todos os nós do cluster.
+
+Você deve ter um usuário com permissões sysadmin no SQL Server. O plug-in usa o Microsoft VDI Framework, que requer acesso sysadmin.
