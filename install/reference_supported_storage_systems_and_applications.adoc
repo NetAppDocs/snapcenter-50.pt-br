@@ -13,7 +13,7 @@ summary: Você deve conhecer o sistema de storage suportado, as aplicações e o
 [role="lead"]
 Você deve conhecer o sistema de storage compatível, as aplicações e os bancos de dados.
 
-* O SnapCenter oferece suporte ao ONTAP 8.3.0 e posterior para proteger seus dados.
+* O SnapCenter oferece suporte ao ONTAP 9.8 e posterior para proteger seus dados.
 * O SnapCenter oferece suporte ao Amazon FSX for NetApp ONTAP para proteger seus dados da versão de patch do software SnapCenter 4,5 P1.
 +
 Se você estiver usando o Amazon FSX for NetApp ONTAP, verifique se os plug-ins de host do servidor SnapCenter são atualizados para 4,5 P1 ou posterior para executar operações de proteção de dados.

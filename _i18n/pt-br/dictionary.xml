@@ -2358,7 +2358,6 @@
   <block id="ba7cbf773bd0f0004c4d97fba5034cdb" category="summary">Você deve conhecer o sistema de storage suportado, as aplicações e os bancos de dados.</block>
   <block id="1e1ed4854c77f284f3e97b0843b6e570" category="doc">Sistemas e aplicações de storage compatíveis</block>
   <block id="ed3518bf4a914f119b6bdecebdd5768f" category="paragraph">Você deve conhecer o sistema de storage compatível, as aplicações e os bancos de dados.</block>
-  <block id="c8f093093364799903de04dd2e4130fd" category="list-text">O SnapCenter oferece suporte ao ONTAP 8.3.0 e posterior para proteger seus dados.</block>
   <block id="213ee580d561421ab50f46ea0b22affa" category="list-text">O SnapCenter oferece suporte ao Amazon FSX for NetApp ONTAP para proteger seus dados da versão de patch do software SnapCenter 4,5 P1.</block>
   <block id="dc39fb71951ab3bfb20cab9c1beb9446" category="paragraph">Se você estiver usando o Amazon FSX for NetApp ONTAP, verifique se os plug-ins de host do servidor SnapCenter são atualizados para 4,5 P1 ou posterior para executar operações de proteção de dados.</block>
   <block id="cc788b7e72b2a734dd0985bd1e0e9fe3" category="inline-link">Documentação do Amazon FSX para NetApp ONTAP</block>
@@ -9030,4 +9029,5 @@
   <block id="60bea4969590084ae9e74b765b209fad" category="sidebar">Desinstalar pacotes de plug-in do SnapCenter</block>
   <block id="fdcd3d6f45be97e0e24b4e793a81fac0" category="sidebar">Atualize o servidor SnapCenter e os plug-ins</block>
   <block id="8693aef17f2d371968a29ad0e0dff726" category="sidebar">Atualizar fluxo de trabalho</block>
+  <block id="dddf91700099a41aae12a91632f8108f" category="list-text">O SnapCenter oferece suporte ao ONTAP 9.8 e posterior para proteger seus dados.</block>
 </blocks>
