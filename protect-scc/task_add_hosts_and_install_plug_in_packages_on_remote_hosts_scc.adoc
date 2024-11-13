@@ -128,7 +128,7 @@ O arquivo .xml do descritor na pasta de plug-in personalizado zipado é validado
 Os plug-ins personalizados que são carregados para o servidor SnapCenter são listados.
 
 +
-Se você quiser gerenciar aplicativos MySQL ou DB2, você pode usar os plug-ins personalizados MySQL e DB2 fornecidos pelo NetApp. Os plug-ins personalizados MySQL e DB2 estão disponíveis no https://automationstore.netapp.com/home.shtml["Loja de automação da NetApp"]
+Se você quiser gerenciar aplicativos MySQL ou DB2, você pode usar os plug-ins personalizados MySQL e DB2 fornecidos pelo NetApp.
 
 
 

@@ -36,7 +36,7 @@ Unidades compartilhadas ou montadas em rede não são suportadas.
 * Se o protocolo UDP for usado nas configurações do servidor Syslog, os erros devido à porta estão inativos ou não podem ser capturados como um erro ou um alerta no SnapCenter.
 * Você pode usar os comandos Set-SmAuditSettings e Get-SmAuditSettings para configurar os logs de auditoria.
 +
-As informações sobre os parâmetros que podem ser usados com o cmdlet e suas descrições podem ser obtidas executando Get-Help command_name. Alternativamente, você também pode consultar o https://docs.netapp.com/us-en/snapcenter-cmdlets-50/index.htmll["Guia de referência de cmdlet do software SnapCenter"^].
+As informações sobre os parâmetros que podem ser usados com o cmdlet e suas descrições podem ser obtidas executando Get-Help command_name. Alternativamente, você também pode consultar o https://docs.netapp.com/us-en/snapcenter-cmdlets-50/index.html["Guia de referência de cmdlet do software SnapCenter"^].
 
 
 

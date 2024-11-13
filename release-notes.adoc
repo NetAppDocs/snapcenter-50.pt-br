@@ -7,7 +7,7 @@ summary: Fornece informações importantes sobre esta versão do servidor SnapCe
 = Notas de lançamento
 :allow-uri-read: 
 :icons: font
-:imagesdir: ../media/
+:imagesdir: ./media/
 
 
 [role="lead"]

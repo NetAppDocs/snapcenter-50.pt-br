@@ -16,7 +16,7 @@ O fluxo de trabalho do clone inclui Planejamento, execução da operação do cl
 .Antes de começar
 Você deve ter preparado o ambiente do PowerShell para executar os cmdlets do PowerShell.
 
-Para obter informações sobre cmdlets do PowerShell, use a ajuda do cmdlet SnapCenter ou consulte https://docs.netapp.com/us-en/snapcenter-cmdlets-50/index.htmlll["Guia de referência de cmdlet do software SnapCenter"^] .
+Para obter informações sobre cmdlets do PowerShell, use a ajuda do cmdlet SnapCenter ou consulte https://docs.netapp.com/us-en/snapcenter-cmdlets-50/index.html["Guia de referência de cmdlet do software SnapCenter"^] .
 
 .Passos
 . Inicie uma sessão de conexão com o servidor SnapCenter para um usuário especificado usando o cmdlet Open-SmConnection.

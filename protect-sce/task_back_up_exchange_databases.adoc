@@ -30,35 +30,36 @@ Se um banco de dados não fizer parte de qualquer grupo de recursos, você poder
 . No painel de navegação à esquerda, clique em *recursos* e selecione o *plug-in do Microsoft Exchange Server* na lista.
 . Na página recursos, selecione *Banco de dados* ou *Grupo de disponibilidade de banco de dados* na lista *Exibir*.
 +
-Na página recursos, o image:../media/not_supported_icon.png[""] ícone indica que o banco de dados está em armazenamento não NetApp.
+Na página recursos, o image:../media/not_supported_icon.png["ícone não suportado"] ícone indica que o banco de dados está em armazenamento não NetApp.
 
 +
 
 NOTE: Em um DAG, se uma cópia de banco de dados ativo estiver em um armazenamento não NetApp e pelo menos uma cópia de banco de dados passivo residir em um armazenamento NetApp, você poderá proteger o banco de dados.
 
+
+
+Clique image:../media/filter_icon.gif["ícone de filtro"]em e selecione o nome do host e o tipo de banco de dados para filtrar os recursos. Em seguida, pode clicar image:../media/filter_icon.gif["ícone de filtro"] para fechar o painel de filtro.
+
+* Se você quiser fazer backup de um banco de dados, clique no nome do banco de dados.
 +
-Clique em *image:../media/filter_icon.png[""]* e selecione o nome do host e o tipo de banco de dados para filtrar os recursos. Em seguida, pode clicar emimage:../media/filter_icon.png[""]* * para fechar o painel do filtro.
+.. Se a vista topologia for apresentada, clique em *Protect*.
+.. Se for apresentado o assistente Database - Protect Resource (base de dados - proteger recurso), avance para o passo 3.
 
+
+* Se você quiser fazer backup de um grupo de disponibilidade de banco de dados, clique no nome do grupo de disponibilidade de banco de dados.
 +
-** Se você quiser fazer backup de um banco de dados, clique no nome do banco de dados.
-+
-... Se a vista topologia for apresentada, clique em *Protect*.
-... Se for apresentado o assistente Database - Protect Resource (base de dados - proteger recurso), avance para o passo 3.
-
-
-** Se você quiser fazer backup de um grupo de disponibilidade de banco de dados, clique no nome do grupo de disponibilidade de banco de dados.
-
-
-. Se você quiser especificar um nome de instantâneo personalizado, na página recursos, marque a caixa de seleção *usar formato de nome personalizado para cópia Snapshot* e insira um formato de nome personalizado que você deseja usar para o nome da captura Instantânea.
+.. Se você quiser especificar um nome de instantâneo personalizado, na página recursos, marque a caixa de seleção *usar formato de nome personalizado para cópia Snapshot* e insira um formato de nome personalizado que você deseja usar para o nome da captura Instantânea.
 +
 Por exemplo, _customtext_policy_hostname_ ou _resource_hostname_. Por padrão, um carimbo de data/hora é anexado ao nome do instantâneo.
 
-. Na página políticas, execute as seguintes etapas:
+.. Na página políticas, execute as seguintes etapas:
 +
-.. Selecione uma ou mais políticas na lista suspensa.
+... Selecione uma ou mais políticas na lista suspensa.
 +
 
-NOTE: Você também pode criar uma política clicando em *image:../media/add_policy_from_resourcegroup.gif[""]*.
+NOTE: Você também pode criar uma política clicando image:../media/add_policy_from_resourcegroup.gif["adicionar política do grupo de recursos"]em .
+
+
 
 +
 
@@ -70,47 +71,48 @@ NOTE: Se uma política contiver a opção *Backup de cópias em servidores a ser
 Na seção Configurar agendas para políticas selecionadas, as políticas selecionadas são listadas.
 
 +
-.. Clique emimage:../media/add_policy_from_resourcegroup.gif[""]* * na coluna Configurar agendas para a política para a qual você deseja configurar um agendamento.
+.. Clique image:../media/add_policy_from_resourcegroup.gif["adicionar política do grupo de recursos"] na coluna Configurar agendas para a política para a qual você deseja configurar um agendamento.
 .. Na janela Adicionar programações para a política _policy_name_, configure a programação e clique em *OK*.
 +
 Onde, _policy_name_ é o nome da política selecionada.
 
 +
-As programações configuradas são listadas na coluna agendas aplicadas.
+As programações configuradas são listadas na coluna agendas aplicadas. . Na página notificação, na lista suspensa *preferência de e-mail*, selecione os cenários nos quais você deseja enviar os e-mails.
 
-
-
-. Na página notificação, na lista suspensa *preferência de e-mail*, selecione os cenários nos quais você deseja enviar os e-mails.
 +
 Você também deve especificar os endereços de e-mail do remetente e do destinatário e o assunto do e-mail. Se quiser anexar o relatório da operação de backup realizada no recurso, selecione *Anexar Relatório de trabalho*.
 
 +
+Para notificação por e-mail, você deve ter especificado os detalhes do servidor SMTP usando a GUI ou o comando PowerShell SET-SmtpServer.
 
-NOTE: Para notificação por e-mail, você deve ter especificado os detalhes do servidor SMTP usando a GUI ou o comando PowerShell SET-SmtpServer.
-
-. Revise o resumo e clique em *Finish*.
++
+... Revise o resumo e clique em *Finish*.
 +
 A página de topologia do banco de dados é exibida.
 
-. Clique em *fazer backup agora*.
-. Na página Backup, execute as seguintes etapas:
-+
+... Clique em *fazer backup agora*.
+... Na página Backup, execute as seguintes etapas:
+
+
 .. Se você tiver aplicado várias políticas ao recurso, na lista suspensa *Política*, selecione a política que deseja usar para backup.
 +
 Se a política selecionada para o backup sob demanda estiver associada a um agendamento de backup, os backups sob demanda serão retidos com base nas configurações de retenção especificadas para o tipo de agendamento.
 
 .. Clique em *Backup*.
-
-
-. Monitore o progresso do backup clicando duas vezes no trabalho no painel atividade na parte inferior da página para exibir a página Detalhes do trabalho.
 +
-** Nas configurações do MetroCluster, o SnapCenter pode não ser capaz de detetar uma relação de proteção após um failover.
+... Monitore o progresso do backup clicando duas vezes no trabalho no painel atividade na parte inferior da página para exibir a página Detalhes do trabalho.
++
+**** Nas configurações do MetroCluster, o SnapCenter pode não ser capaz de detetar uma relação de proteção após um failover.
 +
 Para obter informações, consulte: https://kb.netapp.com/Advice_and_Troubleshooting/Data_Protection_and_Security/SnapCenter/Unable_to_detect_SnapMirror_or_SnapVault_relationship_after_MetroCluster_failover["Não é possível detetar a relação SnapMirror ou SnapVault após o failover do MetroCluster"^]
 
-** Se você estiver fazendo backup de dados de aplicativos em VMDKs e o tamanho de heap Java para o plug-in SnapCenter para VMware vSphere não for grande o suficiente, o backup pode falhar.
+**** Se você estiver fazendo backup de dados de aplicativos em VMDKs e o tamanho de heap Java para o plug-in SnapCenter para VMware vSphere não for grande o suficiente, o backup pode falhar.
 +
 Para aumentar o tamanho do heap Java, localize o arquivo de script _/opt/NetApp/init_scripts/scvservice_. Nesse script, o comando _do_start Method_ inicia o serviço de plug-in SnapCenter VMware. Atualize esse comando para o seguinte: _Java -jar -Xmx8192M -Xms4096M_
+
+
+
+
 
 
 

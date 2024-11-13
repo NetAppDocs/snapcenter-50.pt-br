@@ -19,4 +19,4 @@ image::../media/restore_workflow.gif[Restaure o fluxo de trabalho]
 
 Você também pode usar cmdlets do PowerShell manualmente ou em scripts para executar operações de backup, restauração e clone. A ajuda do cmdlet SnapCenter e as informações de referência do cmdlet contêm informações detalhadas sobre cmdlets do PowerShell.
 
-https://docs.netapp.com/us-en/snapcenter-cmdlets-50/index.htmlll["Guia de referência de cmdlet do software SnapCenter"^].
+https://docs.netapp.com/us-en/snapcenter-cmdlets-50/index.html["Guia de referência de cmdlet do software SnapCenter"^].

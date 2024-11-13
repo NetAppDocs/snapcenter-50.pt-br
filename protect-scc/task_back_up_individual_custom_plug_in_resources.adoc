@@ -22,7 +22,7 @@ Se um recurso de plug-in personalizado individual não fizer parte de qualquer g
 . No painel de navegação esquerdo, clique em *Resources* e selecione o plug-in apropriado na lista.
 . Na página recursos, filtre recursos da lista suspensa *Exibir* com base no tipo de recurso.
 +
-Clique image:../media/filter_icon.png[""]em e selecione o nome do host e o tipo de recurso para filtrar os recursos. Em seguida, pode clicar image:../media/filter_icon.png["Ícone de filtro"] para fechar o painel de filtro.
+Clique image:../media/filter_icon.gif["ícone de filtro"]em e selecione o nome do host e o tipo de recurso para filtrar os recursos. Em seguida, pode clicar image:../media/filter_icon.gif["ícone de filtro"] para fechar o painel de filtro.
 
 . Clique no recurso que você deseja fazer backup.
 . Na página recurso, se você quiser usar um nome personalizado, marque a caixa de seleção *usar formato de nome personalizado para cópia Snapshot* e insira um formato de nome personalizado para o nome da captura Instantânea.
@@ -56,7 +56,7 @@ Selecione esta opção para evitar forçar um ponto de consistência WAFL.
 
 |===
 +
-image:../media/application_settings.gif["Página de definições da aplicação"]
+image:../media/application_settings.gif["Uma captura de tela das opções para backup de grupo de consistência: Urgente, médio ou relaxado."]
 
 .. Clique na seta *Scripts* para executar comandos pré e POST para operações quiesce, Snapshot e unquiesce. Você também pode executar pré-comandos antes de sair da operação de backup.
 +

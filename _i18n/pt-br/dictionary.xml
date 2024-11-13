@@ -17,7 +17,6 @@
   <block id="f07d683ff584804916c5fb4327c3415a" category="list-text">No painel de navegação esquerdo, clique em *Monitor* &gt; *trabalhos*.</block>
   <block id="69af9660907978082fde059126622d8c" category="list-text">Selecione a operação e clique em *Cancelar trabalho*.</block>
   <block id="0e8f9ce78b94dad391f7bf1190e4c848" category="paragraph">Painel da atividade</block>
-  <block id="385678dd00c5a8c59bf6e2b642301b5d" category="list-text">Depois de iniciar a operação de backup, clique em *<block ref="f176a951032bbb2fc179630a5e58fad8" category="inline-image-macro-rx" type="image"></block>* no painel atividade para exibir as cinco operações mais recentes.</block>
   <block id="5605734dc1e0ba578df46e1ad0adc35e" category="list-text">Selecione a operação.</block>
   <block id="87d17d6ca32a6bc54b23a511eb3a0f58" category="list-text">Na página Detalhes da tarefa, clique em *Cancelar tarefa*.</block>
   <block id="569d7ad91ac8653d08a314e2f0c4f16d" category="paragraph">A operação é cancelada e o recurso é revertido para o estado anterior.</block>
@@ -221,7 +220,6 @@
   <block id="ae814120fc24f0ac821b8f45c0995ad3" category="list-text">Se você selecionou *todos os membros desta função podem ver e operar em outros objetos membros* na página usuários/grupos enquanto cria uma função, você pode cancelar as operações de clone em fila de outros membros enquanto usa essa função.</block>
   <block id="48c7c41b72e1d678923ce3571aa65b2d" category="paragraph-title">Passo</block>
   <block id="95486229c23ce90321c3008d59008ce7" category="list-text">Selecione a operação e clique em *Cancelar trabalho*.</block>
-  <block id="ad65738dc09fb91267ca71436089581a" category="list-text">Depois de iniciar a operação clone, clique <block ref="f176a951032bbb2fc179630a5e58fad8" category="inline-image-macro-rx" type="image"></block>no painel atividade para exibir as cinco operações mais recentes.</block>
   <block id="a960d38d305c44a6a4717655aace3dd7" category="list-text">Na página *Detalhes do trabalho*, clique em *Cancelar trabalho*.</block>
   <block id="588f36766e9f6a960b4f3c2a83a4a69b" category="paragraph">Você pode cancelar trabalhos de restauração que estão na fila.</block>
   <block id="291fce3784ace5b5b71f5f0d1a3acecd" category="paragraph">Você deve estar logado como administrador do SnapCenter ou proprietário da tarefa para cancelar as operações de restauração.</block>
@@ -231,7 +229,6 @@
   <block id="f319250163ff24dbbbd6e1e43498fcfe" category="list-text">O botão *Cancelar trabalho* está desativado para operações de restauração que não podem ser canceladas.</block>
   <block id="0a0d2a6c3f4b6cd698fb18dba219d5d1" category="list-text">Se você selecionou *todos os membros desta função podem ver e operar em outros objetos membros* na página usuários/grupos ao criar uma função, você pode cancelar as operações de restauração em fila de outros membros enquanto usa essa função.</block>
   <block id="8884d35f96afbdd086b8c2ab66a004f1" category="list-text">Selecione o trabalho e clique em *Cancelar trabalho*.</block>
-  <block id="9fa4e15a7c52779b0b728e143fd56a21" category="list-text">Depois de iniciar a operação de restauração, clique <block ref="f176a951032bbb2fc179630a5e58fad8" category="inline-image-macro-rx" type="image"></block>no painel atividade para exibir as cinco operações mais recentes.</block>
   <block id="f4efb7f60eb91fbd6aa1b8aca204f531" category="paragraph">Você pode usar o cmdlet Remove-SmBackup para limpar a contagem de backup para backups secundários que não têm Snapshot. Talvez você queira usar esse cmdlet quando o Total de snapshots exibido na topologia Gerenciar cópias não corresponder à configuração de retenção do Snapshot de storage secundário.</block>
   <block id="5d365fedd8db2449d52b5be4a9205fb5" category="list-text">Limpe a contagem de backups secundários usando o parâmetro -CleanupSecondaryBackups.</block>
   <block id="b3d3023e1077ceaca98543a186ce5cf3" category="paragraph">Este exemplo limpa a contagem de backup para backups secundários sem snapshots:</block>
@@ -416,7 +413,6 @@
   <block id="b40a6c0b08ac99c86eb676e2689c6996" category="list-text">No painel de navegação esquerdo, clique em *Monitor*.</block>
   <block id="c0a63413cafa6a465f587d5835701c87" category="list-text">Na página Monitor, clique em *trabalhos*.</block>
   <block id="3160f4991d365988a865df5567f2147f" category="list-text">Na página trabalhos, execute as seguintes etapas:</block>
-  <block id="7b467581fdc2f1a9bc98397eaf9411b4" category="list-text">Clique <block ref="f7fe4e34c7d99a8a3a2c66cbdc7de7d8" category="inline-image-macro-rx" type="image"></block> para filtrar a lista de modo a que apenas as operações de cópia de segurança sejam listadas.</block>
   <block id="7407325f29b504f9c8b87ec8da503815" category="list-text">Especifique as datas de início e fim.</block>
   <block id="e10f73b33c1a0725b8812f08089e7788" category="list-text">Na lista suspensa *Type*, selecione *Backup*.</block>
   <block id="1f8a6ebe3d4d002c37961084ee957772" category="list-text">Na lista suspensa *Status*, selecione o status da cópia de segurança.</block>
@@ -430,7 +426,6 @@
   <block id="7f3e84692f24d61327601751bb201dc8" category="list-text">Na página *Monitor*, clique em *empregos*.</block>
   <block id="7ece64d8d9ea3a89221dea21761b07d9" category="list-text">Na página *trabalhos*, execute as seguintes etapas:</block>
   <block id="ba4484b740822363967ef7dbb090de6a" category="inline-image-macro">Ícone de filtro</block>
-  <block id="e513bb233ea5be3f5a949deebfe7811f" category="list-text">Clique <block ref="2df6cc2e237d722aa6244879c70fd2d2" category="inline-image-macro-rx" type="image"></block> para filtrar a lista para que apenas operações de clone sejam listadas.</block>
   <block id="4cfa68aad234b91494e417f8012ca40d" category="list-text">Na lista suspensa *Type*, selecione *Clone*.</block>
   <block id="7c18f9fe3e82229bbf88d4133dde72bd" category="list-text">Na lista suspensa *Status*, selecione o status do clone.</block>
   <block id="33edcafc3b101b5da89793db6c9151a5" category="list-text">Clique em *Apply* para ver as operações concluídas com êxito.</block>
@@ -438,11 +433,9 @@
   <block id="508d1ec07ef963e40e719409d5aa0885" category="paragraph">O painel atividade exibe as cinco operações mais recentes executadas. O painel atividade também é exibido quando a operação foi iniciada e o status da operação.</block>
   <block id="920deed37c528e013939d546655305ff" category="paragraph">O painel atividade exibe informações sobre operações de backup, restauração, clone e backup agendadas.</block>
   <block id="530a5fa7e8fbaa4c796dbd46c93a55dd" category="list-text">No painel de navegação esquerdo, clique em *Resources* e selecione o plug-in apropriado na lista.</block>
-  <block id="9db06cff1e8eb604a482b82e3fc0ca83" category="list-text">Clique <block ref="f176a951032bbb2fc179630a5e58fad8" category="inline-image-macro-rx" type="image"></block>no painel atividade para visualizar as cinco operações mais recentes.</block>
   <block id="c5b4990f8ae878fb8402d7252a8784c6" category="paragraph">Quando você clica em uma das operações, os detalhes da operação são listados na página *Detalhes da tarefa*.</block>
   <block id="883f217b99bc288ae19aa7d6d60b021f" category="paragraph">Pode monitorizar o progresso de diferentes operações de restauro do SnapCenter utilizando a página trabalhos. Você pode querer verificar o progresso de uma operação para determinar quando ela está concluída ou se há um problema.</block>
   <block id="ee9237c14a6c4cc7b6b4a10fbf38aa79" category="paragraph">os estados pós-restauração descrevem as condições do recurso após uma operação de restauração e quaisquer outras ações de restauração que você possa executar.</block>
-  <block id="069fa852337561671b88be2afd1ea4ef" category="list-text">Clique <block ref="2df6cc2e237d722aa6244879c70fd2d2" category="inline-image-macro-rx" type="image"></block> para filtrar a lista de modo que apenas as operações de restauração sejam listadas.</block>
   <block id="72703ba150df91059707035aef45dd74" category="list-text">Na lista suspensa *Type*, selecione *Restore*.</block>
   <block id="a28133afd7846d1e77aa696930846108" category="list-text">Na lista suspensa *Status*, selecione o status de restauração.</block>
   <block id="e12538143afda34a18dc094aa39a01ff" category="list-text">Clique em *Apply* para ver as operações que foram concluídas com sucesso.</block>
@@ -464,7 +457,6 @@
   <block id="e2bd14bf4c88f10bd2230039f5ac5538" category="list-text">Recupere as informações sobre um ou mais backups que você deseja restaurar usando os cmdlets Get-SmBackup e Get-SmBackupReport.</block>
   <block id="d1024e540ddbde0c895907728f551025" category="paragraph">Este exemplo exibe informações detalhadas sobre o backup de 29th 2015 de janeiro a 3rd de fevereiro de 2015:</block>
   <block id="4544315cf8cf4a9ef7dd5ae463d9557d" category="list-text">Restaure dados do backup usando o cmdlet Restore-SmBackup.</block>
-  <block id="d6e7785109e274460567a4ffe4737637" category="paragraph">As informações sobre os parâmetros que podem ser usados com o cmdlet e suas descrições podem ser obtidas executando _get-Help command_name_. Em alternativa, pode também consultar o<block ref="fe417e447e5dbfed4a048719fc696962" category="inline-link-rx"></block>.</block>
   <block id="3c55465d16a74f707765b8add86a7107" category="paragraph">Você pode usar o SnapCenter para dividir um recurso clonado do recurso pai. O clone que é dividido torna-se independente do recurso pai.</block>
   <block id="000f49bb1c3df1b66ed120073f1b1e30" category="list-text">Não é possível executar a operação de divisão de clones em um clone intermediário.</block>
   <block id="304b6f952e78a0af59d877c27db1deae" category="paragraph">Por exemplo, depois de criar clone1 a partir de um backup de banco de dados, você pode criar um backup de clone1 e clonar esse backup (clone2). Depois de criar o clone2, o clone1 é um clone intermediário e não é possível executar a operação de divisão de clones no clone1. No entanto, você pode executar a operação de divisão de clones no clone2.</block>
@@ -511,7 +503,6 @@
   <block id="95963f8927c154efb88b58300907395e" category="admonition">Se um backup estiver associado a um recurso clonado, não será possível excluir o backup.</block>
   <block id="e3f56aa0bce767daf2b14864c354b8c0" category="paragraph">A página de topologia do grupo de recursos ou recursos é exibida.</block>
   <block id="f5284898efb9a6c5033f0a9dc818cb37" category="paragraph">Não é possível excluir os backups que estão no sistema de storage secundário.</block>
-  <block id="107b0b3efdd6bdd1080f8bfc26e2dc6f" category="list-text">Selecione a cópia de segurança e, em seguida, clique <block ref="097a6d0ab39a212263c3129e9214fa08" category="inline-image-macro-rx" type="image"></block>em .</block>
   <block id="cb3436fef348c07ba3d9f412be444f39" category="paragraph">Se você estiver excluindo um backup de banco de dados SAP HANA, os catálogos associados do SAP HANA do backup também serão excluídos.</block>
   <block id="b61d80f092eb0e582c00ae1b6238b80a" category="admonition">Se o último backup restante for excluído, as entradas de CATÁLOGO HANA associadas não poderão ser excluídas.</block>
   <block id="a72cc47fad7d1846d19b085d2e77e5ba" category="list-text">Clique em *OK*.</block>
@@ -591,13 +582,11 @@
   <block id="be1718168e430492046fac5f16367037" category="paragraph">A inicialização dos serviços de plug-in do SnapCenter permite que você inicie os serviços se eles não estiverem sendo executados ou reiniciá-los se estiverem em execução. Poderá querer reiniciar os serviços após a manutenção ter sido efetuada.</block>
   <block id="58bcd22b31297b36a676def5347fa3b2" category="paragraph">Certifique-se de que não estão a ser executados trabalhos ao reiniciar os serviços.</block>
   <block id="16acc7d09da8e8ea142faad2c2e99c21" category="list-text">Na página hosts gerenciados, selecione o host que deseja iniciar.</block>
-  <block id="83bc877d35e349591e52d67695f4ebd5" category="list-text">Clique <block ref="5dfd6339d943e611b369decf59f9c96d" category="inline-image-macro-rx" type="image"></block> no ícone e clique em *Start Service* (Iniciar serviço) ou *Restart Service* (Reiniciar serviço).</block>
   <block id="95cc3c73149a2a9e8f7514403fe4a484" category="paragraph">Você pode iniciar ou reiniciar o serviço de vários hosts simultaneamente.</block>
   <block id="a8eaf50ff5c7c20f8a8e1e520b6616ca" category="section-title">Suspender programações para manutenção do host</block>
   <block id="de638f093760483ad5af8153859bb6a4" category="paragraph">Quando você quiser impedir que o host execute qualquer tarefa agendada do SnapCenter, você pode colocar seu host no modo de manutenção. Você deve fazer isso antes de atualizar os plug-ins ou se estiver executando tarefas de manutenção em hosts.</block>
   <block id="7bd1b35c46c91d6c4f9e4e4e0987180e" category="admonition">Não é possível suspender as programações em um host que está inativo porque o SnapCenter não pode se comunicar com esse host.</block>
   <block id="bc62bc8ccd9bb9743e619c4fbc62a44f" category="list-text">Na página hosts gerenciados, selecione o host que você deseja suspender.</block>
-  <block id="bfc75ad123f974ba0d75554566ed3fc4" category="list-text">Clique no <block ref="5dfd6339d943e611b369decf59f9c96d" category="inline-image-macro-rx" type="image"></block> ícone e, em seguida, clique em *Suspend Schedule* para colocar o host para este plug-in no modo de manutenção.</block>
   <block id="4e6ab1d1707049b8300c146abc72aade" category="paragraph">Você pode suspender a programação de vários hosts simultaneamente.</block>
   <block id="a68a8f505f60c90cfd9806fe0303a226" category="admonition">Você não precisa parar o serviço de plug-in primeiro. O serviço de plug-in pode estar em um estado em execução ou parado.</block>
   <block id="72e07b749365fd8d8b234a68677498d1" category="paragraph">Depois de suspender as programações no host, a página hosts gerenciados mostra *suspenso* no campo de status geral do host.</block>
@@ -659,7 +648,6 @@
   <block id="33e064f29b9e817a8e3b29ebdbe9e58d" category="list-text">Se houver ativos associados (hosts, usuários e grupos), após o cancelamento do Registro do domínio, os ativos não estarão operacionais.</block>
   <block id="882dc26e2380d66f18dab972132841dc" category="list-text">Para cancelar o Registro de um domínio não confiável, você pode usar a interface de usuário do SnapCenter ou cmdlets do PowerShell.</block>
   <block id="120ccafdaf964af639f60c4ed26eaafb" category="list-text">Na lista de domínios, selecione o domínio que deseja cancelar o Registro.</block>
-  <block id="cde4c5c90d02e08fbdbc0d8eed8ec493" category="list-text">Clique <block ref="097a6d0ab39a212263c3129e9214fa08" category="inline-image-macro-rx" type="image"></block>em e, em seguida, clique em *OK*.</block>
   <block id="b36ee7ff89fbb252e1b22b5a6cce9b0f" category="summary">As informações relacionadas a várias operações realizadas a partir do SnapCenter são armazenadas no repositório de banco de dados do servidor SnapCenter. Você deve criar backups do repositório para proteger o servidor SnapCenter contra perda de dados.</block>
   <block id="7d0bb889cb0b99adea9fd13298f9dc65" category="doc">Gerenciar o repositório do servidor SnapCenter</block>
   <block id="a1e91e17ee1b5e24f7c7302a0064632f" category="paragraph">O repositório do servidor SnapCenter às vezes é chamado de banco de dados NSM.</block>
@@ -711,7 +699,6 @@
   <block id="2bc36d79452c84a7d4dcf76ddbbd79db" category="list-text">No prompt de comando, digite o seguinte comando e, em seguida, forneça as credenciais para se conetar ao servidor SnapCenter: _Open-SMConnection_</block>
   <block id="f14f9ddeff8bba25b45edf7c8f27a7f1" category="list-text">Redefinir a senha do repositório: _Set-SmRepositoryPassword_</block>
   <block id="e340c193c1f0abe76ae4f936229af71d" category="paragraph">O seguinte comando redefine a senha do repositório:</block>
-  <block id="9dd45e8b23620fb41f81dfb469f02e6e" category="paragraph">As informações sobre os parâmetros que podem ser usados com o cmdlet e suas descrições podem ser obtidas executando _get-Help command_name_. Em alternativa, pode também consultar o<block ref="585dea66428ca1c9f6d9508c36a79bc5" category="inline-link-rx"></block>.</block>
   <block id="3f9bf2baa07e90009d9f81aa948defd7" category="summary">Depois de adicionar o sistema de armazenamento, você pode modificar a configuração e as conexões do sistema de armazenamento ou excluir o sistema de armazenamento.</block>
   <block id="eb47178020d0a5d2852ff2a43d2991e3" category="doc">Gerencie o sistema de storage</block>
   <block id="cc468f296e7a5bc7997a52b53651958a" category="section-title">Modificar a configuração do sistema de storage</block>
@@ -955,7 +942,6 @@
   <block id="8c411f19384fd18609b701e849181586" category="list-text">Na página recursos, selecione o recurso ou o grupo de recursos na lista suspensa *Exibir*.</block>
   <block id="a64016381e6438b14094f8f349371c74" category="paragraph">A página de topologia do recurso ou do grupo de recursos é exibida.</block>
   <block id="09927e90b474cc9f796b7d9acc2e1efb" category="list-text">Na exibição Gerenciar cópias, selecione *clones* nos sistemas de storage primário ou secundário (espelhado ou replicado).</block>
-  <block id="d718de0b5487a29072ea2bbe613540c0" category="list-text">Selecione o clone e clique <block ref="097a6d0ab39a212263c3129e9214fa08" category="inline-image-macro-rx" type="image"></block>em .</block>
   <block id="69f37a47c45070ea3bfe0bbb2f6a87ae" category="paragraph">Se você estiver excluindo clones do banco de dados SAP HANA, na página Excluir clone, execute as seguintes ações:</block>
   <block id="176ce7b60b4395d5aad1c012ee334b24" category="list-text">No campo *Pre clone delete*, insira os comandos que devem ser executados antes de excluir o clone.</block>
   <block id="c6f0c699832cc7d7011d7d15f50b434c" category="list-text">No campo *Desmontar*, digite o comando para desmontar o clone antes de excluir o clone.</block>
@@ -1085,7 +1071,6 @@
   <block id="9c124c0fc8c6cc2725dad57b45c85eb0" category="paragraph">A imagem a seguir ilustra a relação entre recursos, grupos de recursos e políticas para bancos de dados:</block>
   <block id="ac79b4abc4dc6d0e9ec4abc5ca6b78a2" category="image-alt">Diagrama de conjunto de dados e política</block>
   <block id="a2736a5a798a9322639036f21c70d1d1" category="paragraph">A imagem a seguir ilustra a relação entre recursos, grupos de recursos e políticas para sistemas de arquivos do Windows:</block>
-  <block id="6d6b02d244f9cf99608b318dd4f2cda4" category="image-alt">recursos e políticas para wfs</block>
   <block id="0344fda8fff2d8c5a125ffa5ba5f19a7" category="summary">O software SnapCenter é uma plataforma simples, centralizada e dimensionável que fornece proteção de dados consistente com aplicações para aplicações, bancos de dados, sistemas de arquivos host e VMs em execução nos sistemas ONTAP em qualquer lugar na nuvem híbrida.</block>
   <block id="6309043436d4e7e5bad9a81c89ff15e4" category="doc">Visão geral do SnapCenter</block>
   <block id="edaafea0543ae64ebb79a2ed2e7a055b" category="paragraph">O SnapCenter utiliza as tecnologias NetApp Snapshot, SnapRestore, FlexClone, SnapMirror e SnapVault para oferecer o seguinte:</block>
@@ -1109,8 +1094,6 @@
   <block id="0d5a14c7c275ceabc6219ec9ab60645f" category="list-text">Proteção de dados centralizada e consistente com aplicações</block>
   <block id="614d75d82c03a359210029561e76c31c" category="paragraph">A proteção de dados é compatível com bancos de dados Microsoft Exchange Server, Microsoft SQL Server, Oracle em Linux ou AIX, banco de dados SAP HANA e sistemas de arquivos do Windows Host executados em sistemas ONTAP.</block>
   <block id="91fc009ef552fe282ad4103bc4542688" category="paragraph">A proteção de dados também é compatível com outros aplicativos e bancos de dados padrão ou personalizados, fornecendo uma estrutura para criar plug-ins do SnapCenter definidos pelo usuário. Isso permite a proteção de dados para outros aplicativos e bancos de dados a partir do mesmo painel único. Ao aproveitar essa estrutura, a NetApp lançou plug-ins personalizados do SnapCenter para IBM DB2, MongoDB, MySQL etc. no repositório de automação do NetApp.</block>
-  <block id="b6ddf325474f53377de3e17f65c983f3" category="inline-link">Repositório de automação do storage da NetApp</block>
-  <block id="824fb725cd78913cf73d5b8ff0ebe97c" category="paragraph"><block ref="824fb725cd78913cf73d5b8ff0ebe97c" category="inline-link-rx"></block></block>
   <block id="1e06a8cc16bd3bc423f81e8ff56e4fc0" category="list-text">Backups baseados em políticas</block>
   <block id="9939c592ab7bc8c3264f4ed7fde3bd18" category="paragraph">Os backups baseados em políticas utilizam a tecnologia NetApp Snapshot para criar backups rápidos, com uso eficiente de espaço, consistentes com aplicações e baseados em disco. Como opção, você pode automatizar a proteção desses backups para um storage secundário por meio de atualizações dos relacionamentos de proteção existentes.</block>
   <block id="c6f23063f5e9e828f1d4a0d52255f07c" category="list-text">Backups para vários recursos</block>
@@ -1125,7 +1108,6 @@
   <block id="7ef2193aefa38af010eb09987c5e35ec" category="paragraph">O SnapCenter inclui APIS REST para a maioria das funcionalidades de integração com qualquer software de orquestração e uso de cmdlets e interface de linha de comando do Windows PowerShell.</block>
   <block id="66ee30700091538587a27acf4ecad692" category="inline-link">Visão geral da API REST</block>
   <block id="9a9a51f1993f5461829d8466a8fb013e" category="paragraph">Para obter mais informações sobre APIs REST,<block ref="ea5c19f623f4ce0e4a3a37a512890f94" category="inline-link-rx"></block>consulte .</block>
-  <block id="61e88a8e74dce51e70cb2cc1a7c69268" category="paragraph">Para obter mais informações sobre cmdlets do Windows,<block ref="0f8b6e6827088c3275373fadf9b5793d" category="inline-link-rx"></block>consulte .</block>
   <block id="34b88b9f409afc7274c8a769ee450883" category="inline-link">Guia de Referência de comandos do software SnapCenter</block>
   <block id="9f41dc9894f346b6e32aabf91c683469" category="paragraph">Para obter mais informações sobre comandos UNIX,<block ref="a6fc2394a8b2095d1929066d59f6fcc9" category="inline-link-rx"></block>consulte .</block>
   <block id="44764ea524336d8792197315c021bc65" category="list-text">Dashboard e relatórios centralizados de proteção de dados</block>
@@ -1169,7 +1151,6 @@
   <block id="2215a3a36ae9bad6bae7dd09aa015343" category="list-text">Plug-in do SnapCenter para sistemas de arquivos UNIX</block>
   <block id="41055e583e58ee1a92771580cdfe9b3f" category="list-text">Pacote de plug-ins do SnapCenter para AIX, que inclui os seguintes plug-ins:</block>
   <block id="ad41f7a9e85843a998743e132424a395" category="list-text">Plug-ins personalizados do SnapCenter</block>
-  <block id="c41cef29e8776e4670cacce5775ec017" category="paragraph">Os plug-ins personalizados são compatíveis com a comunidade e podem ser baixados do<block ref="554f546cf121f440c6cfd97d643765df" category="inline-link-rx"></block>.</block>
   <block id="4bfa416280fc4f5037348c904859e18f" category="paragraph">O plug-in do SnapCenter para VMware vSphere, antigo agente de dados da NetApp, é um dispositivo virtual autônomo que suporta operações de proteção de dados da SnapCenter em bancos de dados virtualizados e sistemas de arquivos.</block>
   <block id="e4b70dc0a2377b7bbef832a55b2d603c" category="paragraph">O servidor SnapCenter inclui um servidor da Web, uma interface de usuário centralizada baseada em HTML5, cmdlets do PowerShell, APIs REST e o repositório SnapCenter.</block>
   <block id="fe89aa45265975daba94ad8b06218208" category="paragraph">O SnapCenter permite alta disponibilidade e dimensionamento horizontal em vários servidores SnapCenter em uma única interface de usuário. Você pode obter alta disponibilidade usando o balanceador de carga externo (F5). Para ambientes maiores com milhares de hosts, adicionar vários servidores SnapCenter pode ajudar a equilibrar a carga.</block>
@@ -1242,7 +1223,6 @@
   <block id="7362a758a4c65bbbb4dc5e948b5a5896" category="list-text">Oferece suporte a plug-ins personalizados para gerenciar aplicativos ou bancos de dados que não são compatíveis com outros plug-ins do SnapCenter. Plug-ins personalizados não são fornecidos como parte da instalação do SnapCenter.</block>
   <block id="7f8b22ee024d485fad8d1c95beda80f7" category="list-text">Suporta a criação de cópias espelhadas de conjuntos de backup em outro volume e a execução de replicação de backup disco para disco.</block>
   <block id="0bdb27719827039d79994d2a17575b2e" category="list-text">Suporta ambientes Windows e Linux. Em ambientes Windows, aplicativos personalizados por meio de plug-ins personalizados podem, opcionalmente, utilizar o plug-in SnapCenter para Microsoft Windows para fazer backups consistentes com o sistema de arquivos.</block>
-  <block id="bef4d00fa5327b323d516fbe5c1bce99" category="paragraph">Exemplos de plug-in personalizados MySQL, DB2 e MongoDB para software SnapCenter podem ser baixados do<block ref="554f546cf121f440c6cfd97d643765df" category="inline-link-rx"></block>.</block>
   <block id="dbe26f725743679de01e440c2e7697ad" category="admonition">Os plug-ins personalizados MySQL, DB2 e MongoDB são compatíveis apenas com as comunidades NetApp.</block>
   <block id="a84dab656bf020b14be7a5c3596b4288" category="paragraph">O NetApp suporta a capacidade de criar e usar plug-ins personalizados; no entanto, os plug-ins personalizados criados não são suportados pelo NetApp.</block>
   <block id="07af457ed5409f58b0d5ca2b41b5ec39" category="inline-link-macro">Desenvolva um plug-in para sua aplicação</block>
@@ -1322,7 +1302,6 @@
   <block id="5c4de78a2b621074bf68ab1c644af297" category="inline-link-macro">Gerar arquivo CSR do certificado CA</block>
   <block id="9e5309714d9094e413324e0abf1a2c00" category="paragraph">Você deve implantar certificados de CA depois de instalar o servidor SnapCenter e os respetivos plug-ins. Para obter mais informações, <block ref="e785a19e47d7a7e00436d504e46ce80e" category="inline-link-macro-rx"></block>consulte .</block>
   <block id="8fbcd736aac5b9c6baba8f4db349f50e" category="inline-link">Criar e importar certificados</block>
-  <block id="c0ddbdc2a9782e98d40c313e95e09705" category="paragraph">Você também pode implantar o certificado CA para o plug-in SnapCenter para VMware vSphere. Para obter mais informações,<block ref="f5f72b20763af718f23ba7b5cc6b11fa" category="inline-link-rx"></block>consulte .</block>
   <block id="855469e68aebe957582edeb7405529e1" category="section-title">Comunicação SSL bidirecional</block>
   <block id="b4cbac9ded897ac6c04027b59ec07fad" category="paragraph">A comunicação SSL bidirecional protege a comunicação mútua entre o servidor SnapCenter e os plug-ins.</block>
   <block id="48462a95fd8685081e58f7c123971e5b" category="section-title">Visão geral da autenticação baseada em certificados</block>
@@ -1397,7 +1376,6 @@
   <block id="2968590fdb19353b9fdbc6088dd778eb" category="list-text">Montar (apenas para banco de dados Oracle)</block>
   <block id="5a3f263989738cd612ecc94d6ff5f735" category="list-text">Desmontar (apenas para banco de dados Oracle)</block>
   <block id="a90c9bf6b95fa2c04eefdb89d6650e4b" category="paragraph">A permissão Monitor de tarefas permite que membros de diferentes funções vejam as operações em todos os objetos aos quais são atribuídos.</block>
-  <block id="7608e75619cff3eeb4e8bce40481b456" category="doc">Documentação do software SnapCenter</block>
   <block id="979623b664e821ca043ae0d13a9b68a0" category="summary">As credenciais usam diferentes métodos de autenticação, dependendo do aplicativo ou do ambiente. As credenciais autenticam os usuários para que eles possam executar operações do SnapCenter. Você deve criar um conjunto de credenciais para a instalação de plug-ins e outro conjunto para operações de proteção de dados.</block>
   <block id="5b00a6bb860d50a1c997c998160e673c" category="doc">Métodos de autenticação para suas credenciais</block>
   <block id="7e68841acc918ef617f53709d7f28228" category="section-title">Autenticação do Windows</block>
@@ -1515,7 +1493,6 @@
   <block id="bebee85eba69e0936be881fa2ca1f602" category="admonition">Se você atualizou a partir do SnapCenter 4,2.x e estava usando anteriormente o balanceamento de carga de rede (NLB), você pode continuar usando essa configuração ou switch para F5.</block>
   <block id="a8c10ef2d3909ca8c562175087de65ba" category="inline-link">Como configurar servidores SnapCenter para alta disponibilidade usando o balanceador de carga F5</block>
   <block id="a37d7f9a842acb74f6d4d0ac3a929778" category="paragraph">A imagem do fluxo de trabalho lista as etapas para configurar os servidores SnapCenter para alta disponibilidade usando o balanceador de carga F5. Para obter instruções detalhadas,<block ref="4d4c1b07c3f7cab3f346d17a2617da56" category="inline-link-rx"></block> consulte .</block>
-  <block id="4c18603dba89b319f6382b3916e52cba" category="image-alt">SC F5 configure o fluxo de trabalho</block>
   <block id="2f3c3d1de69d09261803424d64636033" category="paragraph">Você deve ser membro do grupo Administradores locais nos servidores SnapCenter (além de ser atribuído à função SnapCenterAdmin) para usar os seguintes cmdlets para adicionar e remover clusters F5:</block>
   <block id="d9ea666bfbe8444fa88062f4874d0b22" category="list-text">Add-SmServerCluster</block>
   <block id="b8313647a63a15fb0ab7d46b778ba618" category="list-text">Add-SmServer</block>
@@ -1852,7 +1829,6 @@
   <block id="68dae2573ac7874d6dd234af4fa4c752" category="list-text">No servidor SnapCenter, abra uma janela do PowerShell para redefinir a senha do MySQL.</block>
   <block id="aa5c2438bb48bc6f9fc91294d9f5f2c1" category="list-text">Execute o cmdlet Open-SmConnection para iniciar uma sessão de conexão com o servidor SnapCenter para uma conta SnapCenterAdmin.</block>
   <block id="677b5668995b5d565b03294fb7b16727" category="list-text">Execute o Set-SmRepositoryPassword para redefinir a senha do MySQL.</block>
-  <block id="c265daac7397e94019d709fd691f8c5e" category="paragraph">Para obter informações sobre os cmdlets,<block ref="27efb9187bc662f39802c23be17e8d78" category="inline-link-rx"></block> consulte .</block>
   <block id="bdc5e2c886d9f1d7c2db87ea0140c771" category="list-text">Abra o prompt de comando e execute mysql -u root -p para fazer login no MySQL.</block>
   <block id="4c6cef07724f31f81802bd1558b3066b" category="paragraph">O MySQL solicita a senha. Introduza as credenciais fornecidas durante a reposição da palavra-passe.</block>
   <block id="730761cf69bd21652f5f5b9dc5170f63" category="list-text">Remova a licença de teste do banco de dados:</block>
@@ -2023,7 +1999,6 @@
   <block id="8e5ca8947d2ccd889e10c25276502da0" category="section-title">Habilitar a autenticação multifator (MFA)</block>
   <block id="c8010626798701f4dd6505ffd8c7bab3" category="paragraph">Você pode habilitar a funcionalidade MFA para o servidor SnapCenter usando comandos do PowerShell.</block>
   <block id="c746671a4c0cb7e7a37abe538fe2107e" category="list-text">O SnapCenter suporta logins baseados em SSO quando outros aplicativos são configurados no mesmo AD FS. Em certas configurações do AD FS, o SnapCenter pode exigir autenticação de usuário por motivos de segurança, dependendo da persistência da sessão do AD FS.</block>
-  <block id="5407aa5ab5ceed15da5776ca60b79b67" category="list-text">As informações sobre os parâmetros que podem ser usados com o cmdlet e suas descrições podem ser obtidas executando<block ref="b306feeed6ddda97d08ef1f2a0ba62d9" prefix=" " category="inline-code"></block>o . Alternativamente, você também pode<block ref="fe417e447e5dbfed4a048719fc696962" category="inline-link-rx"></block>ver .</block>
   <block id="b2f9ddbfbf0bb6739ee75e8c2a6ac138" category="list-text">O Serviço de Federação do ative Directory do Windows (AD FS) deve estar ativo e em execução no respetivo domínio.</block>
   <block id="4ceb1d36799251586ba061a0c2b9a7a8" category="list-text">Você deve ter um serviço de autenticação multifator compatível com AD FS, como Azure MFA, Cisco Duo, etc.</block>
   <block id="cb7f79bbeb52e82fa7926e0724dba11e" category="list-text">O carimbo de data/hora do servidor SnapCenter e AD FS deve ser o mesmo, independentemente do fuso horário.</block>
@@ -2443,7 +2418,6 @@
   <block id="3cb37de766f2d582ab6d0abf6e63d382" category="list-text">Comando é a capacidade ONTAP.</block>
   <block id="b49ce4d00d6ed57c9fbc9e20e08cee2c" category="admonition">Você deve repetir este comando para cada permissão. Lembre-se de que os comandos All-Access devem ser listados antes dos comandos somente leitura.</block>
   <block id="81fb23c0c8e735fb97f9f661b58902b8" category="inline-link-macro">Comandos CLI do ONTAP para criar funções e atribuir permissões</block>
-  <block id="f37634ec820656fbecf1b4e4a31565f9" category="paragraph">Para obter informações sobre a lista de permissões, <block ref="6c1006d61f543513243fc1b3f8ac291c" category="inline-link-macro-rx"></block>consulte .</block>
   <block id="10056fa29f5070106b5da7d2738acd2e" category="list-text">Crie um nome de usuário digitando o seguinte comando:</block>
   <block id="1af6536f50b7c77854633155c6ae923a" category="paragraph"><block ref="496d78c32dd2b2752181d6346f8b0aeb" prefix="" category="inline-code"></block></block>
   <block id="a53046962f5d32ce0b5006e41f82fd45" category="list-text">user_name é o nome do usuário que você está criando.</block>
@@ -2533,7 +2507,6 @@
   <block id="3c15d7a6541e416f0d13373ee63fd0c0" category="paragraph">Unidades compartilhadas ou montadas em rede não são suportadas.</block>
   <block id="d90e9077285809de90243e91ed3a10bc" category="list-text">Se o protocolo UDP for usado nas configurações do servidor Syslog, os erros devido à porta estão inativos ou não podem ser capturados como um erro ou um alerta no SnapCenter.</block>
   <block id="b398a3651d49f0eb14349eff9cfdec58" category="list-text">Você pode usar os comandos Set-SmAuditSettings e Get-SmAuditSettings para configurar os logs de auditoria.</block>
-  <block id="f0f4b5c48e00c36f00ea22035a2a434b" category="paragraph">As informações sobre os parâmetros que podem ser usados com o cmdlet e suas descrições podem ser obtidas executando Get-Help command_name. Alternativamente, você também pode consultar o<block ref="9fb81e83cc984151f290e0895df315ab" category="inline-link-rx"></block>.</block>
   <block id="b081c433d361cfcb39c391b352a6f526" category="list-text">Na página *Configurações*, navegue até *Configurações* &gt; *Configurações globais* &gt; *Configurações do log de auditoria*.</block>
   <block id="f3645e45f905156003cb2bb7741a86f3" category="list-text">Na secção Registo de auditoria, introduza os detalhes.</block>
   <block id="bc622cdadddc54b812b2df6bb7115372" category="list-text">Digite o diretório *Audit log* e o diretório de log de checksum* de auditoria</block>
@@ -3072,7 +3045,6 @@
   <block id="2789cdc77c14e8b5a14e86f2057a7d4f" category="list-text">Os nomes de host do controlador de domínio (DCHostName) devem ser acessíveis a partir do servidor SnapCenter.</block>
   <block id="88f43ff19ffe5badc539c95171485d40" category="list-text">Você pode usar a interface de usuário do SnapCenter, cmdlets do PowerShell ou API REST para Registrar um domínio não confiável.</block>
   <block id="55914843f9768acffcc6d6ee07b8942f" category="list-text">Na página Configurações, clique em *Configurações globais*.</block>
-  <block id="6367d0504b967e287008a2edf347cff7" category="list-text">Clique <block ref="abe09f480538c71c9fc89b98cd91e2d0" category="inline-image-macro-rx" type="image"></block> para Registrar um novo domínio.</block>
   <block id="300306e9217bd45a67a1d98a4048e8f6" category="list-text">Na página Registrar novo domínio, selecione *LDAP* ou *LDAPS*.</block>
   <block id="d13bc78a8fd8227474b625ef1688e14b" category="list-text">Se selecionar *LDAP*, especifique as informações necessárias para registar o domínio não fidedigno para LDAP:</block>
   <block id="57ea1a814b12bff97d06e62d6cb435ab" category="paragraph">Nome de domínio</block>
@@ -3744,7 +3716,6 @@
   <block id="92ae04a417b2b1bf95cb914953f21cce" category="list-text">Você deve ter criado um grupo de recursos com uma política anexada.</block>
   <block id="08c86005ddd32599a5beea4c7b9ff4ad" category="list-text">Se você quiser fazer backup de um recurso que tenha uma relação SnapMirror com um armazenamento secundário, a função ONTAP atribuída ao usuário de armazenamento deve incluir o privilégio "'SnapMirror All'". No entanto, se você estiver usando a função "vsadmin", o privilégio "SnapMirror all" não será necessário.</block>
   <block id="bf48a7e0eb56785cdc1ed4c661d3583f" category="paragraph">Você pode fazer backup de um grupo de recursos sob demanda na página recursos. Se um grupo de recursos tiver uma política anexada e uma programação configurada, os backups ocorrerão automaticamente de acordo com a programação.</block>
-  <block id="7dd7da1b07a05d1000eeeecb05ce4ee5" category="paragraph">Você pode pesquisar o grupo de recursos inserindo o nome do grupo de recursos na caixa de pesquisa ou <block ref="f7fe4e34c7d99a8a3a2c66cbdc7de7d8" category="inline-image-macro-rx" type="image"></block>selecionando e selecionando a tag. Em seguida, pode <block ref="f7fe4e34c7d99a8a3a2c66cbdc7de7d8" category="inline-image-macro-rx" type="image"></block>selecionar para fechar o painel de filtro.</block>
   <block id="38daee81aaf3af99133cf03d753b6a86" category="list-text">Se você associou várias políticas ao grupo de recursos, na lista suspensa *Política*, selecione a política que deseja usar para backup.</block>
   <block id="7394e84832837e7d0dc503d85eb3f36c" category="doc">Fazer backup de bancos de dados do SAP HANA</block>
   <block id="bb9d7068e92869688b6abcc02fa7e603" category="list-text">Você deve ter criado uma política de backup.</block>
@@ -3754,10 +3725,7 @@
   <block id="961e6abd0c7a72786d3641390a4dea5f" category="list-text">Se você quiser criar um backup baseado em arquivo quando um ou mais bancos de dados de locatário estiverem inativos, defina o parâmetro ALLOW_FILE_BASED_BACKUP_IFINACTIVO_TENANTS_PRESENT como *YES* no arquivo de propriedades HANA usando<block ref="c49971dbd0f66cf4e6b62fc441967947" prefix=" " category="inline-code"></block> cmdlet.</block>
   <block id="e160dda6499084db01c7ce6491af2f40" category="paragraph">As informações sobre os parâmetros que podem ser usados com o cmdlet e suas descrições podem ser obtidas executando Get-Help _command_name_. Em alternativa, pode também consultar<block ref="03b326736c2583ee76aaa77710bf9b23" category="inline-link-rx"></block></block>
   <block id="734b47c3d3034ecc47486b3b7c947423" category="list-text">Para comandos pré e POST para operações quiesce, Snapshot e unquiesce, você deve verificar se os comandos existem na lista de comandos disponível no host plug-in dos seguintes caminhos:</block>
-  <block id="19650f12fd9f269a497d4edc60754137" category="paragraph">Para o Windows: _C: Arquivos de programas/NetApp/SnapCenter/SnapCenter Plug-in Creator/etc/allowed_commands_list.txt_</block>
-  <block id="e7b4efc5dd5b16a36c26e91652b78194" category="paragraph">Para Linux: _/var/opt/SnapCenter/scc/allowed_commands_list.txt_</block>
   <block id="2dd7c4421097b3d796ff9bf355ebaa6e" category="admonition">Se os comandos não existirem na lista de comandos, a operação falhará.</block>
-  <block id="9eb8278143c5b25686cc1b6c525a9b8d" category="paragraph">Selecione<block ref="f7fe4e34c7d99a8a3a2c66cbdc7de7d8" category="inline-image-macro-rx" type="image"></block> * * e, em seguida, selecione o nome do host e o tipo de recurso para filtrar os recursos. Em seguida, pode <block ref="f7fe4e34c7d99a8a3a2c66cbdc7de7d8" category="inline-image-macro-rx" type="image"></block>selecionar para fechar o painel de filtro.</block>
   <block id="3df4bf361c2bfb2dfa84fc1cffa5779e" category="paragraph">Por exemplo, _customtext_policy_hostname_ ou _resource_hostname_. Por padrão, um carimbo de data/hora é anexado ao nome do instantâneo.</block>
   <block id="0666d07a296860de6e0a6f6e4fd0425e" category="list-text">Selecione a seta *backups* para definir opções adicionais de backup:</block>
   <block id="75acd63fc160c8f401a6e89437895634" category="paragraph">Ative o backup do grupo de consistência, se necessário, e execute as seguintes tarefas:</block>
@@ -3775,7 +3743,6 @@
   <block id="1accc18e0f25decba79f224ccd167283" category="paragraph">Selecione *SnapCenter com consistência do sistema de arquivos*.</block>
   <block id="d03489d8edb47ae534fd09e8de3121c2" category="paragraph">Para inserir o comando para criar uma captura Instantânea</block>
   <block id="60c069fc0d03d8cbfeabe67ca031a729" category="paragraph">Selecione *Other* e, em seguida, digite o comando para criar uma captura Instantânea.</block>
-  <block id="129db5e4908943c18847d24dd577782f" category="paragraph"><block ref="129db5e4908943c18847d24dd577782f" category="inline-image-macro-rx" type="image"></block></block>
   <block id="e27c3f444b9f74c83a643ba11ed3a83e" category="admonition">Você também pode criar uma política clicando em *<block ref="abe09f480538c71c9fc89b98cd91e2d0" category="inline-image-macro-rx" type="image"></block>*.</block>
   <block id="db9cc4a2ed12e21bb79e9346714c68b9" category="paragraph">Na seção Configurar agendas para políticas selecionadas, as políticas selecionadas são listadas.</block>
   <block id="bf5bc6c2ed0f05ce21c3e597309a4f6b" category="paragraph">As programações configuradas são listadas na coluna agendas aplicadas.</block>
@@ -3818,11 +3785,8 @@
   <block id="d2f811cffe0f9a1380a49f7f5961cb09" category="list-text">Comando pre clone: Exclua bancos de dados existentes com o mesmo nome</block>
   <block id="5fddd416d7d0fdc83ff16f74a6ee1443" category="list-text">Comando Post clone: Verifique um banco de dados ou inicie um banco de dados.</block>
   <block id="004a54b587273cf718e893abb97bf09f" category="paragraph">Monte o comando para um volume ou qtree em uma máquina Linux:</block>
-  <block id="2c0cb3a89096a4479719e4293ed5a8c6" category="paragraph">Exemplo para NFS:</block>
-  <block id="a559b2571e56d5cca36de86e59757d8d" category="admonition">Para os comandos pre e POST para operações quiesce, Snapshot e unquiesce, você deve verificar se os comandos existem na lista de comandos disponível no host plug-in a partir do caminho _/opt/SnapCenter/snapenter/scc/allowed_commands.config_ para Linux e _C: Arquivos de programas/NetApp/SnapCenter/SnapCenter Plug-in Creator/allowed_Commands_list.txt.</block>
   <block id="f13996192c5cd583e2ff57912b5401e3" category="paragraph">Você também deve especificar os endereços de e-mail do remetente e do destinatário e o assunto do e-mail.</block>
   <block id="75a7c9b2e73f5c1cc5286ea02330c1bd" category="doc">Clonar backups de bancos de dados do SAP HANA usando cmdlets do PowerShell</block>
-  <block id="f8ef885da891261fd4629d7fae69bfa4" category="paragraph">As informações sobre os parâmetros que podem ser usados com o cmdlet e suas descrições podem ser obtidas executando _get-Help command_name_. Em alternativa, pode também consultar o<block ref="9fb81e83cc984151f290e0895df315ab" category="inline-link-rx"></block>.</block>
   <block id="7efd97c2a4471de87de7e99332374e4a" category="list-text">Recupere os backups para executar a operação de clone usando o cmdlet Get-SmBackup.</block>
   <block id="f03d64352eff2c5a90a8790e99accb55" category="paragraph">Este exemplo mostra que dois backups estão disponíveis para clonagem:</block>
   <block id="d7272ca580c1be43c009610e69bf10d3" category="list-text">Inicie uma operação de clone a partir de um backup existente e especifique os endereços IP de exportação NFS nos quais os volumes clonados são exportados.</block>
@@ -3853,8 +3817,6 @@
   <block id="eebed0ac34228e0e0f38c9d860604c29" category="list-text">Você deve configurar HDB SQL os User para acessar o banco de dados do sistema. Se o HDB SQL os User estiver configurado para acessar somente o banco de dados de locatário, a operação de descoberta falhará.</block>
   <block id="883766d38a60b014b1f295ce741d2078" category="list-text">No painel de navegação à esquerda, clique em *Resources* e selecione Plug-in SnapCenter para banco de dados SAP HANA na lista.</block>
   <block id="4be65a5ea46b3e2f23ace622863d9afc" category="list-text">Na página recursos, selecione o tipo de recurso na lista *Exibir*.</block>
-  <block id="90e14cd7255b5121e0c223d30a2cd3b7" category="list-text">(Opcional) clique <block ref="f7fe4e34c7d99a8a3a2c66cbdc7de7d8" category="inline-image-macro-rx" type="image"></block> e selecione o nome do host.</block>
-  <block id="b5e4628eb9cb2cd7efab86c10d19965c" category="paragraph">Em seguida, pode clicar <block ref="f7fe4e34c7d99a8a3a2c66cbdc7de7d8" category="inline-image-macro-rx" type="image"></block> para fechar o painel de filtro.</block>
   <block id="39e3c69c6f9d80e017de1f541e1670ca" category="list-text">Selecione o banco de dados e clique em *Configurar banco de dados*.</block>
   <block id="7549e4590c51e2808eff73abfe0bfd99" category="list-text">Na seção Configurar configurações da base de dados, digite HDB Secure User Store Key.</block>
   <block id="41119aa704f7776e425d802cc1efdd26" category="admonition">O nome do host do plug-in é exibido e o usuário do HDB SQL os é preenchido automaticamente para o &lt;sid&gt;.</block>
@@ -3912,7 +3874,6 @@
   <block id="cad9d181a2b84fefcf0bef1326b5660c" category="paragraph">Durante a replicação secundária, o tempo de expiração do SnapLock carrega o tempo de expiração do SnapLock primário.</block>
   <block id="08ec8ae585abf03648f1d4e2cb173c27" category="paragraph">Clicar no botão *Atualizar* na página topologia atualiza o tempo de expiração do SnapLock secundário e primário que são recuperados do ONTAP.</block>
   <block id="e010280946f254b9face32c9e91fa35e" category="inline-link-macro">Veja os backups e clones do banco de dados SAP HANA na página topologia</block>
-  <block id="e5b1a643ff29c023df4fc00549fcf14a" category="paragraph"><block ref="bfee5871d93db7733f78d928f7cfe1c4" category="inline-link-macro-rx"></block>Consulte .</block>
   <block id="f5568337c8feae7a044bdfdfc53b4769" category="paragraph">*Atualizar SnapVault depois de criar uma cópia Snapshot local*</block>
   <block id="a8026657de84cf12f52f1113eca69500" category="paragraph">Selecione esta opção para executar a replicação de backup disco a disco (backups SnapVault).</block>
   <block id="59affd7f6a76b1148ee2481cf98f64e1" category="paragraph">Durante a replicação secundária, o tempo de expiração do SnapLock carrega o tempo de expiração do SnapLock primário. Clicar no botão *Atualizar* na página topologia atualiza o tempo de expiração do SnapLock secundário e primário que são recuperados do ONTAP.</block>
@@ -3993,7 +3954,6 @@
   <block id="660aad66a7be47efbd614fddb4ff93b8" category="list-text">Remova a proteção do recurso clonado usando o cmdlet remove-sprotectresource.</block>
   <block id="2a251da54f18e5dbcf2e7040051b6002" category="list-text">Selecione o recurso pai na página recursos.</block>
   <block id="9fbd721fcf9b4830fd6828081be6f142" category="list-text">Na visualização Gerenciar cópias, selecione os clones nos sistemas de storage primário ou secundário (espelhado ou replicado).</block>
-  <block id="90021265060d6610a36239d59c25b4e1" category="list-text">Selecione os clones e clique <block ref="097a6d0ab39a212263c3129e9214fa08" category="inline-image-macro-rx" type="image"></block> para excluir clones ou clique para <block ref="4e76ccc6d666f337d0615fe61d91903b" category="inline-image-macro-rx" type="image"></block>dividir os clones.</block>
   <block id="8a9acf145456ddf488e58afbf2c913a1" category="summary">Os recursos são bancos de dados SAP HANA e volume não-dados no host Linux gerenciado pelo SnapCenter. Você pode adicionar esses recursos a grupos de recursos para executar operações de proteção de dados depois de descobrir os bancos de dados do SAP HANA que estão disponíveis.</block>
   <block id="7ae0ad473e0b444f584e63e025e0d4e0" category="doc">Descubra os bancos de dados automaticamente</block>
   <block id="990aced1e85209fa5ddea1ba17374d81" category="list-text">Você já deve ter concluído tarefas como instalar o servidor SnapCenter, adicionar a chave de armazenamento de usuários HDB, adicionar hosts e configurar as conexões do sistema de armazenamento.</block>
@@ -4005,8 +3965,6 @@
   <block id="ea6799b398e3200b6531e1aa5a544d0c" category="list-text">No painel de navegação à esquerda, clique em *Resources* e selecione o Plug-in para banco de dados SAP HANA na lista.</block>
   <block id="3e025b4a685d145a938552cff1a33612" category="list-text">Na página recursos, selecione o tipo de recurso na lista Exibir.</block>
   <block id="b630478df4d6cf0a952d6dc7f39a7398" category="inline-image-macro">ícone de filtro</block>
-  <block id="539da50c1cfbe2a04bb6b229f1dd0ee9" category="list-text">(Opcional) clique em *<block ref="6baddd7f5b485bce282661b4e4579f17" category="inline-image-macro-rx" type="image"></block>* e selecione o nome do host.</block>
-  <block id="dc56c1ed4d6e6f9e0b65bd544aa90f17" category="paragraph">Em seguida, pode clicar em<block ref="6baddd7f5b485bce282661b4e4579f17" category="inline-image-macro-rx" type="image"></block>* * para fechar o painel do filtro.</block>
   <block id="0f034106893faef4643a4f2e45058c52" category="list-text">Clique em *Atualizar recursos* para descobrir os recursos disponíveis no host.</block>
   <block id="eb037ec78f327455a8e36a07871d70c6" category="paragraph">Os recursos são exibidos juntamente com informações como tipo de recurso, nome do host, grupos de recursos associados, tipo de backup, políticas e status geral.</block>
   <block id="d960a78735f8828146abd7c7f897adb9" category="list-text">Se o banco de dados estiver em um armazenamento NetApp e não estiver protegido, então não protegido será exibido na coluna Estado geral.</block>
@@ -4021,7 +3979,6 @@
   <block id="a522de1c9e8142024caf95a576334245" category="summary">Importe os certificados de CA do servidor SnapCenter e os plug-ins de host do Windows</block>
   <block id="d03608911fb0f378ca59b86a32adfb17" category="summary">Você deve instalar e configurar o plug-in do SnapCenter para o banco de dados SAP HANA se quiser proteger os bancos de dados SAP HANA.</block>
   <block id="1360b9c3f96e4bcb224d198ae827046e" category="doc">Fluxo de trabalho de instalação do plug-in SnapCenter para banco de dados SAP HANA</block>
-  <block id="8eb6eae2f08f541d02277c6746c4fa05" category="image-alt">sap hana install configure workflow</block>
   <block id="b82e91ec04ff8005a130fb3f67788852" category="summary">Se seu banco de dados estiver armazenado em máquinas virtuais (VMs) ou se você quiser proteger VMs e datastores, será necessário implantar o plug-in do SnapCenter para o dispositivo virtual VMware vSphere.</block>
   <block id="6f01b59c00a65f99d3b7a7226c0e4472" category="doc">Instale o plug-in do SnapCenter para VMware vSphere</block>
   <block id="65c7bdc0c946f828cd443cfb3a30afb1" category="summary">Você pode instalar os Pacotes de plug-in do SnapCenter para Linux ou Windows em vários hosts simultaneamente usando o cmdlet Install-SmHostPackage PowerShell.</block>
@@ -4049,7 +4006,6 @@
   <block id="294b56a283e4d5bb64865a3cf0a721fa" category="list-text">DINSTALL_LOG_NAME especifica o nome do arquivo de log.</block>
   <block id="b3f72639442ac8dbec9806a234d5e8db" category="list-text">Edite o arquivo /&lt;installation directory&gt;/NetApp/SnapCenter/scc/etc/SC_SMS_Services.properties e, em seguida, adicione o parâmetro PLUGINS_ENABLED: HANA:3,0.</block>
   <block id="550b8e3545b2126ab5138fd027e787fa" category="list-text">Adicione o host ao servidor SnapCenter usando o cmdlet Add-Smhost e os parâmetros necessários.</block>
-  <block id="fa83850da452d1673de1d2a4b7331a1d" category="paragraph">As informações sobre os parâmetros que podem ser usados com o comando e suas descrições podem ser obtidas executando _get-Help command_name_. Em alternativa, pode também consultar o<block ref="9fb81e83cc984151f290e0895df315ab" category="inline-link-rx"></block>.</block>
   <block id="6caa4afe72478c59bf8ac3860bb47274" category="doc">Monitore operações de proteção de dados em bancos de dados SAP HANA no painel atividade</block>
   <block id="28fcd30ab7740350640e0c975b072b39" category="doc">Monitorar operações de clone de banco de dados SAP HANA</block>
   <block id="4b0b8f3dcc1d02bb62d5a7533b295209" category="summary">Pode monitorizar o progresso de diferentes operações de cópia de segurança utilizando a página trabalhos do SnapCenter. Você pode querer verificar o progresso para determinar quando ele está concluído ou se há um problema.</block>
@@ -4139,7 +4095,6 @@
   <block id="dd5f630f41cdfc02249f05e881feeef5" category="summary">O fluxo de trabalho de restauração e recuperação inclui Planejamento, execução das operações de restauração e monitoramento das operações.</block>
   <block id="e30c3d908a4ed515e16791b672cc0709" category="doc">Restaure o fluxo de trabalho</block>
   <block id="f221802dd348fa7fec376c674a7bceda" category="paragraph">O fluxo de trabalho a seguir mostra a sequência na qual você deve executar a operação de restauração:</block>
-  <block id="ab1766e2f818502d241cbf5a342c79b2" category="paragraph"><block ref="a6dcfd82d7351176f300ceb232e12596" category="inline-link-rx"></block>.</block>
   <block id="59d768705f8a463584a92c34f8b26770" category="summary">O SnapCenter usa credenciais para autenticar usuários para operações do SnapCenter. Você deve criar credenciais para instalar plug-ins do SnapCenter e credenciais adicionais para executar operações de proteção de dados em bancos de dados ou sistemas de arquivos do Windows.</block>
   <block id="8f088fc353589a53b22d09fce118b2a6" category="doc">Configurar credenciais para o plug-in SnapCenter para banco de dados SAP HANA</block>
   <block id="83a4564a02eccf5fe52d1422b54a7171" category="paragraph">Você deve configurar credenciais para instalar plug-ins em hosts Linux.</block>
@@ -4147,7 +4102,6 @@
   <block id="32349c7043aa51a208b72c7154d6265d" category="cell">*Prática recomendada:* embora você tenha permissão para criar credenciais para Linux após implantar hosts e instalar plug-ins, a prática recomendada é criar credenciais após adicionar SVMs, antes de implantar hosts e instalar plug-ins.</block>
   <block id="dd257e1a3b6711041e3c450e799d00d3" category="paragraph">Você deve configurar as credenciais do Windows antes de instalar os plug-ins.</block>
   <block id="4ddc1a451ac7487f5c09c4ecb0acc096" category="paragraph">Você deve configurar as credenciais com o Privileges de administrador, incluindo direitos de administrador no host remoto.</block>
-  <block id="ffa66d0b6548351c980beb43900626f7" category="image-alt">instale a conta runas</block>
   <block id="360027b0fe13d40229e30b3f3bf19043" category="list-text">Na página Credential (credencial), especifique as informações necessárias para configurar credenciais:</block>
   <block id="a5f3bff0d7667c1bb37c185dbaac3ff8" category="paragraph">Nome da credencial</block>
   <block id="18274e168d1fce1bedb612015e797fb4" category="paragraph">Introduza um nome para as credenciais.</block>
@@ -4272,7 +4226,6 @@
   <block id="49ee0af5f7bb584f9569b5628fd1170e" category="paragraph">O NetApp fornece o plug-in de storage para executar operações de proteção de dados do volume de dados no storage ONTAP usando a estrutura de plug-in personalizada incorporada ao SnapCenter.</block>
   <block id="dd4b762c191c7a235ce898c094749679" category="paragraph">Você pode instalar o plug-in personalizado e o plug-in de armazenamento na página Adicionar host.</block>
   <block id="a5f00a79eb947021702cee9fc1d05354" category="paragraph"><block ref="a5f00a79eb947021702cee9fc1d05354" category="inline-link-macro-rx"></block></block>
-  <block id="56cb38ae9f515c555dfc8601fd4c0070" category="paragraph">O NetApp também fornece plug-ins personalizados MySQL, MAXDB, DB2, SYBASE, DPGLUE, MongoDB, ORASCPM e PostgreSQL. Esses plug-ins podem ser baixados do<block ref="554f546cf121f440c6cfd97d643765df" category="inline-link-rx"></block>.</block>
   <block id="022c56789408e44b04cf1944babfa527" category="admonition">A política de suporte do SnapCenter cobrirá o suporte para a estrutura de plug-in personalizada do SnapCenter, mecanismo central e as APIs associadas. O suporte não cobrirá o código-fonte do plug-in e os scripts associados criados na estrutura de plug-in personalizada.</block>
   <block id="4a7e6c3a47ec940f7e3059981cd146da" category="paragraph">Pode criar os seus próprios plug-ins personalizados consultando <block ref="9ef4188c6ecd9ed20479c22e2842115e" category="inline-link-macro-rx"></block>o .</block>
   <block id="f756f2ea5c5f2dba717e2d3dfdc37719" category="summary">Você pode usar os plug-ins personalizados do SnapCenter para operações de proteção de dados.</block>
@@ -4346,7 +4299,6 @@
   <block id="55b8e92bcb8dde8186cf4ceac6338bce" category="list-text">Cmdlet Upload-SmPluginPackage</block>
   <block id="3b1bcb11ca95b8e7cac83075102f8b18" category="paragraph">Por exemplo, PS&gt; Upload-SmPluginPackage -AbsolutePath c: DB2_1.zip</block>
   <block id="30b91011e7233366bf6fe72b9e39581e" category="paragraph">Para obter informações detalhadas sobre cmdlets do PowerShell, use a ajuda do cmdlet SnapCenter ou consulte as informações de referência do cmdlet.</block>
-  <block id="3b397e3155a4fe68412110902ea159be" category="paragraph"><block ref="fd02fd52ea699b6c565ffa85f9c639d5" category="inline-link-rx"></block>.</block>
   <block id="fdd90a3a6fddb98b5af79243529077e9" category="section-title">Implantando os plug-ins personalizados</block>
   <block id="22a9a756176e1eda572d9437ffccee0c" category="paragraph">O plug-in personalizado carregado agora está disponível para implantação no host desejado como parte do fluxo de trabalho *Add* e *Modify Host*. Você pode ter várias versões de plug-ins carregados para o servidor SnapCenter e pode selecionar a versão desejada para implantar em um host específico.</block>
   <block id="17db70fd5b158b3914a2950d570e4bf0" category="paragraph">Para obter mais informações sobre como carregar o plug-in, consulte, <block ref="160cc1b049fe5d10ecf41332794586e5" category="inline-link-macro-rx"></block></block>
@@ -4633,8 +4585,6 @@
   <block id="3268d25ce0e47e87022d19706bd20155" category="list-text">Selecione *Upload*.</block>
   <block id="14c63a85dc0d2eb17d6a4de481e630f9" category="paragraph">O arquivo .xml do descritor na pasta de plug-in personalizado zipado é validado antes que o pacote seja carregado.</block>
   <block id="22b9c22ece0544103d4ef5fde3f3591c" category="paragraph">Os plug-ins personalizados que são carregados para o servidor SnapCenter são listados.</block>
-  <block id="00ebf5cec061915cd0462d73602dcad8" category="inline-link">Loja de automação da NetApp</block>
-  <block id="fa5ad2e8d730251bd90eea875f95091c" category="paragraph">Se você quiser gerenciar aplicativos MySQL ou DB2, você pode usar os plug-ins personalizados MySQL e DB2 fornecidos pelo NetApp. Os plug-ins personalizados MySQL e DB2 estão disponíveis no<block ref="480a3096e7d732b8f84f20e353e713fd" category="inline-link-rx"></block></block>
   <block id="ab443ca6692007d7b4d66d4e3044cbd8" category="paragraph">Se você não tiver selecionado a caixa de seleção *Ignorar pré-verificações*, o host será validado para verificar se o host atende aos requisitos para a instalação do plug-in. O espaço em disco, a RAM, a versão do PowerShell, a versão do .NET, a localização (para plug-ins do Windows) e a versão Java (para plug-ins do Linux) são validados de acordo com os requisitos mínimos. Se os requisitos mínimos não forem cumpridos, são apresentadas mensagens de erro ou de aviso adequadas.</block>
   <block id="8fa2fcad4f9983d73cc8cf50dc7850bb" category="list-text">Se o tipo de host for Linux, verifique a impressão digital e selecione *Confirm and Submit*.</block>
   <block id="31b463f293ed77bac56a34d46826de49" category="paragraph">Os arquivos de log específicos da instalação estão localizados em<block ref="beb5ec5a83e557b91eccba92e6ac85e2" prefix=" " category="inline-code"></block> logs.</block>
@@ -4644,7 +4594,6 @@
   <block id="be2d786365162f9949969e2f176ef13a" category="inline-link-macro">criou um plug-in personalizado para a sua aplicação</block>
   <block id="86de8a90b3fba9ddc4880b8903987555" category="list-text">Você deve ter <block ref="4ad0bd1144546248adc0fb1c490ceec4" category="inline-link-macro-rx"></block>.</block>
   <block id="797f1e031962d70e46335925184febf4" category="list-text">Você deve ter carregado os plug-ins para o servidor SnapCenter.</block>
-  <block id="eb609425665410a2e3cc5d5000880798" category="paragraph">Você também pode adicionar recursos para aplicativos MySQL e DB2. Esses plug-ins podem ser baixados do<block ref="14adb94a4faec9ea0e0992d90e98b640" category="inline-link-rx"></block>.</block>
   <block id="b828f6db4e08909e879dfbf229208eff" category="list-text">Na página recursos, selecione *Adicionar recurso*.</block>
   <block id="0750f05e0542388153777a63b5fa887c" category="paragraph">Introduza o nome do recurso.</block>
   <block id="d82b9729484cf5fd2948c596280e72fb" category="paragraph">Selecione o host.</block>
@@ -4669,15 +4618,11 @@
   <block id="fab91412eb5d45bdeeca565417bd43bb" category="summary">O fluxo de trabalho de backup inclui Planejamento, identificação dos recursos para backup, gerenciamento de políticas de backup, criação de grupos de recursos e inclusão de políticas, criação de backups e monitoramento das operações.</block>
   <block id="33e8da2f20646df222fc0acf35201fe4" category="doc">Fazer backup de recursos de plug-in personalizados</block>
   <block id="f395a8aee7b6b7007a1b6a64b54468f1" category="image-alt">Fluxo de trabalho de backup</block>
-  <block id="675571f27ff34eb04cb3a55743875e81" category="paragraph">Você também pode usar cmdlets do PowerShell manualmente ou em scripts para executar operações de backup, restauração e clone. Para obter informações detalhadas sobre cmdlets do PowerShell, use a ajuda do cmdlet SnapCenter ou consulte o.<block ref="4853c0cbcda9b8774420b21ed388016e" category="inline-link-rx"></block></block>
   <block id="edc25de414c7fe73d241458dab7bca2b" category="summary">Se um recurso de plug-in personalizado individual não fizer parte de qualquer grupo de recursos, você poderá fazer o backup do recurso na página recursos. Você pode fazer backup do recurso sob demanda ou, se o recurso tiver uma política anexada e uma programação configurada, os backups ocorrem automaticamente de acordo com a programação.</block>
   <block id="8ffa4ba0dd2df5995fd397c72a149679" category="doc">Faça backup de recursos individuais de plug-in personalizados</block>
-  <block id="2b88427244b62aacd4debde72476dcb0" category="paragraph">Clique <block ref="f7fe4e34c7d99a8a3a2c66cbdc7de7d8" category="inline-image-macro-rx" type="image"></block>em e selecione o nome do host e o tipo de recurso para filtrar os recursos. Em seguida, pode clicar <block ref="2df6cc2e237d722aa6244879c70fd2d2" category="inline-image-macro-rx" type="image"></block> para fechar o painel de filtro.</block>
   <block id="085ab917326888bb9fd0378b5efb84b9" category="list-text">Clique no recurso que você deseja fazer backup.</block>
   <block id="aeae183dfc696fe75906213d043a525b" category="list-text">Na página recurso, se você quiser usar um nome personalizado, marque a caixa de seleção *usar formato de nome personalizado para cópia Snapshot* e insira um formato de nome personalizado para o nome da captura Instantânea.</block>
   <block id="168d37e62ff50182379a645020cf7152" category="paragraph">Selecione urgente, Médio ou relaxado para especificar o tempo de espera para que a operação Snapshot seja concluída.</block>
-  <block id="ee5dc0e4ad2a255f15e5b8206b5f42e1" category="inline-image-macro">Página de definições da aplicação</block>
-  <block id="bed9b64da70ed7a9d6e9838df1b96480" category="paragraph"><block ref="bed9b64da70ed7a9d6e9838df1b96480" category="inline-image-macro-rx" type="image"></block></block>
   <block id="54c33b2bcea395f4a04e336452fdf01b" category="list-text">Clique na seta *Scripts* para executar comandos pré e POST para operações quiesce, Snapshot e unquiesce. Você também pode executar pré-comandos antes de sair da operação de backup.</block>
   <block id="a5094e6952e443df9b800d4f5e45d91d" category="paragraph">Os Prescripts e postscripts são executados no servidor SnapCenter.</block>
   <block id="b6b1826c899350995a39684ee19f8c7d" category="list-text">Clique na seta *Custom Configurations* (Configurações personalizadas) e insira os pares de valores personalizados necessários para todos os trabalhos que usam esse recurso.</block>
@@ -4691,7 +4636,6 @@
   <block id="6b4dbd62846fc1dc78b9f63f11af9c78" category="list-text">Se você tiver aplicado várias políticas ao recurso, na lista suspensa *Política*, selecione a política que deseja usar para backup.</block>
   <block id="665e27cacd5b140b3ca5a518bbd41724" category="doc">Faça backup de grupos de recursos de plug-in personalizados</block>
   <block id="0dd1baa389f6493ff89ba4f1d23f127b" category="list-text">Se você quiser fazer backup de um recurso que tenha uma relação SnapMirror com o armazenamento secundário, a função ONTAP atribuída ao usuário de armazenamento deve incluir o privilégio "'SnapMirror All'". No entanto, se você estiver usando a função "vsadmin", o privilégio "SnapMirror all" não será necessário.</block>
-  <block id="30a67a946d29a3e673f6bc6ed240d621" category="paragraph">Você pode pesquisar o grupo de recursos inserindo o nome do grupo de recursos na caixa de pesquisa ou clicando <block ref="6baddd7f5b485bce282661b4e4579f17" category="inline-image-macro-rx" type="image"></block> e selecionando a tag. Em seguida, pode clicar <block ref="6baddd7f5b485bce282661b4e4579f17" category="inline-image-macro-rx" type="image"></block> para fechar o painel de filtro.</block>
   <block id="6c22568aa6116c11fda42febcf7b796a" category="list-text">Na página grupos de recursos, selecione o grupo de recursos que deseja fazer backup e clique em *fazer backup agora*.</block>
   <block id="44119ab6cb16491e354c029de67b6782" category="list-text">Se você associou várias políticas ao grupo de recursos, na lista suspensa *Política*, selecione a política que deseja usar para backup.</block>
   <block id="656764dc4fc9063500ad9c4607e32b3b" category="paragraph"><block ref="656764dc4fc9063500ad9c4607e32b3b" category="inline-link-rx"></block></block>
@@ -4702,12 +4646,10 @@
   <block id="d51b1b50a87024de88cbdf1b6d828c21" category="paragraph">Este exemplo cria uma nova política de backup:</block>
   <block id="76ff1ceb8558ff2b4e47757b810cbdef" category="doc">Cancelar operações de backup para plug-ins personalizados</block>
   <block id="8c922e6a0134954b667b072d00b58ce3" category="doc">Clonar backups usando cmdlets do PowerShell</block>
-  <block id="f38b252c1f8d9117dcfdbe7e39979f64" category="paragraph">Para obter informações sobre cmdlets do PowerShell, use a ajuda do cmdlet SnapCenter ou consulte<block ref="fe417e447e5dbfed4a048719fc696962" category="inline-link-rx"></block> .</block>
   <block id="e8afddd41cf3a716324442f7a4538460" category="list-text">Liste os backups que podem ser clonados usando o cmdlet Get-SmBackup ou Get-SmResourceGroup.</block>
   <block id="b92d70c39b6e5b77f828b04b1f8cf2e7" category="paragraph">Este exemplo exibe informações sobre um grupo de recursos especificado:</block>
   <block id="490bfe5ade57157a35bf58b686acb1cf" category="list-text">Inicie uma operação de clone a partir de um grupo de recursos de clone ou de um backup existente usando o cmdlet New-SmClone.</block>
   <block id="e734e6e2e702d38ebab6ed3c050a5e72" category="doc">Clonar backups de recursos de plug-in personalizados</block>
-  <block id="9ab0983e48953326fc2d6eb5ded6744b" category="paragraph">Você também pode usar cmdlets do PowerShell manualmente ou em scripts para executar operações de backup, restauração e clone. Para obter informações detalhadas sobre cmdlets do PowerShell, use a ajuda do cmdlet SnapCenter ou consulte<block ref="fe417e447e5dbfed4a048719fc696962" category="inline-link-rx"></block> .</block>
   <block id="2c680d95270ab9050da54ca67f598551" category="summary">Você pode usar o SnapCenter para clonar um backup. Você pode clonar do backup primário ou secundário. As funcionalidades das operações de clone dependem do plug-in que você usa.</block>
   <block id="569002e953b26f14a2da67d9ad9dcc73" category="doc">Clone de um backup</block>
   <block id="81c54d2e986218192c378df7d2c3b960" category="list-text">Você deve ter feito backup dos recursos ou do grupo de recursos.</block>
@@ -4752,7 +4694,6 @@
   <block id="7a81b88ed3ac8ca5e67c201e36eca211" category="list-text">Na página *replicação*, especifique as configurações de replicação:</block>
   <block id="7630e21f8142849489483b7354d0643a" category="paragraph">Se a relação de proteção no ONTAP for do tipo espelho e Cofre e se você selecionar somente essa opção, instantâneo criado no primário não será transferido para o destino, mas será listado no destino. Se este instantâneo for selecionado no destino para executar uma operação de restauração, a seguinte mensagem de erro será exibida: Local secundário não está disponível para o backup abobadado/espelhado selecionado.</block>
   <block id="75b3f5ccaa0a432666656554ea274cd8" category="inline-link-macro">Veja backups e clones relacionados a recursos de plug-in personalizados na página topologia</block>
-  <block id="6ce9eaa0f0e54448047c63d46dc547b2" category="paragraph"><block ref="e93d68617e6aa08ec2871acfeebf51e9" category="inline-link-macro-rx"></block>Consulte .</block>
   <block id="d2f577cb0769d7c31f2785dd590b9f27" category="paragraph">Para obter mais informações sobre o SnapLock Vault, consulte confirmar snapshots para WORM em um destino de cofre</block>
   <block id="4f2f5ecb6e9ddbc65d919530d4364ba6" category="admonition">Você deve configurar a política de retenção do SnapMirror no ONTAP para o storage secundário para evitar atingir o limite máximo de snapshots no storage secundário.</block>
   <block id="96a63fe0cf1de573b75ba5f458cbdc60" category="doc">Crie grupos de recursos e anexe políticas no SnapCenter</block>
@@ -4841,10 +4782,8 @@
   <block id="652adaef4ef8ab71be391a952ace680c" category="list-text">Selecione o backup na tabela e clique nos ícones de proteção de dados para executar operações de restauração, clonagem, renomeação e exclusão.</block>
   <block id="53ad3fdb1526bfd9b033d7e9b88ea6e2" category="admonition">Não é possível renomear ou excluir backups que estão no sistema de armazenamento secundário.</block>
   <block id="043c647bbfcefaa1da5bb7d1e9fe7eb4" category="admonition">Não é possível renomear os backups que estão no sistema de armazenamento primário.</block>
-  <block id="be966cb36ed036d9d34f4c527755cbe8" category="list-text">Se você quiser excluir um clone, selecione o clone da tabela e clique <block ref="097a6d0ab39a212263c3129e9214fa08" category="inline-image-macro-rx" type="image"></block> para excluir o clone.</block>
   <block id="50d4934279cff62c1929dc7c0c7c715d" category="summary">Ao instalar o plug-in do SnapCenter para Microsoft Exchange Server em seu ambiente, você pode usar o SnapCenter para fazer backup dos recursos do Exchange.</block>
   <block id="6a9a694fbb40be17e9c2dd832436bce8" category="paragraph">Você pode agendar vários backups para serem executados em servidores simultaneamente. As operações de backup e restauração não podem ser executadas simultaneamente no mesmo recurso. Cópias de backup ativas e passivas no mesmo volume não são suportadas.</block>
-  <block id="58f286cbafd33e30ed9fd4a95a26e0f7" category="paragraph"><block ref="58f286cbafd33e30ed9fd4a95a26e0f7" category="inline-image-macro-rx" type="image"></block></block>
   <block id="5060fe17eb15393a38b634cfabf7122a" category="summary">Você deve instalar e configurar o plug-in do SnapCenter para o Microsoft Exchange Server se quiser proteger bancos de dados do Exchange.</block>
   <block id="31db120ce3e7f7d5198a060e87905d01" category="doc">Fluxo de trabalho de instalação do plug-in SnapCenter para Microsoft Exchange Server</block>
   <block id="5e312685e47c74b5ee2a4102a18ee03f" category="doc">ONTAP Privileges mínimo necessário para o plug-in do Exchange</block>
@@ -4960,8 +4899,6 @@
   <block id="5aa777c1f960829a25522e1d2a549871" category="list-text">Update-MailboxDatabaseCopy</block>
   <block id="0f14951f7fd1d656890413b5b92b9059" category="summary">Você pode usar o SnapCenter para restaurar bancos de dados do Exchange restaurando um ou mais backups no seu sistema de arquivos ativo.</block>
   <block id="c37b0bdb3c7a24db287508745921aed4" category="paragraph">O fluxo de trabalho a seguir mostra a sequência na qual você deve executar as operações de restauração de banco de dados do Exchange:</block>
-  <block id="aa6ca9252fe71f2526184035732777e9" category="paragraph"><block ref="aa6ca9252fe71f2526184035732777e9" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="f42c62b18df55cf942fb24bb3ee288f4" category="paragraph">Você também pode usar cmdlets do PowerShell manualmente ou em scripts para executar operações de backup e restauração. Para obter informações detalhadas sobre cmdlets do PowerShell, use a ajuda do cmdlet SnapCenter ou<block ref="9fb81e83cc984151f290e0895df315ab" category="inline-link-rx"></block> consulte .</block>
   <block id="4ca48d63db1547d2aa6b271f22219b7b" category="doc">Tipos de armazenamento suportados pelo plug-in SnapCenter para Microsoft Windows e para Microsoft Exchange Server</block>
   <block id="924dbab7608ad7bebe0adaf9e15b8542" category="paragraph">O suporte para provisionamento e proteção de dados do SnapCenter está disponível no Windows Server. Para obter as informações mais recentes sobre versões suportadas, consulte o <block ref="c16ce45673244a1fe516b0ed4d92ee5c" category="inline-link-rx"></block>.</block>
   <block id="ea29cdcae37307c1c67337a9e8dca9ea" category="paragraph">Apenas compatibilidade física</block>
@@ -5025,18 +4962,14 @@
   <block id="860213bd7e47ab530bb0265db0d4d02a" category="cell">*Prática recomendada:* não execute backups de bancos de dados ativos e passivos ao mesmo tempo. Uma condição de corrida pode ocorrer e um dos backups pode falhar.</block>
   <block id="1aa4e724dd9a6c283aa6653b764530f0" category="list-text">No painel de navegação à esquerda, clique em *recursos* e selecione o *plug-in do Microsoft Exchange Server* na lista.</block>
   <block id="56211ba6636186607e13945dac559a10" category="list-text">Na página recursos, selecione *Banco de dados* ou *Grupo de disponibilidade de banco de dados* na lista *Exibir*.</block>
-  <block id="6da272f1d69c440674470ba19591ba05" category="paragraph">Na página recursos, o <block ref="362bbfc4e46b557d6a4f1f7a4cbeaf25" category="inline-image-macro-rx" type="image"></block> ícone indica que o banco de dados está em armazenamento não NetApp.</block>
   <block id="0ad1c36a6c3e0a80135136739263c1d7" category="admonition">Em um DAG, se uma cópia de banco de dados ativo estiver em um armazenamento não NetApp e pelo menos uma cópia de banco de dados passivo residir em um armazenamento NetApp, você poderá proteger o banco de dados.</block>
-  <block id="8ec049c5812d131f3e960eb36acfe281" category="paragraph">Clique em *<block ref="f7fe4e34c7d99a8a3a2c66cbdc7de7d8" category="inline-image-macro-rx" type="image"></block>* e selecione o nome do host e o tipo de banco de dados para filtrar os recursos. Em seguida, pode clicar em<block ref="f7fe4e34c7d99a8a3a2c66cbdc7de7d8" category="inline-image-macro-rx" type="image"></block>* * para fechar o painel do filtro.</block>
   <block id="bb40ccbb928b274cb38a895aef70f856" category="list-text">Se você quiser fazer backup de um banco de dados, clique no nome do banco de dados.</block>
   <block id="8373034f279dfd1570ec179c090b858c" category="list-text">Se a vista topologia for apresentada, clique em *Protect*.</block>
   <block id="c5f4c29439aa6c78216cfa3f9865548c" category="list-text">Se for apresentado o assistente Database - Protect Resource (base de dados - proteger recurso), avance para o passo 3.</block>
   <block id="54449f6b5c8531f99928e88f563830f0" category="list-text">Se você quiser fazer backup de um grupo de disponibilidade de banco de dados, clique no nome do grupo de disponibilidade de banco de dados.</block>
   <block id="eb71c7e77b1cb5486117cdac9d378fb6" category="list-text">Se você quiser especificar um nome de instantâneo personalizado, na página recursos, marque a caixa de seleção *usar formato de nome personalizado para cópia Snapshot* e insira um formato de nome personalizado que você deseja usar para o nome da captura Instantânea.</block>
   <block id="2ebdd237cad2d1f8e79c0e03ecacf3e4" category="admonition">Se uma política contiver a opção *Backup de cópias em servidores a serem selecionados na hora de criação da tarefa de backup*, uma opção de seleção de servidor será exibida para selecionar um ou mais servidores. A opção de seleção de servidor listará apenas o servidor onde o banco de dados selecionado está em um armazenamento NetApp.</block>
-  <block id="d9efe8cd3b84ef411469a4acc1e9bb8a" category="list-text">Clique em<block ref="abe09f480538c71c9fc89b98cd91e2d0" category="inline-image-macro-rx" type="image"></block>* * na coluna Configurar agendas para a política para a qual você deseja configurar um agendamento.</block>
   <block id="b04a2aa13bc9b5c2000bf98771ae837a" category="list-text">Na janela Adicionar programações para a política _policy_name_, configure a programação e clique em *OK*.</block>
-  <block id="0f9a723c6f5eb511c1b09b3ba75314b7" category="paragraph">Você também deve especificar os endereços de e-mail do remetente e do destinatário e o assunto do e-mail. Se quiser anexar o relatório da operação de backup realizada no recurso, selecione *Anexar Relatório de trabalho*.</block>
   <block id="4dcb8f86b6b59353b86d64a1b6090e41" category="admonition">Para notificação por e-mail, você deve ter especificado os detalhes do servidor SMTP usando a GUI ou o comando PowerShell SET-SmtpServer.</block>
   <block id="6e20353bd5ea6118ce22e0b4e81aef53" category="paragraph">A página de topologia do banco de dados é exibida.</block>
   <block id="bb43b313441613889840a70c3dde17eb" category="list-text">Monitore o progresso do backup clicando duas vezes no trabalho no painel atividade na parte inferior da página para exibir a página Detalhes do trabalho.</block>
@@ -5046,7 +4979,6 @@
   <block id="1bbe027c3f1875faca6a0e19b110374a" category="list-text">Se um grupo de recursos tiver vários bancos de dados de hosts diferentes, a operação de backup em alguns dos hosts pode começar tarde devido a problemas de rede. Você deve configurar o valor de<block ref="d64fa5ed6e4f9d90354e90ccc68fcee6" prefix=" " category="inline-code"></block> in<block ref="0ed3c2119f203df035d396aaee45a14a" prefix=" " category="inline-code"></block> usando o<block ref="c49971dbd0f66cf4e6b62fc441967947" prefix=" " category="inline-code"></block> cmdlet PowerShell.</block>
   <block id="a1d7cae473cc035fb76e1540b76e2763" category="list-text">Em um grupo de recursos, se você incluir um banco de dados ou um grupo de disponibilidade de banco de dados que tenha cópia de banco de dados ativo/passivo em um armazenamento NetApp e não NetApp e tiver selecionado *fazer backup de cópias ativas* ou *fazer backup de cópias em servidores a serem selecionadas durante o tempo de criação da tarefa de backup* na política, os trabalhos de backup entrarão no estado de aviso.</block>
   <block id="b9c7ed41d7e2f0a91ab873b63037fa09" category="paragraph">O backup será bem-sucedido para cópia de banco de dados ativo/passivo no armazenamento NetApp e o backup falhará para cópia de banco de dados ativo/passivo em armazenamento não NetApp.</block>
-  <block id="3a16a5fe7a351d2059010bdd627dffd9" category="paragraph">Você pode pesquisar o grupo de recursos inserindo o nome do grupo de recursos na caixa de pesquisa ou clicando em *<block ref="f7fe4e34c7d99a8a3a2c66cbdc7de7d8" category="inline-image-macro-rx" type="image"></block>* e, em seguida, selecionando a tag. Em seguida, pode clicar em<block ref="f7fe4e34c7d99a8a3a2c66cbdc7de7d8" category="inline-image-macro-rx" type="image"></block>* * para fechar o painel do filtro.</block>
   <block id="47dfd37b6d44f98f65b2e75ff64e7f3a" category="summary">Fazer backup de um banco de dados do Exchange Server inclui estabelecer uma conexão com o servidor SnapCenter, descobrir o banco de dados do Exchange Server, adicionar uma política, criar um grupo de recursos de backup, fazer backup e exibir o status do backup.</block>
   <block id="6c40f1cde52cc35bedb76a6ac167d83e" category="doc">Faça backup dos recursos do Exchange usando cmdlets do PowerShell</block>
   <block id="177c6d04e35e22fd728d0f8aa88c6c74" category="admonition">O plug-in para Exchange não oferece suporte a operações de clone; portanto, o parâmetro CloneType para o cmdlet Add-SmPolicy não é compatível com Plug-in para Exchange</block>
@@ -5162,7 +5094,6 @@
   <block id="5aeb9e6d879dba508efed2806a37d0b1" category="list-text">Na página replicação, selecione uma ou ambas as seguintes opções de replicação secundária:</block>
   <block id="3c2828ba75d966a57611ae076f53de62" category="paragraph">Atualize o SnapMirror depois de criar um instantâneo local</block>
   <block id="baf51638fcd69f7ad248b14cc9899660" category="inline-link-macro">Veja backups do Exchange na página topologia</block>
-  <block id="71b77a4bad64b070565be9e5bbc60400" category="paragraph"><block ref="c64479a7771bc8ca24f9d7253eeea5a7" category="inline-link-macro-rx"></block>Consulte .</block>
   <block id="993129239b6168608f9de64f4e71982a" category="paragraph">Selecione esta opção para manter cópias espelhadas de conjuntos de backup em outro volume (SnapMirror).</block>
   <block id="d515aa4634219e7d2319e5e18234ff1a" category="paragraph">Atualize o SnapVault depois de criar um instantâneo local</block>
   <block id="74634d46f4094928b9a2dbffb638ae7f" category="paragraph">Selecione esta opção para executar a replicação de backup de disco para disco.</block>
@@ -5258,7 +5189,6 @@
   <block id="96b6fde24fc45821a7c8c021ba21b20b" category="list-text">No painel de navegação esquerdo, clique em *recursos* e selecione *Microsoft Exchange Server* na lista suspensa plug-ins localizada no canto superior esquerdo da página recursos.</block>
   <block id="71edd90271636e3f12b43102371d4d7d" category="list-text">Na página recursos, selecione *Banco de dados* ou *Grupo de disponibilidade de banco de dados* ou *Grupo de recursos* na lista suspensa *Exibir*.</block>
   <block id="322a7c54d7c7799de3e202746d568ea4" category="paragraph">Todos os bancos de dados e DAGs são exibidos com seus DAG ou nomes de host no formato FQDN, para que você possa distinguir entre vários bancos de dados.</block>
-  <block id="d67212a409942028d92b1df9ab4f35be" category="paragraph">Clique <block ref="2df6cc2e237d722aa6244879c70fd2d2" category="inline-image-macro-rx" type="image"></block> e selecione o nome do host e o Exchange Server para filtrar os recursos. Em seguida, pode clicar <block ref="2df6cc2e237d722aa6244879c70fd2d2" category="inline-image-macro-rx" type="image"></block> para fechar o painel de filtro.</block>
   <block id="a52716605edda155f499cf4c4572c6d5" category="list-text">Clique em *Atualizar recursos*.</block>
   <block id="e447517e5ec13b3c9e98a7c686d29ac7" category="paragraph">Os recursos recém-adicionados, renomeados ou excluídos são atualizados para o inventário do servidor SnapCenter.</block>
   <block id="100eb6faf67bf674d493eae8a5daad8d" category="paragraph">Os recursos são exibidos juntamente com informações como nome do recurso, nome do grupo de disponibilidade do banco de dados, servidor no qual o banco de dados está ativo atualmente, servidor com cópias, hora do último backup e status geral.</block>
@@ -5443,11 +5373,9 @@
   <block id="088ea09c5845b030ebf8ae5975d090cb" category="section-title">Modificar o volume da aplicação</block>
   <block id="6c6c48e7a3a56b7164aaa8b8eb204354" category="paragraph">Você pode modificar todos os valores especificados ao adicionar o volume do aplicativo, se não forem criados backups. Se o backup for criado, você só poderá modificar os detalhes do sistema de armazenamento.</block>
   <block id="5fdfa1dd7a57ddc13008214530f96a84" category="list-text">Na página recursos, selecione *volume do aplicativo* na lista *Exibir*.</block>
-  <block id="41287e6665f1099d8af67183be117ffc" category="list-text">Clique <block ref="b170295de64fe7950f9915b4f1c0fac4" category="inline-image-macro-rx" type="image"></block> em para modificar os valores.</block>
   <block id="c1911e0054742b788fdc5f1e0f6cc47e" category="section-title">Eliminar volume da aplicação</block>
   <block id="6aa91ea36ae383d376ecec0ff3aa3575" category="paragraph">Quando você exclui um volume de aplicativo, se houver backups associados ao volume do aplicativo, o volume do aplicativo será colocado em modo de manutenção e nenhum novo backup será criado e nenhum backup anterior será retido. Se não houver backups associados, todos os metadados serão excluídos.</block>
   <block id="27b451b71b83ad1f7c199e95beacd26c" category="paragraph">Se necessário, o SnapCenter permite anular a operação de eliminação.</block>
-  <block id="13840d01141e8e459d92602ca84e3418" category="list-text">Clique <block ref="097a6d0ab39a212263c3129e9214fa08" category="inline-image-macro-rx" type="image"></block> em para modificar os valores.</block>
   <block id="ca8cfef827c659de95ba8d58c493fe2e" category="summary">Você pode usar outras maneiras alternativas de instalar o pacote de plug-ins do SnapCenter para Linux ou o pacote de plug-ins do SnapCenter para AIX.</block>
   <block id="e7cb2183e4886fe2b52516e65c8f47d0" category="doc">Maneiras alternativas de instalar o pacote Plug-ins para Linux ou AIX</block>
   <block id="f121e384c92705c4b18570e5ff63adf9" category="paragraph">Você também pode instalar o pacote Plug-ins para Linux ou AIX manualmente usando os cmdlets ou CLIs.</block>
@@ -5462,7 +5390,6 @@
   <block id="2b003bc969fcb95a51ae5c430eb018f9" category="list-text">Instale o pacote de plug-ins do SnapCenter para Linux ou o pacote de plug-ins do SnapCenter para AIX usando o cmdlet _Install-SmHostPackage_ e os parâmetros necessários.</block>
   <block id="8398ae17225c49028f4838dd76bf4e9a" category="paragraph">Você pode usar a opção _-skipprecheck_ quando já tiver instalado os plug-ins manualmente e não quiser validar se o host atende aos requisitos para instalar o plug-in.</block>
   <block id="e528ab3d425f4f8c5717ba63998f5036" category="admonition">O script de pré-verificação não valida o status do firewall da porta do plug-in se for especificado nas regras de rejeição do firewall.</block>
-  <block id="e14e2cb70b96e6d6c74bfe23c3242651" category="paragraph">As informações sobre os parâmetros que podem ser usados com o cmdlet e suas descrições podem ser obtidas executando _get-Help command_name_. Em alternativa, pode também consultar o<block ref="27efb9187bc662f39802c23be17e8d78" category="inline-link-rx"></block>.</block>
   <block id="cd698498994ae4622e09dca783097461" category="section-title">Instalar no host do cluster</block>
   <block id="681770964a4bfb42839895bbf58e0651" category="paragraph">Você deve instalar o pacote de plug-ins do SnapCenter para Linux ou o pacote de plug-ins do SnapCenter para AIX em ambos os nós do host do cluster.</block>
   <block id="330b6b7a2eb8bbba8866063d7412e0ba" category="paragraph">Cada um dos nós do host do cluster tem dois IPs. Um dos IPs será o IP público dos respetivos nós e o segundo IP será o IP do cluster compartilhado entre ambos os nós.</block>
@@ -5496,13 +5423,10 @@
   <block id="03b2f86fb8831a56c29a6b5186226676" category="paragraph">É possível fazer backup do grupo de recursos que contém apenas volumes de aplicativos ou uma combinação de volumes de aplicativos e banco de dados. Uma operação de backup no grupo de recursos é executada em todos os recursos definidos no grupo de recursos.</block>
   <block id="768f623632c4bc282d735245d72f0082" category="paragraph">Se o grupo de recursos tiver vários volumes de aplicações, todos os volumes de aplicações deverão ter uma política de replicação do SnapMirror ou do SnapVault.</block>
   <block id="aa937e10b9927770901c4ad133aa81f7" category="paragraph">Por padrão, backups do grupo de consistência (CG) são criados. Se você quiser criar backups baseados em volume, defina o valor de *EnableOracleNdvVolumeBasedBackup* como verdadeiro no arquivo _web.config_.</block>
-  <block id="895c7c73b51f1f88870ff5bc421d66ff" category="paragraph">Você pode pesquisar o grupo de recursos inserindo o nome do grupo de recursos na caixa de pesquisa ou clicando em * *<block ref="f7fe4e34c7d99a8a3a2c66cbdc7de7d8" category="inline-image-macro-rx" type="image"></block> e, em seguida, selecionando a tag. Em seguida, pode clicar em<block ref="f7fe4e34c7d99a8a3a2c66cbdc7de7d8" category="inline-image-macro-rx" type="image"></block>* * para fechar o painel do filtro.</block>
   <block id="0bc92cf5f202f2c741414bccdc40afa9" category="admonition">A operação de verificação será realizada apenas para os bancos de dados e não para os volumes de aplicativos.</block>
   <block id="61112f6f5b442a356210cf4cc80ab89d" category="summary">Você pode fazer backup do volume do aplicativo a partir da página recursos se o volume do aplicativo não fizer parte de nenhum grupo de recursos.</block>
   <block id="d8c3b27e33a2869282039b9ff6a23fc5" category="doc">Fazer backup do volume do aplicativo</block>
   <block id="eba902edb76de30c0b6c9d32f53d05ed" category="paragraph">Se o volume do aplicativo não fizer parte de qualquer grupo de recursos, você poderá fazer backup do volume do aplicativo na página recursos.</block>
-  <block id="b9d10a11f62e11b503698c7bbbb76969" category="list-text">Clique em *<block ref="f7fe4e34c7d99a8a3a2c66cbdc7de7d8" category="inline-image-macro-rx" type="image"></block>* e selecione o nome do host e o tipo de banco de dados para filtrar os recursos.</block>
-  <block id="c09c3cc5c352ec79b573a0262d4a9909" category="paragraph">Em seguida, pode clicar em<block ref="f7fe4e34c7d99a8a3a2c66cbdc7de7d8" category="inline-image-macro-rx" type="image"></block>* * para fechar o painel do filtro.</block>
   <block id="c6cc754896fef7ff6303bf792f45397f" category="list-text">Selecione o volume da aplicação que pretende efetuar uma cópia de segurança.</block>
   <block id="fb532da51d82ae5118e8f3d5cb3bbd50" category="paragraph">É apresentada a página de proteção do volume da aplicação.</block>
   <block id="8d2ba99665e114b5e2a9d74a31cdf554" category="list-text">Na página recurso, execute as seguintes ações:</block>
@@ -5510,7 +5434,6 @@
   <block id="99b1f696253ffa3a8fb97bceb5991c38" category="paragraph">Por exemplo, customtext__policy_hostname ou resource_hostname. Por padrão, um carimbo de data/hora é anexado ao nome do instantâneo.</block>
   <block id="056af176267461e7d6a2a9e357208bd7" category="paragraph">Excluir destinos de log de arquivamento do backup</block>
   <block id="491a86dab4dbb4636159b9c8d91d9c09" category="paragraph">Especifique os destinos dos ficheiros de registo de arquivo que não pretende efetuar uma cópia de segurança.</block>
-  <block id="99b0a37a3e506683141bfd2275a4beb2" category="list-text">Clique <block ref="abe09f480538c71c9fc89b98cd91e2d0" category="inline-image-macro-rx" type="image"></block> na coluna Configurar agendas para a política para a qual você deseja configurar um agendamento.</block>
   <block id="b34b9f5decf78eb62a8145da0940d7d1" category="paragraph">_policy_name_ é o nome da política selecionada.</block>
   <block id="f1959398bc1be9959fe83a99b07fd5d3" category="paragraph">Você também deve especificar os endereços de e-mail do remetente e do destinatário e o assunto do e-mail. Se você quiser anexar o relatório da operação de backup realizada no recurso e selecione *Anexar Relatório de trabalho*.</block>
   <block id="e20055e9e346b7f7cc8d7daf8a91a17d" category="paragraph">É apresentada a página topologia do volume da aplicação.</block>
@@ -5576,7 +5499,6 @@
   <block id="b171e637bb7cf16f18741fbe5702d170" category="list-text">Na página Scripts, especifique os nomes dos scripts a serem executados antes da clonagem, comandos para montar um sistema de arquivos e nomes dos scripts a serem executados após a clonagem.</block>
   <block id="914e3ed381a18db751f3d27cad180ad7" category="paragraph">Você também deve especificar os endereços de e-mail do remetente e do destinatário e o assunto do e-mail. Se quiser anexar o relatório da operação clone executada, selecione *Anexar Relatório de trabalho*.</block>
   <block id="056f16a497e3816baf36ca8bb1f47e69" category="section-title">Dividir um clone de volume de aplicativo</block>
-  <block id="04e3f50ebfc3fe23fe3b15e74ef0c167" category="list-text">Selecione o recurso clonado e clique <block ref="4e76ccc6d666f337d0615fe61d91903b" category="inline-image-macro-rx" type="image"></block>em .</block>
   <block id="1ea3b0b9fdff483105222183288bb47b" category="section-title">Excluir um clone de volume de aplicativo</block>
   <block id="84725751afcea79e33e8f51ae4a1add6" category="paragraph">Você pode excluir clones se você achar que eles não são mais necessários. Não é possível excluir clones que atuam como fonte para outros clones.</block>
   <block id="f79f988986305ca48b434d9c452f0fdb" category="list-text">Na página Excluir clone, execute as seguintes ações:</block>
@@ -5595,7 +5517,6 @@
   <block id="3fd7a12fae3b03aeafa87ae960b0cab9" category="paragraph">Ao criar um grupo de recursos, você seleciona uma ou mais políticas para esse grupo. Você também pode selecionar uma política quando você executa um backup sob demanda para um único recurso. Você também pode executar backups programados para recursos únicos e grupos de recursos.</block>
   <block id="7175c7653c984fca11c9b01879ca8386" category="paragraph">Pense em um grupo de recursos como definindo _o que_ você quer proteger e quando você quer protegê-lo em termos de dia e tempo. Pense em uma política como definindo _como_ você quer protegê-la.</block>
   <block id="a1252ded99561e113314773288824c6e" category="paragraph">Se você estiver fazendo backup de todos os bancos de dados de um host, por exemplo, poderá criar um grupo de recursos que inclua todos os bancos de dados no host. Em seguida, você pode anexar duas políticas ao grupo de recursos: Uma política diária e uma política por hora. Ao criar o grupo de recursos e anexar as políticas, você pode configurar o grupo de recursos para executar um backup completo diário e outro agendamento que executa backups de log por hora.</block>
-  <block id="c3bc5ff261b700cf2f6140bad7454c1c" category="image-alt">política do sco resourcegroup</block>
   <block id="f2a9d13a799a8cffca87bc0cf13bcfd5" category="summary">A importação de dados do SnapManager para Oracle e SnapManager para SAP para SnapCenter permite que você continue usando seus dados de versões anteriores.</block>
   <block id="baff9a06787194acd7271c5d6b7eb501" category="doc">Importar dados do SnapManager para Oracle e SnapManager para SAP para SnapCenter</block>
   <block id="ccbb7982e560afd9a6cc04dd5a4e2a33" category="paragraph">Você pode importar dados do SnapManager para Oracle e SnapManager para SAP para SnapCenter executando a ferramenta de importação a partir da interface de linha de comando (CLI de host Linux).</block>
@@ -5829,7 +5750,6 @@
   <block id="4ea1770ff0a5b7262162a1b74b727299" category="admonition">Se houver alguma entrada de banco de dados Oracle 12__c__R2 e 18__c___ no arquivo /etc/oratab e o mesmo banco de dados estiver registrado com o comando srvctl config, o SnapCenter eliminará as entradas duplicadas do banco de dados. Se houver entradas de banco de dados obsoletas, o banco de dados será descoberto, mas o banco de dados será inacessível e o status será off-line.</block>
   <block id="1ef6e64eb14d3b262db62b7d313ebbbe" category="summary">Você deve instalar e configurar o plug-in do SnapCenter para o banco de dados Oracle se quiser proteger os bancos de dados Oracle.</block>
   <block id="1cd8b2345e3fc8629233e588fdab2761" category="doc">Fluxo de trabalho de instalação do plug-in SnapCenter para banco de dados Oracle</block>
-  <block id="a19d33029ae6794cb5370530a85b7fe4" category="image-alt">sco instalar fluxo de trabalho de configuração</block>
   <block id="e9d6209daed73f3a8f0578d27a8a2a85" category="summary">Os volumes de aplicativos são o armazenamento onde as informações relacionadas ao banco de dados Oracle são armazenadas.</block>
   <block id="daa2e304f0d45a22bbdaee82fe42256f" category="doc">O que são volumes de aplicações</block>
   <block id="b9ef14bd380b22129789d2a58055fd71" category="paragraph">Volumes de aplicativos são o armazenamento onde informações como configuração, instalador e outros arquivos não relacionados a banco de dados Oracle são armazenados.</block>
@@ -6055,7 +5975,6 @@
   <block id="242cdc11ae22f217c93ae40e14e96194" category="paragraph">Se você configurar credenciais para grupos de recursos individuais e o nome de usuário não tiver Privileges de administrador completo, o nome de usuário deve ter, pelo menos, Privileges de grupo de recursos e backup.</block>
   <block id="7b13621f41f0146d0ffd2434af94438a" category="paragraph">Se você ativou a autenticação do banco de dados Oracle, um ícone de cadeado vermelho será exibido na exibição recursos. Você deve configurar credenciais de banco de dados para poder proteger o banco de dados ou adicioná-lo ao grupo de recursos para executar operações de proteção de dados.</block>
   <block id="9d84c90ce04a969ca09498823506ba1f" category="admonition">Se você especificar detalhes incorretos durante a criação de uma credencial, uma mensagem de erro será exibida. Você deve clicar em *Cancelar* e tentar novamente.</block>
-  <block id="456dd0163d1a1c34c74efc809cf6363b" category="list-text">Clique <block ref="f7fe4e34c7d99a8a3a2c66cbdc7de7d8" category="inline-image-macro-rx" type="image"></block>em e selecione o nome do host e o tipo de banco de dados para filtrar os recursos.</block>
   <block id="5de6e0a70b653c8dab85d2d2bccf04ae" category="list-text">Selecione o banco de dados e clique em *Configurações do banco de dados* &gt; *Configurar banco de dados*.</block>
   <block id="6df18cfefa59a0d65ea120d8247b7ba8" category="list-text">Na seção Configurar configurações do banco de dados, na lista suspensa *usar credencial existente*, selecione a credencial que deve ser usada para executar tarefas de proteção de dados no banco de dados Oracle.</block>
   <block id="bc36b053b483bc3f05afdf22b15ab4cf" category="admonition">O usuário Oracle deve ter sysdba Privileges.</block>
@@ -6197,8 +6116,6 @@
   <block id="6920404cf085bab5be2132dbc275f33b" category="paragraph">Um grupo de recursos é uma coleção de recursos em um host ou cluster. A operação de backup é realizada em todos os recursos definidos no grupo de recursos.</block>
   <block id="a833804e6b707a2a653d8b6273573c9f" category="paragraph">Você pode fazer backup de um grupo de recursos sob demanda na página recursos. Se um grupo de recursos tiver uma política anexada e uma programação configurada, os backups serão criados de acordo com a programação.</block>
   <block id="4c4d4c133d15d97bf3bef74ffeeeb66a" category="list-text">No painel de navegação esquerdo, selecione *Resources* e o plug-in apropriado na lista.</block>
-  <block id="b2ad47c7842f5e26da4387acfcdb5046" category="list-text">Digite o nome do grupo de recursos na caixa de pesquisa ou clique <block ref="2df6cc2e237d722aa6244879c70fd2d2" category="inline-image-macro-rx" type="image"></block>em e selecione a tag.</block>
-  <block id="313b973ed20ae0f32242d787d703216d" category="paragraph">Clique <block ref="2df6cc2e237d722aa6244879c70fd2d2" category="inline-image-macro-rx" type="image"></block> em para fechar o painel de filtro.</block>
   <block id="50aa129d52e712ab3c9a0f93f956d9e2" category="list-text">Na página Grupo de recursos, selecione o grupo de recursos para fazer backup.</block>
   <block id="3ce47918d2033ed0d68d1e7c6a9b1c45" category="admonition">Se você tiver um grupo de recursos federados com dois bancos de dados e um tiver dados em um storage que não seja NetApp, a operação de backup será abortada mesmo que o outro banco de dados esteja no storage NetApp.</block>
   <block id="5655480ae4615b223f1d67d63b4ee784" category="list-text">Se você tiver várias políticas associadas ao grupo de recursos, selecione a política de backup que deseja usar na lista suspensa *Política*.</block>
@@ -6228,8 +6145,6 @@
   <block id="ecc2d042ed750fbf1eac63637f9b3077" category="list-text">Recuperar os logs do SnapCenter: _Get-SmLogs_</block>
   <block id="381bb74dcb857609537acee4a3539bed" category="summary">Se um recurso não fizer parte de qualquer grupo de recursos, você poderá fazer backup do recurso na página recursos.</block>
   <block id="bb3bb922fc2fe1b5851c8c139e13f07b" category="doc">Faça backup dos recursos Oracle</block>
-  <block id="8772efe51abd031bf2630ddf99b43a79" category="list-text">Clique <block ref="2df6cc2e237d722aa6244879c70fd2d2" category="inline-image-macro-rx" type="image"></block>em e selecione o nome do host e o tipo de banco de dados para filtrar os recursos.</block>
-  <block id="2120056b5c6b43acb41f77a74a912128" category="paragraph">Em seguida, pode clicar <block ref="2df6cc2e237d722aa6244879c70fd2d2" category="inline-image-macro-rx" type="image"></block> para fechar o painel de filtro.</block>
   <block id="d8e3db119b7cf9c31602a2121bfa4365" category="list-text">Selecione o banco de dados que deseja fazer backup.</block>
   <block id="d24902f60cccf9a4d0ef979587d1d4fd" category="paragraph">A página Database-Protect (proteção de banco de dados) é exibida.</block>
   <block id="90db41db3c301da492422a8fbb244c83" category="list-text">Na página recursos, você pode executar as seguintes etapas:</block>
@@ -6272,7 +6187,6 @@
   <block id="bfed89e7bc468020d264ba44570cb258" category="list-text">Pode cancelar uma operação de cópia de segurança a partir da página Monitor ou do painel atividade.</block>
   <block id="6ead40700edacacddf2e163b14792949" category="list-text">Além de usar a GUI do SnapCenter, você pode usar comandos CLI para cancelar operações.</block>
   <block id="288e6f17e0e4e6641bd8834d75c83cc3" category="list-text">Selecione a operação e clique em *Cancelar trabalho*.</block>
-  <block id="53606748062c599b4ce202237295ee32" category="list-text">Depois de iniciar o trabalho de cópia de segurança, clique <block ref="f176a951032bbb2fc179630a5e58fad8" category="inline-image-macro-rx" type="image"></block>no painel atividade para ver as cinco operações mais recentes.</block>
   <block id="f99ed48ad453fc5752d3cb633588ec73" category="paragraph">A operação é cancelada e o recurso é revertido para o estado original.</block>
   <block id="1a75cd98b02615b4d68d5425fefe32ad" category="paragraph">Se a operação cancelada não for responsiva no estado de cancelamento ou execução, você deve executar o Cancelar-SmJob -JobID &lt;int&gt; -forçar para interromper a operação de backup com força.</block>
   <block id="5693ae4d41ff0830c7c00315e2ae426a" category="summary">Você pode clonar um banco de dados plugável (PDB) para um CDB diferente ou mesmo destino no mesmo host ou host alternativo. Você também pode recuperar o PDB clonado para uma SCN ou data e hora desejadas.</block>
@@ -6534,15 +6448,12 @@
   <block id="57af7cc9669227d9ac6afec5db802561" category="paragraph">Selecione *Eliminar registos de arquivo de todos os destinos*.</block>
   <block id="be859d432cb8f72f5fb9b4c1622d56b1" category="paragraph">Elimine os registos de arquivo dos destinos de registo que fazem parte da cópia de segurança</block>
   <block id="3330083979ff2e07d7e4609ee2228f08" category="paragraph">Selecione *Eliminar registos de arquivo a partir dos destinos que fazem parte da cópia de segurança*.</block>
-  <block id="27f6bf9956fb5d538b6d1793de7a2624" category="paragraph"><block ref="27f6bf9956fb5d538b6d1793de7a2624" category="inline-image-macro-rx" type="image"></block></block>
   <block id="9696f79f02f1b72ee2751fa3ac8cee1b" category="admonition">Você pode reter backups de log de arquivamento somente se tiver selecionado os arquivos de log de arquivamento como parte do backup.</block>
   <block id="7cc68b5677a3b2fc34e03106ab7871ff" category="list-text">Na página replicação, especifique as configurações de replicação:</block>
   <block id="364814e091852c42d6b0a8dc073af072" category="paragraph">Esta opção deve ser ativada para a continuidade de negócios do SnapMirror (SM-BC).</block>
   <block id="0eb8f2f819c8b84106d6c0414648f1c5" category="inline-link-macro">Veja os backups e clones do banco de dados Oracle na página topologia</block>
-  <block id="fb3eb2d670cfa1417bb03282f6d379db" category="paragraph"><block ref="f1ad1327daa31204cc93d626f1a2353a" category="inline-link-macro-rx"></block>Consulte .</block>
   <block id="ffb3ae9f69a62e97d1deccf8e6b8f1ff" category="paragraph">Você deve armazenar os prescripts e postscripts em _/var/opt/SnapCenter/spl/scripts_ ou em qualquer pasta dentro deste caminho. Por padrão, o caminho _/var/opt/SnapCenter/spl/scripts_ é preenchido. Se você criou qualquer pasta dentro desse caminho para armazenar os scripts, você deve especificar essas pastas no caminho.</block>
   <block id="1b4b1a8701700f9bb0245d7c920ebd16" category="paragraph">Você também pode especificar o valor de tempo limite do script. O valor padrão é de 60 segundos.</block>
-  <block id="2a42686c7770b2abb82f8585c1d619f6" category="paragraph">O SnapCenter permite-lhe utilizar as variáveis de ambiente predefinidas quando executa o prescritor e o postscript. <block ref="19ee13ac908508518644ae05560b35e5" category="inline-link-macro-rx"></block></block>
   <block id="2d0d1cdeb8c760b28d11615aff6003aa" category="list-text">Selecione o agendamento de backup para o qual você deseja executar a operação de verificação.</block>
   <block id="c39a298df9363c7b37b55cb7e69e08d6" category="list-text">Na seção comandos do script de verificação, insira o caminho e os argumentos do prescritor ou postscript que você deseja executar antes ou depois da operação de verificação, respetivamente.</block>
   <block id="a725ff47fefe45fbde2b714b9bee12db" category="summary">Um grupo de recursos é um contentor onde você adiciona recursos que deseja fazer backup e proteger. Um grupo de recursos permite fazer backup de todos os dados associados a um determinado aplicativo simultaneamente.</block>
@@ -6736,7 +6647,6 @@
   <block id="3883545e9f031c735dbdc8f40c3853a6" category="paragraph">Você pode excluir o clone de um banco de dados conetável (PDB) se não precisar mais.</block>
   <block id="9b7e4959127de26d75609e3142e4d19c" category="paragraph">Se você criou um backup do CDB de destino onde o PDB é clonado, quando você exclui o clone do PDB, o PDB clonado também é removido do backup do CDB de destino.</block>
   <block id="0a86810ca19714269dbf245dd700442c" category="admonition">Os clones PDB não são exibidos na exibição de inventário ou recursos.</block>
-  <block id="6927683b616825cb773183b147e9e3fa" category="list-text">Selecione o clone PDB (targetCDB:PDBClone) e clique <block ref="097a6d0ab39a212263c3129e9214fa08" category="inline-image-macro-rx" type="image"></block>em .</block>
   <block id="8d70bdd589ad1d5053591608060dd666" category="summary">Os recursos são bancos de dados Oracle no host que são gerenciados pelo SnapCenter. Você pode adicionar esses bancos de dados a grupos de recursos para executar operações de proteção de dados depois de descobrir os bancos de dados disponíveis.</block>
   <block id="bcbd15ff750a5bdd0a69b69272c96224" category="doc">Descubra os bancos de dados Oracle disponíveis para backup</block>
   <block id="6e511cfe87a95df884e3eeb9f86e7f6c" category="paragraph">*O que você vai precisar*</block>
@@ -6759,7 +6669,6 @@
   <block id="ea206b55c8e872afeab89e937623ab63" category="paragraph">Depois de instalar o plug-in, todos os bancos de dados nesse host são automaticamente descobertos e exibidos na página recursos.</block>
   <block id="6987bf979aa46f2f012544689e530ba8" category="paragraph">Os bancos de dados devem estar pelo menos no estado montado ou acima para que a descoberta dos bancos de dados seja bem-sucedida. Em um ambiente do Oracle Real Application clusters (RAC), a instância do banco de dados RAC no host onde a descoberta é executada deve estar pelo menos no estado montado ou acima para que a descoberta da instância do banco de dados seja bem-sucedida. Somente os bancos de dados que são descobertos com êxito podem ser adicionados aos grupos de recursos.</block>
   <block id="719fa5cf3cf0a0fd65399dc0b9ba9597" category="paragraph">Se você tiver excluído um banco de dados Oracle no host, o servidor SnapCenter não estará ciente e listará o banco de dados excluído. Você deve atualizar manualmente os recursos para atualizar a lista de recursos do SnapCenter.</block>
-  <block id="27141c09e4c3729538eed268f4984f0a" category="paragraph">Clique <block ref="f7fe4e34c7d99a8a3a2c66cbdc7de7d8" category="inline-image-macro-rx" type="image"></block>em e selecione o nome do host e o tipo de banco de dados para filtrar os recursos. Em seguida, clique no <block ref="f7fe4e34c7d99a8a3a2c66cbdc7de7d8" category="inline-image-macro-rx" type="image"></block> ícone para fechar o painel de filtro.</block>
   <block id="ffe07db18130be1419f3e22efa2b9af9" category="paragraph">Em um cenário RAC One Node, o banco de dados é descoberto como o banco de dados RAC no nó onde está hospedado atualmente.</block>
   <block id="8cc1dfb0736def133fbfcac21e33e8c2" category="paragraph">Os bancos de dados são exibidos juntamente com informações como tipo de banco de dados, nome de host ou cluster, grupos e políticas de recursos associados e status.</block>
   <block id="488808c65c8210343fe174817606fae0" category="list-text">Se o banco de dados estiver em um sistema de armazenamento que não seja NetApp, a interface do usuário exibirá uma mensagem não disponível para backup na coluna Status geral.</block>
@@ -6936,13 +6845,11 @@
   <block id="4cdff21e1a3b3a11f16dc574421a1599" category="doc">Divida um clone do banco de dados Oracle</block>
   <block id="b1b82801e9c78c50ebcf99fde0aea87a" category="list-text">Quando você divide um clone, as cópias de backup do clone são excluídas.</block>
   <block id="cba97cc8f5b2bb7297dd2360ae8b024a" category="list-text">Para obter informações sobre limitações de operação de divisão de clones, consulte<block ref="3ae98799f9586e965a749204c2b3e8f9" category="inline-link-rx"></block> .</block>
-  <block id="932be043b11149e991bf82c52befcebf" category="list-text">Selecione o recurso clonado (por exemplo, o banco de dados ou LUN) e clique <block ref="4e76ccc6d666f337d0615fe61d91903b" category="inline-image-macro-rx" type="image"></block>em .</block>
   <block id="c073ee3bf31639ca8cd5dfdf2fe18185" category="paragraph">A operação de divisão de clones deixa de responder se o serviço SMCore for reiniciado e os bancos de dados nos quais a operação de divisão de clones foi executada são listados como clones na página recursos. Você deve executar o cmdlet _Stop-SmJob_ para interromper a operação de divisão de clones e tentar novamente a operação de divisão de clones.</block>
   <block id="103e35e260868e1aa1c36274a7301158" category="paragraph">Se você quiser um tempo de enquete mais longo ou menor para verificar se o clone está dividido ou não, você pode alterar o valor do parâmetro CloneSplitStatusCheckPollTime no arquivo SMCoreServiceHost.exe.config para definir o intervalo de tempo para que o SMCore busque o status da operação de divisão de clones. O valor é em milissegundos e o valor padrão é de 5 minutos.</block>
   <block id="fbfa277a055cde6a44aa257516ef119c" category="admonition">A operação de inicialização dividida do clone falha se o backup, a restauração ou a divisão do clone do outro estiverem em andamento. Você deve reiniciar a operação de divisão de clones somente depois que as operações em execução estiverem concluídas.</block>
   <block id="156cbb91cfb42345ea9b28c562e803a7" category="summary">Você pode usar o SnapCenter para dividir um banco de dados plugável clonado (PDB).</block>
   <block id="0841514f865605a705539d269e140769" category="paragraph">Se você criou um backup do CDB de destino onde o PDB é clonado, quando você divide o clone do PDB, o PDB clonado também será removido de todos os backups do CDB de destino que contém o PDB clonado.</block>
-  <block id="fbea596c70f1dfc79ca7ad9bfdcc546a" category="list-text">Selecione o clone PDB (targetCDB:PDBClone) e clique <block ref="4e76ccc6d666f337d0615fe61d91903b" category="inline-image-macro-rx" type="image"></block>em .</block>
   <block id="1d37b803d962597d71711e7a279d95e7" category="paragraph">Se você tiver um relacionamento secundário como SnapMirror Business Continuity (SM-BC), poderá ver os seguintes ícones adicionais:</block>
   <block id="11ff410db3b99c0f2b2278663ad47a29" category="inline-image-macro">site de réplica para cima</block>
   <block id="9876ef39e6a07e208dfb7167bf198dd8" category="list-text"><block ref="f1bb24fedf54e3d093c9bb7855932eac" category="inline-image-macro-rx" type="image"></block> implica que o site de réplica está em cima.</block>
@@ -6957,7 +6864,6 @@
   <block id="9672f59acbe87e1f0d5b5b9ce8bec042" category="list-text">Selecione o backup na tabela e clique nos ícones de proteção de dados para executar operações de restauração, clonagem, montagem, desmontagem, renomeação, catálogo, descatálogo e exclusão.</block>
   <block id="83bc09268539a35b9e5bb05f51759445" category="list-text">Se tiver selecionado um backup de log, você só poderá executar operações de renomeação, montagem, desmontagem, catálogo, descatálogo e exclusão.</block>
   <block id="d832fec799a3a70760ed7fe13bef388d" category="list-text">Se você catalogou o backup usando o Oracle Recovery Manager (RMAN), não será possível renomear esses backups catalogados.</block>
-  <block id="80720ca63de6ce126b5aefa74149e369" category="list-text">Se quiser excluir um clone, selecione-o na tabela e clique <block ref="097a6d0ab39a212263c3129e9214fa08" category="inline-image-macro-rx" type="image"></block>em .</block>
   <block id="123f58b5f6c3fc41829ae40b968fcda4" category="paragraph">Se o valor atribuído ao SnapmirrorStatusUpdateWaitTime for menor, as cópias de backup Mirror e Vault não serão listadas na página de topologia, mesmo que os volumes de dados e log sejam protegidos com êxito. Você deve aumentar o valor atribuído ao SnapmirrorStatusUpdateWaitTime usando o cmdlet _Set-SmConfigSettings_ PowerShell.</block>
   <block id="11dbb257c91d345a6a0cee430763b610" category="paragraph">As informações sobre os parâmetros que podem ser usados com o comando e suas descrições podem ser obtidas executando Get-Help _command_name_.</block>
   <block id="2f21ba9e0823ddad0adeb90168a29736" category="paragraph">Em alternativa, pode também consultar a<block ref="a6fc2394a8b2095d1929066d59f6fcc9" category="inline-link-rx"></block> ou<block ref="e051f2ead2ef95df859014c037130e5b" category="inline-link-rx"></block>.</block>
@@ -6975,7 +6881,6 @@
   <block id="e1648da076ced3c1817678512208f9c2" category="doc">Como recursos, grupos de recursos e políticas são usados para proteger o SQL Server</block>
   <block id="487a53be0a7591a408a6869c3857445e" category="list-text">Os recursos geralmente são bancos de dados, instâncias de banco de dados ou grupos de disponibilidade do Microsoft SQL Server que você faz backup ou clone com o SnapCenter.</block>
   <block id="d88bacbb5672d08c2bee7f25fb3fc697" category="paragraph">Pense em um grupo de recursos como definindo _o que_ você quer proteger e quando você quer protegê-lo em termos de dia e tempo. Pense em uma política como definindo _como_ você quer protegê-la. Se você estiver fazendo backup de todos os bancos de dados ou fazendo backup de todos os sistemas de arquivos de um host, por exemplo, você pode criar um grupo de recursos que inclua todos os bancos de dados ou todos os sistemas de arquivos no host. Em seguida, você pode anexar duas políticas ao grupo de recursos: Uma política diária e uma política por hora. Ao criar o grupo de recursos e anexar as políticas, você pode configurar o grupo de recursos para executar um backup completo diário e outro agendamento que executa backups de log por hora.</block>
-  <block id="98a31c63f0ad69ee2075cb6cc6584bd3" category="image-alt">política scsql resourcegroup</block>
   <block id="bfa8c341f9069cab983b83a7b3d6e229" category="summary">Você pode colocar todos os bancos de dados no mesmo volume, porque a política de backup tem uma opção para definir o máximo de bancos de dados por backup (o valor padrão é 100).</block>
   <block id="49d3d638c72a43de1071ccafc35ba79d" category="doc">Vários bancos de dados no mesmo volume</block>
   <block id="4e23a71c353d487c1b39814259994b97" category="paragraph">Você pode colocar todos os bancos de dados no mesmo volume, porque a política de backup tem uma opção para definir o máximo de bancos de dados por backup (o valor padrão é 100).</block>
@@ -6988,9 +6893,7 @@
   <block id="5ef1f12506dc4d6bf7c9edb9345a5047" category="list-text">Configure o ambiente SnapCenter adicionando ou atribuindo conexões do sistema de storage e criando credenciais.</block>
   <block id="42e20be165e590208778cbb0b28a11ce" category="list-text">Adicione hosts, instale os plug-ins, descubra (atualize) os recursos e configure os plug-ins.</block>
   <block id="b3721954b25a4acdb3a4229ac3e0b5f8" category="list-text">Mova um banco de dados existente do Microsoft SQL Server de um disco local para um LUN NetApp ou vice-versa executando invoke-SmConfigureResources.</block>
-  <block id="bacc4fa66c7c0e7cf05e8279e406630c" category="paragraph">Para obter informações sobre como executar o cmdlet, consulte<block ref="12354717cef138316a612491b8cafb2f" category="inline-link-rx"></block></block>
   <block id="eefa922509507f72bc1a8ad3abe353fd" category="list-text">Se você estiver usando o servidor SnapCenter para proteger bancos de dados SQL que residem em LUNs ou VMDKs do VMware RDM, você deverá implantar o plug-in do SnapCenter para VMware vSphere e Registrar o plug-in com o SnapCenter. A documentação do plug-in do SnapCenter para VMware vSphere tem mais informações.</block>
-  <block id="2d3786cce4bbee81c9852997cc1bef39" category="paragraph"><block ref="2d3786cce4bbee81c9852997cc1bef39" category="inline-link-rx"></block></block>
   <block id="697a526808255bffff4fb836c66f8996" category="paragraph">Para obter detalhes, consulte informações de instalação do SnapCenter.</block>
   <block id="2c7601a19492319211a48972b06186ec" category="summary">Antes de fazer backup de um recurso SQL, você deve garantir que vários requisitos sejam atendidos.</block>
   <block id="fb84146353d16d3119b204fb3e1ae3c5" category="doc">Requisitos para fazer backup de recursos SQL</block>
@@ -7057,7 +6960,6 @@
   <block id="c0c5b186e05df9e6ae423f4ea8250abf" category="paragraph">Segue-se um exemplo de uma configuração ALM:</block>
   <block id="daeb552c90aac11e349828429974d376" category="list-text">Duas instâncias de cluster de failover (FCI) em um data center de vários locais</block>
   <block id="09952efebe47747a2be28706fb559f5c" category="list-text">FCI para alta disponibilidade local (HA) e Availability Group (AG) para recuperação de desastres com uma instância autônoma no local de recuperação de desastres</block>
-  <block id="64e8969e45b911603c0aa0dc2d3f743f" category="image-alt">diagrama de mapeamento lun assimétrico</block>
   <block id="047292a89758275d763e235a846b8712" category="paragraph">O storage no data center principal é compartilhado entre os nós de FCI presentes no data center principal. O storage no data center de recuperação de desastres é compartilhado entre os nós FCI presentes no data center de recuperação de desastres.</block>
   <block id="7d6c564058645b974e7a066a328c9765" category="paragraph">O storage no data center principal não é visível para os nós no data center de recuperação de desastres e vice-versa.</block>
   <block id="19f41a1b89c8c0b2bc4c7041effadc74" category="paragraph">A arquitetura DO ALM combina duas soluções de storage compartilhado usadas pelo FCI, com uma solução de storage não compartilhada ou dedicada usada pelo SQL AG. A solução AG usa letras de unidade idênticas para recursos de disco compartilhados entre data centers. Esse arranjo de storage, em que um disco de cluster é compartilhado entre um subconjunto de nós dentro de um WSFC, é conhecido como ALM.</block>
@@ -7482,7 +7384,6 @@
   <block id="c61f65bb5aa14eca9140c3d0e7ece927" category="list-text">Selecione réplicas para backup.</block>
   <block id="0a87197768544d35cfd757d20f1dab26" category="paragraph">Escolha a réplica AG primária ou a réplica AG secundária para o backup.</block>
   <block id="868b11998351ef690a54ffedfc194731" category="list-text">Selecionar prioridade de cópia de segurança (prioridade mínima e máxima de cópia de segurança)</block>
-  <block id="fb8750264c3bbfea89908048e10ef06c" category="paragraph">Especifique um número mínimo de prioridade de backup e um número máximo de prioridade de backup que decida a réplica AG para backup. Por exemplo, você pode ter uma prioridade mínima de 10 e uma prioridade máxima de 50. Neste caso, todas as réplicas AG com uma prioridade superior a 10 e inferior a 50 são consideradas para backup.</block>
   <block id="4035686675283d0f53d4a20e3a9588f0" category="paragraph">Por padrão, a prioridade mínima é 1 e a prioridade máxima é 100.</block>
   <block id="95f62fbbdd8b59bc3cdee3bd3e382046" category="admonition">Nas configurações de cluster, os backups são retidos em cada nó do cluster de acordo com as configurações de retenção definidas na política. Se o nó proprietário do AG for alterado, os backups serão feitos de acordo com as configurações de retenção e os backups do nó proprietário anterior serão mantidos. A retenção para AG é aplicável apenas no nível do nó.</block>
   <block id="a9e3835459894cca73ddb217d50af0db" category="list-text">Programe a frequência de backup para esta política. Especifique o tipo de agendamento selecionando *on demand*, *Hourly*, *Daily*, *Weekly* ou *Monthly*.</block>
@@ -7522,7 +7423,6 @@
   <block id="b62913a5294dae473801568644e4e8a8" category="list-text">Selecione esta opção para criar cópias espelhadas de conjuntos de backup em outro volume (SnapMirror).</block>
   <block id="5354b0db72154dc0430cb5a653a4402c" category="paragraph">Essa opção deve estar habilitada para a continuidade de negócios do SnapMirror (SM-BC) ou para sincronização SnapMirror (SM-S).</block>
   <block id="862e27b33388db0f7174e2affc68bbee" category="inline-link-macro">Veja os backups e clones do SQL Server na página topologia</block>
-  <block id="302f938ad12e73e12a79f805c2ae6a91" category="paragraph"><block ref="3a3486a8a9b3aade0b0240c2dd89bad5" category="inline-link-macro-rx"></block>Consulte .</block>
   <block id="721dcaba6ffe06898a1264f811fd7874" category="open-title">Atualize o SnapVault</block>
   <block id="aafae6ead4b01f0afa9e2d2dcfc5ecdd" category="paragraph">Atualize o SnapVault depois de criar uma cópia Snapshot.</block>
   <block id="c174e73377b0caee145d55a594cd4122" category="open-title">Etiqueta de política secundária</block>
@@ -7589,7 +7489,6 @@
   <block id="3bb68819532539f48f629ba62348a6c6" category="paragraph">Por exemplo, se um usuário tiver acesso somente à base de dados, os arquivos e propriedades do banco de dados não podem ser identificados e, portanto, não podem ser copiados.</block>
   <block id="7d48eed4487109a3829d0196f297a492" category="admonition">O SnapCenter só pode fazer backup do banco de dados principal se você tiver uma configuração de grupo de disponibilidade no SQL Server Standard Edition.</block>
   <block id="8057ae87eee7a0579409f47c9591745e" category="list-text">Na página recursos, selecione *Banco de dados* ou *Instância* ou *Grupo de disponibilidade* na lista suspensa *Exibir*.</block>
-  <block id="5968d7d6aa7eca121c1a6ecc9d1f9bd1" category="paragraph">Clique <block ref="f7fe4e34c7d99a8a3a2c66cbdc7de7d8" category="inline-image-macro-rx" type="image"></block> e selecione o nome do host e a instância do SQL Server para filtrar os recursos. Em seguida, pode clicar <block ref="f7fe4e34c7d99a8a3a2c66cbdc7de7d8" category="inline-image-macro-rx" type="image"></block> para fechar o painel de filtro.</block>
   <block id="b8b5141218dbfab4fdbf5b5063dfa880" category="paragraph">Os recursos são exibidos juntamente com informações como tipo de recurso, nome de host ou cluster, grupos de recursos associados, tipo de backup, políticas e status geral.</block>
   <block id="e47a2cdbd770e8e20b9c7261dcf67926" category="list-text">Se o banco de dados estiver em um armazenamento não NetApp,<block ref="5ad938d16e3b0d14368f810cc13f6c40" prefix=" " category="inline-code"></block> será exibido na coluna *Estado geral*.</block>
   <block id="6a0af518fc735246e3518bed22c2fa48" category="paragraph">Não é possível executar operações de proteção de dados em um banco de dados que esteja em um storage que não seja NetApp.</block>
@@ -7624,7 +7523,6 @@
   <block id="5781848b1bb331dfcd7f6752d3ffd373" category="paragraph">Você pode excluir o plug-in do SnapCenter para backups do SQL Server criados durante o failover usando a IU ou o cmdlet a seguir:<block ref="b31489ae99ae0edeb08e3c0657314a98" prefix=" " category="inline-code"></block></block>
   <block id="230797cd257f4279279a678587ed7d3e" category="summary">Você deve instalar e configurar o plug-in do SnapCenter para o Microsoft SQL Server se quiser proteger bancos de dados do SQL Server.</block>
   <block id="f03c757efff1b7a92c7b30cbc8c7c0b8" category="doc">Fluxo de trabalho de instalação para o plug-in SnapCenter para Microsoft SQL Server</block>
-  <block id="33666019cac43e63f53db79cad8f33ac" category="image-alt">scsql install configure workflow</block>
   <block id="644eab038211ec38a5152cd27b434902" category="summary">Você pode instalar o plug-in do SnapCenter para Microsoft SQL Server em vários hosts simultaneamente usando o cmdlet Install-SmHostPackage PowerShell.</block>
   <block id="e0b10be8cc5f61360278c4b43700dec9" category="doc">Instale o plug-in do SnapCenter para Microsoft SQL Server em vários hosts remotos usando cmdlets</block>
   <block id="51befe228aab4baf41c05e92b094947e" category="list-text">Instale o plug-in do SnapCenter para Microsoft SQL Server em vários hosts remotos usando o cmdlet Install-SmHostPackage e os parâmetros necessários.</block>
@@ -7842,7 +7740,6 @@
   <block id="6d1672aa795ab1d854ff0bb90d3f6cd5" category="paragraph">Opcionalmente, você pode personalizar o caminho. Se você usar o caminho personalizado, verifique se o conteúdo padrão dos sudoers é atualizado com o caminho personalizado.</block>
   <block id="c5a7e6d82b07e7afa4c1c02448cc27f7" category="paragraph">Todos os sistemas de arquivos montados no host são automaticamente descobertos e exibidos na Página de recursos. Se nada for exibido, clique em *Atualizar recursos*.</block>
   <block id="3f1950eacb4451e75dc9187ae778c567" category="list-text">Na página recursos, selecione *caminho* na lista Exibir.</block>
-  <block id="e93fead65568a68416a84782db26a773" category="list-text">Clique <block ref="2df6cc2e237d722aa6244879c70fd2d2" category="inline-image-macro-rx" type="image"></block>em e selecione o nome do host e os sistemas de arquivos Unix para filtrar os recursos.</block>
   <block id="e874731a7ef6d4af41255b41e914d98d" category="list-text">Selecione o sistema de ficheiros que pretende efetuar uma cópia de segurança.</block>
   <block id="5ddcb8bdaf878bbfe13ae4b383e53782" category="list-text">Na página Configurações do aplicativo, execute o seguinte:</block>
   <block id="c0ef36b0de24636d562f90f82af953c8" category="list-text">Selecione uma das opções de consistência de backup:</block>
@@ -7909,7 +7806,6 @@
   <block id="27a46746c79eda007f4ac37660e5a5d8" category="admonition">Se um sistema de arquivos do Windows contiver um banco de dados, o backup do sistema de arquivos não será o mesmo que o backup do banco de dados. Para fazer backup de um banco de dados, você deve usar um dos plug-ins do banco de dados.</block>
   <block id="d15d437af5bf71693f503d9b740db0b6" category="summary">Você deve instalar e configurar o plug-in do SnapCenter para Microsoft Windows se quiser proteger arquivos do Windows que não sejam arquivos de banco de dados.</block>
   <block id="15e336a500bbc8b78c88e27a721b8803" category="doc">Fluxo de trabalho de instalação do plug-in SnapCenter para Microsoft Windows</block>
-  <block id="f49c84e0b5156da6ebd210ed36305e85" category="image-alt">fluxo de trabalho scw para instalação</block>
   <block id="e0f0874a46e8d0e6a5ac3a9235a1074e" category="summary">O plug-in do SnapCenter para Microsoft Windows é um componente do lado do host do software NetApp SnapCenter que permite o gerenciamento de proteção de dados com reconhecimento de aplicativos dos recursos do sistema de arquivos da Microsoft. Além disso, ele fornece provisionamento de storage, consistência Snapshot e recuperação de espaço para sistemas de arquivos Windows. O plug-in para Windows automatiza as operações de backup, restauração e clonagem do sistema de arquivos em seu ambiente SnapCenter.</block>
   <block id="a9a17ec2f387b7172d4f7e035744dc4b" category="doc">Visão geral do plug-in do SnapCenter para Microsoft Windows</block>
   <block id="da729e684f85b2f6417b12711de4813b" category="paragraph">Quando o plug-in para Windows é instalado, você pode usar a tecnologia SnapCenter com NetApp SnapMirror para criar cópias espelhadas de conjuntos de backup em outro volume e com a tecnologia NetApp SnapVault para executar replicação de backup disco a disco para conformidade de arquivamento ou padrões.</block>
@@ -7928,7 +7824,6 @@
   <block id="bf9022cd459d82bda5c1defee5acb8ac" category="summary">Ao instalar o plug-in do SnapCenter para Microsoft Windows em seu ambiente, você pode usar o SnapCenter para fazer backup de sistemas de arquivos do Windows. Você pode fazer backup de um único sistema de arquivos ou de um grupo de recursos que contenha vários sistemas de arquivos. Você pode fazer backup sob demanda ou de acordo com um cronograma de proteção definido.</block>
   <block id="039222161d01f984ede1d0056c724389" category="doc">Faça backup dos sistemas de arquivos do Windows</block>
   <block id="6213c4aa6c3d759b708f391038b515e2" category="paragraph">Você pode agendar vários backups para serem executados em servidores simultaneamente. As operações de backup e restauração não podem ser executadas simultaneamente no mesmo recurso.</block>
-  <block id="0d267aa6a5980521c50d3bb9b62d9419" category="image-alt">fluxo de trabalho de cópia de segurança sce</block>
   <block id="7b88ad36ed2f7f0af71be3ce91a7b7b8" category="paragraph">Você também pode usar cmdlets do PowerShell manualmente ou em scripts para executar operações de backup, restauração e clone. A ajuda do cmdlet SnapCenter ou<block ref="e051f2ead2ef95df859014c037130e5b" category="inline-link-rx"></block> contém informações detalhadas sobre cmdlets do PowerShell.</block>
   <block id="2b286ead8eb2ff2974da65dbfdfc72f0" category="summary">Você deve estar ciente de certos requisitos de instalação antes de instalar o plug-in para Windows.</block>
   <block id="bca5d73b25b97404586748bb0cc0c9ea" category="doc">Requisitos de instalação para o plug-in SnapCenter para Microsoft Windows</block>
@@ -7996,9 +7891,7 @@
   <block id="39ede0b6680ded15631aad7474467c6a" category="list-text">Opcional: Na página recurso do assistente, insira um formato de nome personalizado para a captura Instantânea.</block>
   <block id="3cb5c9bda561968bd773237393992ae0" category="paragraph">Por exemplo, customtext_resourcegroup_policy_hostname ou resourcegroup_hostname. Por padrão, um carimbo de data/hora é anexado ao nome do instantâneo.</block>
   <block id="1957e5ad25b71af9fcaddadddc14180d" category="paragraph">Você pode selecionar qualquer política existente e, em seguida, clique em *Detalhes* para determinar se você pode usar essa política.</block>
-  <block id="72505ce1779969b10a827b76ce40ee9f" category="paragraph">Se nenhuma política existente atender aos seus requisitos, você pode copiar uma política existente e modificá-la ou criar uma nova política clicando <block ref="abe09f480538c71c9fc89b98cd91e2d0" category="inline-image-macro-rx" type="image"></block> para iniciar o assistente de política.</block>
   <block id="ab549fb31447afed81e3fd9e890b0394" category="paragraph">As políticas selecionadas são listadas na coluna Política na seção Configurar programações para políticas selecionadas.</block>
-  <block id="664f868df734376691b6f2603ef04ff9" category="list-text">Na seção Configurar agendas para políticas selecionadas, clique <block ref="abe09f480538c71c9fc89b98cd91e2d0" category="inline-image-macro-rx" type="image"></block> na coluna Configurar agendas para a política para a qual você deseja configurar o agendamento.</block>
   <block id="e44e5d659314ff509ecc4d0c16427d88" category="list-text">Na caixa de diálogo Adicionar agendas para política _policy_name_, configure a programação especificando a data de início, data de expiração e frequência e clique em *Finish*.</block>
   <block id="e863e63daf1b528f8857d33e4d2e28bf" category="paragraph">As programações configuradas são listadas na coluna agendas aplicadas na seção Configurar programações para políticas selecionadas.</block>
   <block id="bc22332d0120f08504019205b36354ac" category="inline-link">As operações agendadas podem falhar</block>
@@ -8016,7 +7909,6 @@
   <block id="1dedd6c3a82ac28ce72dbc7e64c47db2" category="doc">Fazer backup de grupos de recursos para sistemas de arquivos do Windows</block>
   <block id="c808fe33c523c6c0014718e7feeac182" category="list-text">Se você quiser fazer backup de um recurso que tenha uma relação SnapMirror com o armazenamento secundário, a função atribuída ao usuário de armazenamento deve incluir o privilégio "'SnapMirror All'". No entanto, se você estiver usando a função "vsadmin", o privilégio "SnapMirror all" não será necessário.</block>
   <block id="bf27fad69812da8f1ea6b50d511517e0" category="list-text">Se um grupo de recursos tiver vários bancos de dados de hosts diferentes, a operação de backup em alguns dos hosts pode ser desencadeada tarde devido a problemas de rede. Você deve configurar o valor de MaxRetryForUninitializedHosts no web.config usando o cmdlet Set-SmConfigSettings PowerShell</block>
-  <block id="8e5cdb93ac42ad2c2b35814060435396" category="paragraph">Você pode pesquisar o grupo de recursos inserindo o nome do grupo de recursos na caixa de pesquisa ou clicando <block ref="f7fe4e34c7d99a8a3a2c66cbdc7de7d8" category="inline-image-macro-rx" type="image"></block> e selecionando a tag. Em seguida, pode clicar <block ref="f7fe4e34c7d99a8a3a2c66cbdc7de7d8" category="inline-image-macro-rx" type="image"></block> para fechar o painel de filtro.</block>
   <block id="757701cec0ed310dbf31948edd1073df" category="admonition">Para o plug-in SnapCenter para banco de dados Oracle, se você tiver um grupo de recursos federados com dois bancos de dados e um do banco de dados tiver um arquivo de dados em um armazenamento não NetApp, a operação de backup será abortada mesmo que o outro banco de dados esteja em um armazenamento NetApp.</block>
   <block id="54f5c477b691c07c69aae1e40705b234" category="list-text">Se você estiver fazendo backup de dados de aplicativos em VMDKs e o tamanho de heap Java para o plug-in SnapCenter para VMware vSphere não for grande o suficiente, o backup pode falhar. Para aumentar o tamanho de heap Java, localize o arquivo de<block ref="0c5aef8a69e938d29ad61fb314d26972" prefix=" " category="inline-code"></block> script . Nesse script, o<block ref="f751567fc5d2c300402db2d50de19910" prefix=" " category="inline-code"></block> comando inicia o serviço de plug-in SnapCenter VMware. Atualize esse comando para o seguinte:<block ref="d66632e2d1ccce4227411d877d93c152" prefix=" " category="inline-code"></block>.</block>
   <block id="c71f98f7a036fe89d08707c31cdfc01b" category="doc">Cancelar operações de cópia de segurança</block>
@@ -8755,8 +8647,6 @@
   <block id="a199f16d0bf9e60bba77be4a6ad6a614" category="list-text">Você deve ter criado uma função RBAC com clone de leitura e exclusão, leitura e exclusão de recursos, leitura e exclusão de grupos de recursos, leitura e exclusão de armazenamento, provisionamento de leitura e exclusão, montagem, desmontagem, instalação e desinstalação de plug-ins, permissões de leitura e exclusão de host.</block>
   <block id="06b047d338ab216568f24797a92a475a" category="list-text">Você deve ter atribuído o usuário RBAC à função RBAC.</block>
   <block id="4fcc15e06159b8ced3ec8f0100fa1a04" category="list-text">Você deve ter atribuído o usuário RBAC ao host, ao plug-in do SnapCenter para Microsoft SQL Server, às credenciais, ao grupo de recursos do ciclo de vida de clone e ao sistema de storage.</block>
-  <block id="92d37724657724129ae0451584c728aa" category="inline-link">Remova o plug-in do SnapCenter para VMware vSphere</block>
-  <block id="00b3864f3eb01692ecdfe4f18c19971c" category="paragraph">Para obter informações sobre como desinstalar o plug-in do SnapCenter para VMware vSphere,<block ref="17b687e0a579b9f5223d3c7119027217" category="inline-link-rx"></block> consulte .</block>
   <block id="087af862ce66495658dd0b639b76b8e8" category="summary">Quando o servidor SnapCenter remove um host, ele primeiro remove o backup, clones, tarefas de clone, grupos de recursos e recursos listados para esse host na página recursos do SnapCenter e, em seguida, desinstala os pacotes de plug-in no host.</block>
   <block id="2425983d8196e314ffb29c49e451ba2e" category="doc">Remova um host</block>
   <block id="0e570ad9ab7ac1b3c7dc15f4343d8161" category="list-text">Se você excluir um host, os backups, clones e grupos de recursos associados ao host também serão excluídos.</block>
@@ -8882,7 +8772,6 @@
   <block id="5b416e1633d16aad217a2e0fc2d097f8" category="doc">Atualizar fluxo de trabalho</block>
   <block id="994e8a3ae2b587ba4467292fb5e6ba75" category="paragraph">Cada versão do SnapCenter contém um servidor SnapCenter atualizado e um pacote de plug-ins. As atualizações do pacote de plug-in são distribuídas com o instalador do SnapCenter. Você pode configurar o SnapCenter para verificar se há atualizações disponíveis.</block>
   <block id="1942fea7712357c67be30cfd20652b93" category="paragraph">O fluxo de trabalho mostra as diferentes tarefas necessárias para atualizar o servidor SnapCenter e os pacotes Plug-in.</block>
-  <block id="f640c846348fd61e77b392f8bb721f0c" category="image-alt">atualizar fluxo de trabalho</block>
   <block id="eccc8325175b53fdef9a1846222d4161" category="section-title">Caminhos de atualização suportados</block>
   <block id="521d29d37f5561d4922ece42dc92cb07" category="cell">Se você estiver na versão do servidor SnapCenter...</block>
   <block id="7676f59833cee6720de923cfeef21ede" category="cell">Você pode atualizar diretamente o servidor SnapCenter para...</block>
@@ -9030,4 +8919,99 @@
   <block id="fdcd3d6f45be97e0e24b4e793a81fac0" category="sidebar">Atualize o servidor SnapCenter e os plug-ins</block>
   <block id="8693aef17f2d371968a29ad0e0dff726" category="sidebar">Atualizar fluxo de trabalho</block>
   <block id="dddf91700099a41aae12a91632f8108f" category="list-text">O SnapCenter oferece suporte ao ONTAP 9.8 e posterior para proteger seus dados.</block>
+  <block id="5700209d7e6d38b5ada3dccd3c2cdf94" category="list-text">Depois de iniciar a operação de backup, clique <block ref="64eace402f8f00b7a999e38fb6d87e55" category="inline-image-macro-rx" type="image"></block>no painel atividade para exibir as cinco operações mais recentes.</block>
+  <block id="74d26a36312c4111c79f5a49e9e0b24f" category="list-text">Depois de iniciar a operação clone, clique <block ref="64eace402f8f00b7a999e38fb6d87e55" category="inline-image-macro-rx" type="image"></block>no painel atividade para exibir as cinco operações mais recentes.</block>
+  <block id="f7e244689831620cc4531ae6c4d2e935" category="list-text">Depois de iniciar a operação de restauração, clique <block ref="64eace402f8f00b7a999e38fb6d87e55" category="inline-image-macro-rx" type="image"></block>no painel atividade para exibir as cinco operações mais recentes.</block>
+  <block id="75c43dfa09fd33ec50ad9523e384b113" category="list-text">Clique <block ref="ef7fd6a62d3d2e73b9eef702ebac01ef" category="inline-image-macro-rx" type="image"></block> para filtrar a lista de modo a que apenas as operações de cópia de segurança sejam listadas.</block>
+  <block id="9630d21b064a2bca2ec230e9a6632ca5" category="list-text">Clique <block ref="5daa1c5d91da80c848b68dcd336ec220" category="inline-image-macro-rx" type="image"></block> para filtrar a lista para que apenas operações de clone sejam listadas.</block>
+  <block id="c7638ea172bcd64d9b81c1ae7561fc69" category="list-text">Clique <block ref="64eace402f8f00b7a999e38fb6d87e55" category="inline-image-macro-rx" type="image"></block>no painel atividade para visualizar as cinco operações mais recentes.</block>
+  <block id="238a85514f956d71572925c3017b72f2" category="list-text">Clique <block ref="5daa1c5d91da80c848b68dcd336ec220" category="inline-image-macro-rx" type="image"></block> para filtrar a lista de modo que apenas as operações de restauração sejam listadas.</block>
+  <block id="2e058f605716b945e61377c0df0687de" category="list-text">Selecione a cópia de segurança e, em seguida, clique <block ref="f790bf9188cee374d2bb1f3790c6a393" category="inline-image-macro-rx" type="image"></block>em .</block>
+  <block id="7495c2e60977b03d4fd9f88701c5a72c" category="inline-image-macro">ícone mais</block>
+  <block id="14726728af6158ee595d6fedee05c2f7" category="list-text">Clique <block ref="725f4bf2ffc300942027282d0182533f" category="inline-image-macro-rx" type="image"></block> no ícone e clique em *Start Service* (Iniciar serviço) ou *Restart Service* (Reiniciar serviço).</block>
+  <block id="783a4d6f23877e2fba6250c05a4f21f6" category="list-text">Clique no <block ref="725f4bf2ffc300942027282d0182533f" category="inline-image-macro-rx" type="image"></block> ícone e, em seguida, clique em *Suspend Schedule* para colocar o host para este plug-in no modo de manutenção.</block>
+  <block id="7dd024354fe8487d857c0a0818270399" category="list-text">Clique <block ref="f790bf9188cee374d2bb1f3790c6a393" category="inline-image-macro-rx" type="image"></block>em e, em seguida, clique em *OK*.</block>
+  <block id="781ffefd65873ffc476623160ecbe609" category="list-text">Selecione o clone e clique <block ref="f790bf9188cee374d2bb1f3790c6a393" category="inline-image-macro-rx" type="image"></block>em .</block>
+  <block id="f89f0ec412a77c24f996a08f409d1820" category="image-alt">recursos e políticas</block>
+  <block id="74d035c0e6c2d7c5572ba8f37bc33a87" category="paragraph">Para obter mais informações sobre cmdlets do Windows,<block ref="e051f2ead2ef95df859014c037130e5b" category="inline-link-rx"></block>consulte .</block>
+  <block id="34d41de6bbbd59c588068d1c2b2e073d" category="paragraph">Você também pode implantar o certificado CA para o plug-in SnapCenter para VMware vSphere. Para obter mais informações,<block ref="bdfc8d677279c2d2dc7a5041c41cc2d9" category="inline-link-rx"></block>consulte .</block>
+  <block id="6c05aa382cae14b55ef85bb04bca843d" category="image-alt">configure a alta disponibilidade usando o f5</block>
+  <block id="0e7c084d360416336733c238153d8079" category="paragraph">Para obter informações sobre os cmdlets,<block ref="e051f2ead2ef95df859014c037130e5b" category="inline-link-rx"></block> consulte .</block>
+  <block id="96f78092e74cfe506775856423865ca5" category="list-text">As informações sobre os parâmetros que podem ser usados com o cmdlet e suas descrições podem ser obtidas executando<block ref="b306feeed6ddda97d08ef1f2a0ba62d9" prefix=" " category="inline-code"></block>o . Alternativamente, você também pode<block ref="e051f2ead2ef95df859014c037130e5b" category="inline-link-rx"></block>ver .</block>
+  <block id="10c463026bbaee0709b93b0139ba3d53" category="paragraph">Para obter informações sobre a lista de permissões, <block ref="2901d46777c33f0a10c5ed76244cf8df" category="inline-link-macro-rx"></block>consulte .</block>
+  <block id="fc85c99c379ab426c4b54a805c2a96a0" category="paragraph">As informações sobre os parâmetros que podem ser usados com o cmdlet e suas descrições podem ser obtidas executando Get-Help command_name. Alternativamente, você também pode consultar o<block ref="e051f2ead2ef95df859014c037130e5b" category="inline-link-rx"></block>.</block>
+  <block id="31152c60a83a3da780e5073389e4b747" category="inline-image-macro">adicionar política do grupo de recursos</block>
+  <block id="2139c119ff31dd3d0c3baf0c94dca790" category="list-text">Clique <block ref="fb07bcf88c7c1b46f6236382e5e0ff22" category="inline-image-macro-rx" type="image"></block> para Registrar um novo domínio.</block>
+  <block id="fa7f32e2f8d30b30801183475758fcf9" category="paragraph">Você pode pesquisar o grupo de recursos inserindo o nome do grupo de recursos na caixa de pesquisa ou <block ref="ef7fd6a62d3d2e73b9eef702ebac01ef" category="inline-image-macro-rx" type="image"></block>selecionando e selecionando a tag. Em seguida, pode <block ref="ef7fd6a62d3d2e73b9eef702ebac01ef" category="inline-image-macro-rx" type="image"></block>selecionar para fechar o painel de filtro.</block>
+  <block id="8e19afdc338ba661156ea544d8900948" category="list-text">Localização padrão no host do Windows: _C: Arquivos de programas/NetApp/SnapCenter/SnapCenter Plug-in Creator/etc/allowed_commands.config_</block>
+  <block id="9caff3e623c10756488f112cf68c1bdb" category="list-text">Localização padrão no host Linux: _/opt/NetApp/SnapCenter/scc/etc/allowed_Commands.config_</block>
+  <block id="6d859d797fe524a6b97989b1dbb842f7" category="paragraph">Selecione *<block ref="ef7fd6a62d3d2e73b9eef702ebac01ef" category="inline-image-macro-rx" type="image"></block>e, em seguida, selecione o nome do host e o tipo de recurso para filtrar os recursos. Em seguida, pode <block ref="ef7fd6a62d3d2e73b9eef702ebac01ef" category="inline-image-macro-rx" type="image"></block>selecionar para fechar o painel de filtro.</block>
+  <block id="2d3c6082c586b37b09cce6dc31d80070" category="paragraph">Exemplo para NFS: Mount SVM_DATA_IP:%VOLUME_NAME_Clone /mnt</block>
+  <block id="903ffff09a2c4fc90564138e0bd806c1" category="list-text">(Opcional) clique <block ref="ef7fd6a62d3d2e73b9eef702ebac01ef" category="inline-image-macro-rx" type="image"></block> e selecione o nome do host.</block>
+  <block id="21ace889b71fc27e50261e003179aba6" category="paragraph">Em seguida, pode clicar <block ref="ef7fd6a62d3d2e73b9eef702ebac01ef" category="inline-image-macro-rx" type="image"></block> para fechar o painel de filtro.</block>
+  <block id="128387e56188dede8d398c8db5747d0c" category="paragraph"><block ref="7b61486d739fb4f1d37092b600cea0e2" category="inline-link-macro-rx"></block>Consulte .</block>
+  <block id="bf36d92f953c39f9c34f415d0a33abea" category="inline-image-macro">ícone de divisão</block>
+  <block id="61fe685392c533fbc0158b786cc2e8db" category="list-text">Selecione os clones e clique <block ref="f790bf9188cee374d2bb1f3790c6a393" category="inline-image-macro-rx" type="image"></block> para excluir clones ou clique para <block ref="af27f4687dc6119f6ba6a093f4b02146" category="inline-image-macro-rx" type="image"></block>dividir os clones.</block>
+  <block id="774f2bfdab4ae6f2fa2fa80af845278a" category="list-text">(Opcional) clique <block ref="ef7fd6a62d3d2e73b9eef702ebac01ef" category="inline-image-macro-rx" type="image"></block>em e selecione o nome do host.</block>
+  <block id="8cb8c7623967cb547f863aa4d5e6fd4f" category="image-alt">instalação e configuração do fluxo de trabalho do plug-in do sap hana</block>
+  <block id="7eb8a14a356a976d73728e257a9a5d46" category="image-alt">conta runas</block>
+  <block id="6b77b088a166c6def22b47133c882582" category="paragraph">O NetApp também fornece plug-ins personalizados MySQL, MAXDB, DB2, SYBASE, DPGLUE, MongoDB, ORASCPM e PostgreSQL.</block>
+  <block id="9ef736e00e9830a4ee825444862d9685" category="paragraph">Se você quiser gerenciar aplicativos MySQL ou DB2, você pode usar os plug-ins personalizados MySQL e DB2 fornecidos pelo NetApp.</block>
+  <block id="968026275ab9619b65d56c00a862891c" category="paragraph">Você também pode adicionar recursos para aplicativos MySQL e DB2.</block>
+  <block id="09e133d0d0626b358a18ac5547274d49" category="paragraph">Você também pode usar cmdlets do PowerShell manualmente ou em scripts para executar operações de backup, restauração e clone. Para obter informações detalhadas sobre cmdlets do PowerShell, use a ajuda do cmdlet SnapCenter ou consulte o.<block ref="03b326736c2583ee76aaa77710bf9b23" category="inline-link-rx"></block></block>
+  <block id="fe1f6ec78b7a8d6869a93911e4f70d13" category="paragraph">Clique <block ref="ef7fd6a62d3d2e73b9eef702ebac01ef" category="inline-image-macro-rx" type="image"></block>em e selecione o nome do host e o tipo de recurso para filtrar os recursos. Em seguida, pode clicar <block ref="ef7fd6a62d3d2e73b9eef702ebac01ef" category="inline-image-macro-rx" type="image"></block> para fechar o painel de filtro.</block>
+  <block id="cfb5b4c0c8592af00f49aa8cf998ed5b" category="paragraph">Você pode pesquisar o grupo de recursos inserindo o nome do grupo de recursos na caixa de pesquisa ou clicando <block ref="ef7fd6a62d3d2e73b9eef702ebac01ef" category="inline-image-macro-rx" type="image"></block> e selecionando a tag. Em seguida, pode clicar <block ref="ef7fd6a62d3d2e73b9eef702ebac01ef" category="inline-image-macro-rx" type="image"></block> para fechar o painel de filtro.</block>
+  <block id="f13856b007dd0678dc8cf0c21026caec" category="paragraph">Para obter informações sobre cmdlets do PowerShell, use a ajuda do cmdlet SnapCenter ou consulte<block ref="e051f2ead2ef95df859014c037130e5b" category="inline-link-rx"></block> .</block>
+  <block id="66ac335dc82bf0f4856ee7a3bc621d3a" category="paragraph">Você também pode usar cmdlets do PowerShell manualmente ou em scripts para executar operações de backup, restauração e clone. Para obter informações detalhadas sobre cmdlets do PowerShell, use a ajuda do cmdlet SnapCenter ou consulte<block ref="e051f2ead2ef95df859014c037130e5b" category="inline-link-rx"></block> .</block>
+  <block id="5534307b5cc817ac39b138755bbc9688" category="paragraph"><block ref="ed1f48b75b14f4c374f6a552f3625c20" category="inline-link-macro-rx"></block>Consulte .</block>
+  <block id="d9daf688926690db734241734287042a" category="inline-image-macro">fluxo de trabalho de backup de banco de dados exchange</block>
+  <block id="dd416a063dae8bb9b10241e612c5915c" category="paragraph"><block ref="dd416a063dae8bb9b10241e612c5915c" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="11347fc37982208b4dafefd65b23ac33" category="paragraph"><block ref="11347fc37982208b4dafefd65b23ac33" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="a2092f84ea29d6fabc5700789a02e6ab" category="paragraph">Você também pode usar cmdlets do PowerShell manualmente ou em scripts para executar operações de backup e restauração. Para obter informações detalhadas sobre cmdlets do PowerShell, use a ajuda do cmdlet SnapCenter ou<block ref="e051f2ead2ef95df859014c037130e5b" category="inline-link-rx"></block> consulte .</block>
+  <block id="cab8e98ca5648936d9681023a189ff82" category="inline-image-macro">ícone não suportado</block>
+  <block id="7f47dd3c5dd866d40b778b95b42cc2dc" category="paragraph">Na página recursos, o <block ref="284aab9e75d833ac22d00193abde38d4" category="inline-image-macro-rx" type="image"></block> ícone indica que o banco de dados está em armazenamento não NetApp.</block>
+  <block id="e68fb90df9a117ea968af0f6ed4e6f1c" category="paragraph">Clique <block ref="ef7fd6a62d3d2e73b9eef702ebac01ef" category="inline-image-macro-rx" type="image"></block>em e selecione o nome do host e o tipo de banco de dados para filtrar os recursos. Em seguida, pode clicar <block ref="ef7fd6a62d3d2e73b9eef702ebac01ef" category="inline-image-macro-rx" type="image"></block> para fechar o painel de filtro.</block>
+  <block id="e991a5b99682a88e821ee149bc42973f" category="admonition">Você também pode criar uma política clicando <block ref="fb07bcf88c7c1b46f6236382e5e0ff22" category="inline-image-macro-rx" type="image"></block>em .</block>
+  <block id="361c2c0b73608170a03792b8c87b4439" category="list-text">Clique <block ref="fb07bcf88c7c1b46f6236382e5e0ff22" category="inline-image-macro-rx" type="image"></block> na coluna Configurar agendas para a política para a qual você deseja configurar um agendamento.</block>
+  <block id="2b1a1b7babaadd933d51630e5f03d5e1" category="paragraph">As programações configuradas são listadas na coluna agendas aplicadas. . Na página notificação, na lista suspensa *preferência de e-mail*, selecione os cenários nos quais você deseja enviar os e-mails.</block>
+  <block id="1077f96eb8d56d2fc708de38f6b53155" category="paragraph">Você também deve especificar os endereços de e-mail do remetente e do destinatário e o assunto do e-mail. Se quiser anexar o relatório da operação de backup realizada no recurso, selecione *Anexar Relatório de trabalho*.</block>
+  <block id="27c075f07bf55d24257b90a4c8638ee1" category="paragraph">Para notificação por e-mail, você deve ter especificado os detalhes do servidor SMTP usando a GUI ou o comando PowerShell SET-SmtpServer.</block>
+  <block id="16b2f3ca612bbc281da30f47d8745ad6" category="paragraph">Você pode pesquisar o grupo de recursos inserindo o nome do grupo de recursos na caixa de pesquisa ou clicando <block ref="ef7fd6a62d3d2e73b9eef702ebac01ef" category="inline-image-macro-rx" type="image"></block>em e selecionando a tag. Em seguida, pode clicar <block ref="ef7fd6a62d3d2e73b9eef702ebac01ef" category="inline-image-macro-rx" type="image"></block> para fechar o painel de filtro.</block>
+  <block id="2b2ed800e37b4c10fc83ff7afc841836" category="paragraph"><block ref="e03256d53e80117d586db3e518a78fe4" category="inline-link-macro-rx"></block>Consulte .</block>
+  <block id="a76a81f87730cc587fdae2f40fc9d18b" category="paragraph">Clique <block ref="ef7fd6a62d3d2e73b9eef702ebac01ef" category="inline-image-macro-rx" type="image"></block> e selecione o nome do host e o Exchange Server para filtrar os recursos. Em seguida, pode clicar <block ref="ef7fd6a62d3d2e73b9eef702ebac01ef" category="inline-image-macro-rx" type="image"></block> para fechar o painel de filtro.</block>
+  <block id="44040e214e919d86d6a1f3f26db3d22c" category="inline-image-macro">ícone de edição</block>
+  <block id="68819c7042f13f544d27a782b1c23806" category="list-text">Clique <block ref="b4ece97e1b8d14f42e755a2c424f87a6" category="inline-image-macro-rx" type="image"></block> em para modificar os valores.</block>
+  <block id="83e6465f5f218f66388c0caf2b844f54" category="list-text">Clique <block ref="f790bf9188cee374d2bb1f3790c6a393" category="inline-image-macro-rx" type="image"></block> em para modificar os valores.</block>
+  <block id="8a2b63cb713c91bbb4fcbfcc8081a5ef" category="paragraph">Você pode pesquisar o grupo de recursos inserindo o nome do grupo de recursos na caixa de pesquisa ou clicando <block ref="ef7fd6a62d3d2e73b9eef702ebac01ef" category="inline-image-macro-rx" type="image"></block>em e selecionando a tag. Em seguida, pode clicar <block ref="ef7fd6a62d3d2e73b9eef702ebac01ef" category="inline-image-macro-rx" type="image"></block> para fechar o painel de filtro.</block>
+  <block id="f4e54f1fe48ac3ce5112308b1eceabc9" category="list-text">Clique <block ref="ef7fd6a62d3d2e73b9eef702ebac01ef" category="inline-image-macro-rx" type="image"></block>em e selecione o nome do host e o tipo de banco de dados para filtrar os recursos.</block>
+  <block id="c8423c98c01c2381cdca31eeba6dc9c8" category="paragraph">Em seguida, pode clicar em<block ref="ef7fd6a62d3d2e73b9eef702ebac01ef" category="inline-image-macro-rx" type="image"></block>* * para fechar o painel do filtro.</block>
+  <block id="780314a2727f3080621cc4a84215aa3d" category="inline-image-macro">ícone do clone dividido</block>
+  <block id="935a4edcfbd0b7fb7ff6557653accad2" category="list-text">Selecione o recurso clonado e clique <block ref="019c6fe090eb9db030b318b3446e069b" category="inline-image-macro-rx" type="image"></block>em .</block>
+  <block id="cb62fbb794888232bcd99a94764ba3fb" category="image-alt">política de grupo de recursos</block>
+  <block id="78e106648fd7260b4e1484e11ebf66a4" category="image-alt">Oracle plug-in instalar e configurar fluxo de trabalho</block>
+  <block id="cf36ffc4ba53a8ecbd58193758b7e7f2" category="list-text">Digite o nome do grupo de recursos na caixa de pesquisa ou clique <block ref="ef7fd6a62d3d2e73b9eef702ebac01ef" category="inline-image-macro-rx" type="image"></block>em e selecione a tag.</block>
+  <block id="fab9a033dfbc33ab049bd62138584423" category="paragraph">Clique <block ref="ef7fd6a62d3d2e73b9eef702ebac01ef" category="inline-image-macro-rx" type="image"></block> em para fechar o painel de filtro.</block>
+  <block id="2584ae0844f37bdb517dc8e38d68a2f5" category="list-text">Depois de iniciar o trabalho de cópia de segurança, clique <block ref="64eace402f8f00b7a999e38fb6d87e55" category="inline-image-macro-rx" type="image"></block>no painel atividade para ver as cinco operações mais recentes.</block>
+  <block id="6a8b45282147eef47dbb2d985d066d18" category="inline-image-macro">evitar a política de backup</block>
+  <block id="c21a7bd5feadde3cf97362bfe87d6cc3" category="paragraph"><block ref="c21a7bd5feadde3cf97362bfe87d6cc3" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="5d40546f79b9aaef18f389db705be0cf" category="paragraph"><block ref="b83a639b0905a5386e818de600a6c25b" category="inline-link-macro-rx"></block>Consulte .</block>
+  <block id="290139bbcfebd52eeede54266d5dd3db" category="paragraph">O SnapCenter permite-lhe utilizar as variáveis de ambiente predefinidas quando executa o prescritor e o postscript. <block ref="f22ecdfa2a7746fca1a99801fb998397" category="inline-link-macro-rx"></block></block>
+  <block id="8a2ba757e81446f3bb13c549e71a6fe2" category="list-text">Selecione o clone PDB (targetCDB:PDBClone) e clique <block ref="f790bf9188cee374d2bb1f3790c6a393" category="inline-image-macro-rx" type="image"></block>em .</block>
+  <block id="77d3c1cb2113d9485bc90fa558137e47" category="paragraph">Clique <block ref="ef7fd6a62d3d2e73b9eef702ebac01ef" category="inline-image-macro-rx" type="image"></block>em e selecione o nome do host e o tipo de banco de dados para filtrar os recursos. Em seguida, clique no <block ref="ef7fd6a62d3d2e73b9eef702ebac01ef" category="inline-image-macro-rx" type="image"></block> ícone para fechar o painel de filtro.</block>
+  <block id="2b823e50e2ac3e27b8a67939842c5f66" category="list-text">Selecione o recurso clonado (por exemplo, o banco de dados ou LUN) e clique <block ref="019c6fe090eb9db030b318b3446e069b" category="inline-image-macro-rx" type="image"></block>em .</block>
+  <block id="d23c685aa87f2a85bcc4a33e476daabd" category="list-text">Selecione o clone PDB (targetCDB:PDBClone) e clique <block ref="019c6fe090eb9db030b318b3446e069b" category="inline-image-macro-rx" type="image"></block>em .</block>
+  <block id="e13720033977db6e0527dfee3b780f5b" category="list-text">Se quiser excluir um clone, selecione-o na tabela e clique <block ref="f790bf9188cee374d2bb1f3790c6a393" category="inline-image-macro-rx" type="image"></block>em .</block>
+  <block id="d98659679a0e0e6dead3a83fc80df86a" category="paragraph">Para obter informações sobre como executar o cmdlet, consulte<block ref="03b326736c2583ee76aaa77710bf9b23" category="inline-link-rx"></block></block>
+  <block id="62d1404a771320c5ce0fdcaf3d008bd7" category="image-alt">mapeamento lun assimétrico</block>
+  <block id="243090f66a6c5d6db7d61a99489c240c" category="paragraph">Especifique um número mínimo de prioridade de backup e um número máximo de prioridade de backup que decida a réplica AG para backup. Por exemplo, você pode ter uma prioridade mínima de 10 e uma prioridade máxima de 50. Neste caso, todas as réplicas AG com uma prioridade superior a 10 e inferior a 50 são consideradas para backup.</block>
+  <block id="0ce7c545aa7f6a4537f968c22eef3d36" category="paragraph"><block ref="49d20c76ef6152c5513f45f2a8001fad" category="inline-link-macro-rx"></block>Consulte .</block>
+  <block id="c4fcce06d2389c100156c16a05a82d53" category="paragraph">Clique <block ref="ef7fd6a62d3d2e73b9eef702ebac01ef" category="inline-image-macro-rx" type="image"></block> e selecione o nome do host e a instância do SQL Server para filtrar os recursos. Em seguida, pode clicar <block ref="ef7fd6a62d3d2e73b9eef702ebac01ef" category="inline-image-macro-rx" type="image"></block> para fechar o painel de filtro.</block>
+  <block id="15117009c3000c7c46f394a2cac88b06" category="image-alt">Instalar fluxo de trabalho do plug-in para banco de dados SQL</block>
+  <block id="ea64a472e78bd4b210304f394bbe8e3a" category="list-text">Clique <block ref="ef7fd6a62d3d2e73b9eef702ebac01ef" category="inline-image-macro-rx" type="image"></block>em e selecione o nome do host e os sistemas de arquivos Unix para filtrar os recursos.</block>
+  <block id="83d5e337276374e4a1560652cbd767fc" category="image-alt">instalar fluxo de trabalho para o plug-in do windows</block>
+  <block id="18ba29131e9f39451f6a0efd6b63dafe" category="paragraph">Se nenhuma política existente atender aos seus requisitos, você pode copiar uma política existente e modificá-la ou criar uma nova política clicando <block ref="fb07bcf88c7c1b46f6236382e5e0ff22" category="inline-image-macro-rx" type="image"></block> para iniciar o assistente de política.</block>
+  <block id="80594268749f867035de9885db91d7c7" category="list-text">Na seção Configurar agendas para políticas selecionadas, clique <block ref="fb07bcf88c7c1b46f6236382e5e0ff22" category="inline-image-macro-rx" type="image"></block> na coluna Configurar agendas para a política para a qual você deseja configurar o agendamento.</block>
+  <block id="a67e0e0c5dea92d024cd90ac412f110f" category="paragraph">Para obter informações sobre como desinstalar o plug-in do SnapCenter para VMware vSphere, consulte https://docs.NetApp.com/US-en/SC-plugin-VMware-vsphere/scpivs44_remove_plugin.html[Remover plug-in do SnapCenter para VMware vSphere].</block>
+  <block id="9370db25bd6766721eb2110afcff56b0" category="image-alt">fluxo de trabalho de atualização do SnapCenter</block>
+  <block id="d127c7070231e882bd97e8f2760d0a4f" category="sidebar">Documentação do software SnapCenter</block>
 </blocks>

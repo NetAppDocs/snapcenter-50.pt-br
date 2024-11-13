@@ -278,7 +278,7 @@ Essa opção deve estar habilitada para a continuidade de negócios do SnapMirro
 Durante a replicação secundária, o tempo de expiração do SnapLock carrega o tempo de expiração do SnapLock primário. Clicar no botão *Atualizar* na página topologia atualiza o tempo de expiração do SnapLock secundário e primário que são recuperados do ONTAP.
 
 +
-link:..protect-scsql/task_view_sql_server_backups_and_clones_in_the_topology_page.html["Veja os backups e clones do SQL Server na página topologia"]Consulte .
+link:task_view_sql_server_backups_and_clones_in_the_topology_page.html["Veja os backups e clones do SQL Server na página topologia"]Consulte .
 
 
 
@@ -298,7 +298,7 @@ Quando o SnapLock é configurado apenas no secundário do ONTAP conhecido como S
 Para obter mais informações sobre o SnapLock Vault, consulte https://docs.netapp.com/us-en/ontap/snaplock/commit-snapshot-copies-worm-concept.html["Armazene cópias Snapshot em WORM em um destino de cofre"]
 
 +
-link:..protect-scsql/task_view_sql_server_backups_and_clones_in_the_topology_page.html["Veja os backups e clones do SQL Server na página topologia"]Consulte .
+link:task_view_sql_server_backups_and_clones_in_the_topology_page.html["Veja os backups e clones do SQL Server na página topologia"]Consulte .
 
 
 

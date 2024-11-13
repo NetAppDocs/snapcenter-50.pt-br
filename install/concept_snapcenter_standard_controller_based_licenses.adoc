@@ -231,7 +231,7 @@ NOTE: A remoção manual de uma licença de teste só é necessária se estiver 
 .. Execute o cmdlet Open-SmConnection para iniciar uma sessão de conexão com o servidor SnapCenter para uma conta SnapCenterAdmin.
 .. Execute o Set-SmRepositoryPassword para redefinir a senha do MySQL.
 +
-Para obter informações sobre os cmdlets, https://docs.netapp.com/us-en/snapcenter-cmdlets-50/index.htmllll["Guia de referência de cmdlet do software SnapCenter"^] consulte .
+Para obter informações sobre os cmdlets, https://docs.netapp.com/us-en/snapcenter-cmdlets-50/index.html["Guia de referência de cmdlet do software SnapCenter"^] consulte .
 
 
 
