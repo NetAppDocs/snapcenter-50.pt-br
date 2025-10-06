@@ -1085,7 +1085,6 @@
   <block id="3f897d901d24f02777ff0994b7823d1a" category="list-text">Dados em sistemas primários e secundários ONTAP FAS, AFF ou ASA e protegidos no storage de objetos StorageGRID local</block>
   <block id="bc549d53e5e7a7aeb8a41511751a99f2" category="list-text">No local em uma nuvem híbrida para proteger o seguinte:</block>
   <block id="f5c37d824040662f50cbb8a32d77182d" category="list-text">Dados em sistemas primários ONTAP FAS, AFF ou ASA e replicados para Cloud Volumes ONTAP</block>
-  <block id="f7b38c62b0e74d318a255bc3094cf531" category="list-text">Dados em sistemas primários e secundários ONTAP FAS, AFF ou ASA e protegidos em storage de objetos e arquivamento na nuvem (usando integração de recuperação e backup do BlueXP )</block>
   <block id="ca5570a253e3c0a27562c65c06bb6125" category="list-text">Em uma nuvem pública para proteger o seguinte:</block>
   <block id="b340c2b4a7a978a510c8ebb351622143" category="list-text">Dados em sistemas primários Cloud Volumes ONTAP (anteriormente ONTAP Cloud)</block>
   <block id="b380e442ff5c6e48e283af8b6f99806f" category="list-text">Dados que estão no Amazon FSX for ONTAP</block>
@@ -9009,4 +9008,5 @@
   <block id="c23d56866a5b11fd0d8dc189fcf21298" category="list-text"><block ref="341e3fddad4b27511133b6917a75bb8a" category="inline-link-rx"></block></block>
   <block id="57cf9c4ee485623172a5c60cbee423a4" category="paragraph">Veja <block ref="96716f545c5cf1a209bf10c1a798ce38" category="inline-link-macro-rx"></block>o vídeo.</block>
   <block id="2af0fc8c21c11cf5ed04e0063f53931e" category="paragraph"><block ref="2af0fc8c21c11cf5ed04e0063f53931e" category="inline-link-rx"></block></block>
+  <block id="ea1c96f839915f73d25b910bbc92b734" category="list-text">Dados que estão em sistemas primários e secundários ONTAP FAS, AFF ou ASA e protegidos para armazenamento de objetos e arquivos na nuvem usando integração de backup e recuperação do NetApp</block>
 </blocks>
