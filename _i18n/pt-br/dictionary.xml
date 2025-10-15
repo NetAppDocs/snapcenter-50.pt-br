@@ -9009,4 +9009,5 @@
   <block id="57cf9c4ee485623172a5c60cbee423a4" category="paragraph">Veja <block ref="96716f545c5cf1a209bf10c1a798ce38" category="inline-link-macro-rx"></block>o vídeo.</block>
   <block id="2af0fc8c21c11cf5ed04e0063f53931e" category="paragraph"><block ref="2af0fc8c21c11cf5ed04e0063f53931e" category="inline-link-rx"></block></block>
   <block id="ea1c96f839915f73d25b910bbc92b734" category="list-text">Dados que estão em sistemas primários e secundários ONTAP FAS, AFF ou ASA e protegidos para armazenamento de objetos e arquivos na nuvem usando integração de backup e recuperação do NetApp</block>
+  <block id="e6f36a956625505e0a3733e3e0073fa0" category="paragraph">Porta da web do SnapCenter</block>
 </blocks>
